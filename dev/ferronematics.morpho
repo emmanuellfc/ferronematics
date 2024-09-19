@@ -1,0 +1,124 @@
+import meshtools
+import optimize
+import plot
+import povray
+
+var m = Mesh("disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(0)
+var nn = Field(m, Matrix([1,0,0]))
+
+// Order Parameter and Polarization Vavlues
+var t2 = 0.1
+var t4 = -0.1
+var s = 0.4
+var s2= s*s
+var P0 = s*sqrt(-t2/(2*t4))
+var ks = 2
+var kt = 2
+var kb = 2
+
+// Functional Definitions //
+// Landau-like expansion for the polarization Field: Bulk
+fn landau(x, nn) {
+  var nnt = nn.norm()
+  var nt2 = nnt*nnt
+  return t2*nt2 + t4*nt2*nt2
+}
+
+// Flexielectric coupling: work in progress
+fn flexo(x, nn) {
+}
+
+// Auxiliar function: Getting scalar order parameter
+fn qtoorder(q) {
+  var S = 2*q.norm()
+  return S
+}
+
+// Problem definition
+var lf = Nematic(nn, ksplay=s2*ks, ktwist=s2*kt, kbend=s2*s2*kb)  // Frank free energy
+var lp = GradSq(P0*nn)                                            // Penalization for distortions in the polarization
+var lt = Length()
+var laq  = LineIntegral(fn (x, n) 1 - n.inner(tangent())^2, nn)   // Apolar anchoring
+var lap = LineIntegral(fn (x, n) n.inner(tangent()) - 1, nn)      // Polar anchoring
+var bulk = AreaIntegral(landau, nn)
+
+// Constraints
+var ln = NormSq(nn) // Unit-length constraint
+var laa = Area()    //Area constraint
+
+// Set up the optimization problem
+var WQ = 0.5   // strength of the apolar anchoring
+var WP = -3    // strength of the polar anchoring
+var sigma = 0.1
+
+var problem = OptimizationProblem(m)
+problem.addenergy(lf)
+problem.addenergy(lp)
+problem.addenergy(bulk)
+problem.addenergy(laq, selection = bnd, prefactor = WQ/2)
+problem.addenergy(lap, selection = bnd, prefactor = -WP/2)
+problem.addenergy(lt, selection = bnd, prefactor = sigma)
+problem.addconstraint(laa)
+problem.addlocalconstraint(ln, field = nn, target = 1)
+
+// Performing the OptimizationProblem
+var fopt = FieldOptimizer(problem, nn)
+
+// Optimization Loop
+for (i in 1..100) {
+  fopt.linesearch(20)
+}
+
+// Show results
+fn visualize(m, nn, dl) {
+  var v = m.vertexmatrix()
+  var nv = m.count()
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x =v.column(i)
+      g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.1))
+  }
+  return g
+}
+
+// Refinement
+var mr = MeshRefiner([m, nn, bnd]);
+var refmap = mr.refine();
+for (el in [problem, fopt]) el.update(refmap);
+
+m = refmap[m];
+nn = refmap[nn];
+bnd = refmap[bnd];
+
+// Optimization loop
+var refmax = 3
+for (refiter in 1..refmax) {
+  print "===Refinement lebvel ${refiter}==="
+  for (i in 1..100) {
+    fopt.linesearch(20)
+  }
+  if (refiter==refmax) break
+  var mr = MeshRefiner([m, nn, bnd])
+  var refmap = mr.refine()
+  for (el in [problem, fopt]) el.update(refmap)
+  m = refmap[m]; nn=refmap[nn]; bnd = refmap[bnd]
+}
+
+// Display results
+var S = Field(m, 0)
+for (i in 0...m.count()) S[i]=qtoorder(nn[i])
+var sb = ScaleBar(posn=[1.2,0,0], length=1, textcolor=Black)
+var splot = plotfield(S, style="interpolate", scalebar=sb, colormap=PlasmaMap())
+var gnn   = visualize(m, nn, 0.05)
+var gdisp = splot+gnn
+Show(gdisp)
+
+// POVRaytracer function for exporting plot
+fn tracer(fig, file_name) {
+  var pov = POVRaytracer(fig)
+  pov.viewangle = 32
+  pov.light = [Matrix([3,3,10]), Matrix([-3,3,10]), Matrix([0,-3,10])]
+  pov.render(file_name)
+}

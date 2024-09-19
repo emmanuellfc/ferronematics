@@ -1,0 +1,114 @@
+// Q Tensor Model with Polarization
+
+import meshtools
+import plot
+import optimize
+
+// Define global variables
+var rho = 1.3 // Deep in the nematic phase
+var EA = 3 // Anchoring strength
+var K = 0.01 // Bending modulus
+
+var a2 = (1-rho)
+var a4 = (1+rho)/rho^2
+var t1 = 1 // change to meaningful values
+var t2 = 1 //change to meaningful values
+
+// Function declaration
+// Function to visualize a director field
+// m - the mesh
+// nn - the director Field to visualize
+// dl - scale the director
+fn visualize(m, nn, dl) {
+    var v = m.vertexmatrix()
+    var nv = m.count() // Number of vertices
+    var g = Graphics() // Create a graphics object
+    for (i in 0...nv) {
+    var x = v.column(i) // Get the ith vertex
+    // Draw a cylinder aligned with nn at this vertex
+    g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.25))
+    }
+    return g
+}
+
+fn qtodirector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx*=sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+fn qtoorder(q) {
+  var S = 2*q.norm()
+  return S
+}
+// Convert the q-tensor to the director and order
+fn plotField(m, q_tensor) {
+    var nn = Field(m, Matrix([1,0,0]))
+    for (i in 0...m.count()) nn[i] = qtodirector(q_tensor[i])
+    var S = Field(m, 0)
+    for (i in 0...m.count()) S[i]=qtoorder(q_tensor[i])
+    var splot = plotfield(S, style="interpolate")
+    var gnn   = visualize(m, nn, 0.05)
+    var gdisp = splot+gnn
+    Show(gdisp)
+}
+
+// Define bulk free energy
+fn landau(x, q) {
+  var qt = q.norm()
+  var qt2=qt*qt
+  return a2*qt2 + a4*qt2*qt2
+}
+fn landauP(x,q) {
+    var qt = q.norm()
+    var qt2=qt*qt
+    return t1*qt2 + t2*qt2*qt2
+}
+// Define anchoring energy at the boundary
+fn anchoring(x, q) {
+  var t = tangent()
+  var wxx = t[0]*t[0]-0.5
+  var wxy = t[0]*t[1]
+  return (q[0]-wxx)^2+(q[1]-wxy)^2
+}
+
+// Start of the program
+
+var m = Mesh("disk.mesh")
+var m = refinemesh(m) // Refining for a better result
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(0) // add point elements
+
+var q_tensor = Field(m, fn(x,y,z) Matrix([0.01*random(1), 0.01*random(1)]))
+var p_vector = Field(m, fn(x,y,z) Matrix([0.01*random(1), 0.01*random(1)]))
+
+// Plot initial configuration for the q_tensor
+plotField(m, q_tensor)
+plotField(m, p_vector)
+
+// Define elements of the functional free energy
+var bulk     = AreaIntegral(landau, q_tensor)
+var bulkP    = AreaIntegral(landauP, p_vector)
+var anchor   = LineIntegral(anchoring, q_tensor)
+var elastic  = GradSq(q_tensor)
+var elasticP = GradSq(p_vector)
+
+// Define optimization problem
+var problem = OptimizationProblem(m)
+problem.addenergy(bulk)
+problem.addenergy(bulkP)
+problem.addenergy(elastic, prefactor = K)
+problem.addenergy(elasticP, prefactor = K) // change K to the correct value
+problem.addenergy(anchor, selection=bnd, prefactor=EA)
+
+// Declare field optimizers
+var opt  = FieldOptimizer(problem, q_tensor)
+var optP = FieldOptimizer(problem, p_vector)
+opt.linesearch(500)
+optP.linesearch(500)
+
+// Plot final configuration
+plotField(m, q_tensor)

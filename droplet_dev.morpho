@@ -1,0 +1,111 @@
+import meshgen
+import optimize
+import plot
+import povray
+
+fn disk(x) {
+  return 1-(x[0]^2 + x[1]^2)
+}
+
+fn landauP(x,q) {
+  var qt = q.norm()
+  var qt2 = qt*qt
+  return 0.5*(qt2 + qt2*qt2)
+}
+var k11,k22,k33
+k11=k22=k33=1
+var tau1, tau2
+tau1=tau2=1
+
+
+var m = Mesh("disk.mesh")
+//Show(plotmesh(m, grade=[0,1]))
+var bnd=Selection(m, boundary=true)
+bnd.addgrade(0)
+
+var nn = Field(m, Matrix([1,0,0]))
+var pp = Field(m, Matrix([1,0,0]))
+
+// Define the problem
+var lf    = Nematic(nn,ksplay = k11, ktwist = k22, kbend = k33)
+var bulkP = AreaIntegral(landauP, pp)
+var lt    = Length()
+var la    = LineIntegral(fn (x, n) n.inner(tangent())^2, nn)
+var ln    = NormSq(nn)
+var laa   = Area()
+
+// Set up the optimization problem
+var W = 2.
+var sigma = 2.
+
+var problem = OptimizationProblem(m)
+problem.addenergy(lf)
+problem.addenergy(bulkP)
+problem.addenergy(la, selection=bnd, prefactor=-W/2)
+problem.addenergy(lt, selection=bnd, prefactor=sigma)
+problem.addconstraint(laa)
+problem.addlocalconstraint(ln, field=nn, target=1)
+
+
+// Create shape and field optimizers
+var sopt   = ShapeOptimizer(problem, m)
+var foptnn = FieldOptimizer(problem, nn)
+var foptpp = FieldOptimizer(problem, pp)
+
+
+// Optimization loop
+for (i in 1..100) {
+    foptnn.linesearch(20)
+    foptpp.linesearch(20)
+    sopt.linesearch(20)
+}
+
+
+// Function to visualize a director field
+// m - the mesh
+// nn - the director Field to visualize
+// dl - scale the director
+fn visualize(m, nn, dl) {
+  var v = m.vertexmatrix()
+  var nv = m.count()
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x = v.column(i)
+    g.display(Cylinder(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.3))
+  }
+  return g
+}
+
+// Visualize the result
+// var g=plotmesh(m, grade=1)
+// var gnn=visualize(m, nn, 0.1)
+// var gdisp = g+gnn
+// Show(gdisp)
+
+
+// Visualize the elastic energy density
+var fe = lf.integrand(nn)
+var ff = Field(m, grade=2)
+for (i in 0...m.count(2)) {
+  ff[2,i]=fe[0,i]
+}
+
+var sb = ScaleBar(nticks=3,          // Maximum number of ticks
+                  length=1,          // Length of scalebar
+                  posn=[0,-1,0],     // Position of scalebar
+                  dirn=[1,0,0],      // Direction in which scalebar is to be drawn
+                  tickdirn=[0,-1,0], // Direction in which to draw ticks
+                  textdirn=[1,0,0],  // Direction to draw text
+                  textvertical=[0,1,0], // Vertical direction for text
+                  textcolor=White,   // Text color
+                  fontsize=6 )      // Font size
+
+
+Show(plotfield(ff, colormap=GrayMap(), scalebar=sb))
+
+// gdisp.background = White
+// var pov = POVRaytracer(gdisp)
+// pov.viewpoint = Matrix([0,0,10])
+// pov.background = White
+// pov.light=[Matrix([10,10,10]), Matrix([-10,-10,10])]
+// pov.render("out.pov")

@@ -1,0 +1,75 @@
+// Development version of th
+
+import plot
+import meshgen
+import optimize
+// TO-DO:
+// Incorporation of the Landau-Free Energy for the polarization:
+
+
+
+// Function to visualize a director field
+// m - the mesh
+// nn - the director Field to visualize
+// dl - scale the director
+fn visualize(m, nn, dl) {
+    var v = m.vertexmatrix()
+    var nv = m.count() // Number of vertices
+    var g = Graphics() // Create a graphics object
+    for (i in 0...nv) {
+    var x = v.column(i) // Get the ith vertex
+    // Draw a cylinder aligned with nn at this vertex
+    g.display(Cylinder(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.3))
+    }
+    return g
+}
+
+// Create mesh
+// Disk function
+fn disk(x) {
+  return 1-(x[0]^2 + x[1]^2)
+}
+
+
+//var mg = MeshGen(disk, [-1..1:0.1, -1..1:0.1], quiet = false)
+//var m = mg.build()
+var m = Mesh("disk.mesh")
+var bnd = Selection(m, boundary=true)
+//Show(plotmesh(m, grade=[0,1]))
+//Show(plotselection(m, bnd, grade=1))
+
+// Define nematic field
+var nn = Field(m, Matrix([1,0,0]))
+
+//Define the problem
+var lf=Nematic(nn)
+var lt=Length()
+var la=LineIntegral(fn (x, n) n.inner(tangent())^2, nn)
+var ln=NormSq(nn)
+var laa=Area()
+
+// Set up the optimization problem
+var W = 1
+var sigma = 1
+
+var problem = OptimizationProblem(m)
+problem.addenergy(lf)
+problem.addenergy(la, selection=bnd, prefactor=-W/2)
+problem.addenergy(lt, selection=bnd, prefactor=sigma)
+problem.addconstraint(laa)
+problem.addlocalconstraint(ln, field=nn, target=1)
+
+// Create shape and field optimizers
+var sopt = ShapeOptimizer(problem, m)
+var fopt = FieldOptimizer(problem, nn)
+
+
+// Optimization loop
+for (i in 1..100) {
+    fopt.linesearch(20)
+    sopt.linesearch(20)
+}
+var g  = plotmesh(m, grade=1)
+var gnn=visualize(m, nn, 0.2)
+var gdisp = g+gnn
+Show(gdisp)

@@ -1,0 +1,109 @@
+// Working on Tactoids
+
+import meshgen
+import optimize
+import plot
+import povray
+
+// Function to visualize a director field
+// m - the mesh
+// nn - the director Field to visualize
+// dl - scale the director
+
+fn visualize(m, nn, dl) {
+    var v = m.vertexmatrix()
+    var nv = m.count() // Number of vertices
+    var g = Graphics() // Create a graphics object
+    for (i in 0...nv) {
+    var x = v.column(i) // Get the ith vertex
+    // Draw a cylinder aligned with nn at this vertex
+    g.display(Cylinder(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.3))
+    }
+    return g
+}
+
+fn qtodirector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx+=sign(Q[1])
+  return Matrix([nx, ny, 0])
+}
+
+fn qtoorder(q) {
+  var S = 2*q.norm()
+  return S
+}
+
+// QTensor
+var rho = 1.3 //Deep in the nematic state
+var EA = 3    //Anchoring strenth
+var K = 0.01  //Bending modulus
+
+var a2 = (1-rho)
+var a4 = (1+rho)/rho^2
+
+// Create the mesh and visualize it
+fn disk(x) {
+    return 1-(x[0]^2+x[1]^2)
+}
+
+var mg = MeshGen(disk, [-1..1:0.1, -1..1:0.1])
+var m = mg.build()
+var m = refinemesh(m)
+//var m = Mesh("disk.mesh")
+var bnd = Selection(m, boundary = true)
+bnd.addgrade(0)
+
+Show(plotmesh(m, grade = [0,1]))
+
+
+// qTensor definition
+var q_tensor = Field(m, Matrix([0.01*random(1), 0.01*random(1)]))
+
+var foo = Field(m,Matrix([1,0,0]))
+for (i in 0...m.count()) foo[i]= qtoorder(q_tensor[i])
+
+var sfoo = plotfield(foo, style="interpolate")
+Show(sfoo)
+
+// Define bulk free energy
+fn landau(x,q) {
+  var qt = q.norm()
+  var qt2 = qt*qt
+  return a2*qt2 + a4*qt2*qt2
+}
+
+// Define anchoring energy at the boundary
+fn anchoring(x,q) {
+  vat t = tangent()
+  var wxx = t[0]*t[0] -0.5
+  var wxy = t[0]*t[1]
+  return (q[0] - wxx)^2 + (q[1]-wxy)^2
+}
+
+var bulk = AreaIntegral(landau, q_tensor)
+var anchor = LineIntegral(anchoring,q_tensor)
+var elastic = GradSq(q_tensor)
+
+// Define optimization Problem
+var problem = OptimizationProblem(m)
+problem.addenergy(bulk)
+problem.addenergy(elastic, prefactor = K)
+problem.addenergy(anchor, selection=bnd, prefactor = EA)
+
+var opt = FieldOptimizer(problem, q_tensor)
+opt.linesearch(500)
+
+// Convert the q-tensor o the director and order
+var nn = Field(m, Matrix([1,0,0]))
+for (i in 0...m.count()) nn[i] = qtodirector(q_tensor[i])
+var S = Field(m, 0)
+for (i in 0...m.count()) S[i]= qtoorder(q_tensor[i])
+
+var splot = plotfield(S, style="interpolate")
+Show(splot)
+//var gnn = visualize(m, nn, 0.005)
+//var gdisp = splot+gnn
+//Show(gdisp)
