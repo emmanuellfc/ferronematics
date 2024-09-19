@@ -1,16 +1,17 @@
-// Simulate the shape of a tactoid in 3D 
+// Simulate the shape of a tactoid in 3D
 // Following Prinsen & van der Schoot, Phys. Rev. E 68, 021701 (2003)
 
-import meshgen 
+import meshgen
 import plot
 import vtk
 
+
 class TactoidSimulation {
   init(kappa=1, omega=1) {
-    self.kappa = kappa 
+    self.kappa = kappa
     self.omega = omega
 
-    self.mesh = nil 
+    self.mesh = nil
     self.director = nil
   }
 
@@ -38,7 +39,7 @@ class TactoidSimulation {
   }
 
   saveVTK(fname) {
-    var vtkexp = VTKExporter(self.director, fieldname="director") 
+    var vtkexp = VTKExporter(self.director, fieldname="director")
     vtkexp.export(fname)
   }
 
@@ -105,11 +106,11 @@ class TactoidSimulation {
     for (i in 0...dim) {
       l.append(bounds(x.column(i)))
     }
-    return l 
+    return l
   }
 
   aspectRatio() { // Calculate aspect ratio from bounding box
-    var bnds = self.boundingBox() 
+    var bnds = self.boundingBox()
     for (b, k in bnds) {
       bnds[k] = b[1]-b[0]
     }
@@ -145,7 +146,7 @@ class TactoidSimulation {
   }
 
   refine(selection=nil) {
-    var mr = MeshRefiner([self.mesh, self.director]) 
+    var mr = MeshRefiner([self.mesh, self.director])
     var dict = mr.refine(selection=selection)
     self.mesh=dict[self.mesh]
     self.director=dict[self.director]
@@ -164,8 +165,8 @@ class TactoidSimulation {
   selectRefineLength(lambda=1.5) {
     var s = Selection(self.mesh)
     var len = Length().integrand(self.mesh)
-    var mean = len.sum()/len.count() 
-    
+    var mean = len.sum()/len.count()
+
     for (l, id in len) {
       if (l>lambda*mean) {
         s[1,id]=true
@@ -204,17 +205,17 @@ class TactoidSimulation {
     if (!islist(g)) g = [ g ]
 
     //if (!selection) if (g.contains(2)) sel = self.bnd
-    
+
     return plotmesh(self.mesh, selection = sel, grade=g)
   }
 
   visualizeDirector(color=nil) {
     var col = color
-    if (isnil(color)) col = White 
-    var dl = self.visualizeDirectorSize() 
+    if (isnil(color)) col = White
+    var dl = self.visualizeDirectorSize()
     var g = Graphics() // Create a graphics object
     for (id in 0...self.mesh.count()) {
-      var x = self.mesh.vertexposition(id) 
+      var x = self.mesh.vertexposition(id)
       var nn = self.director[0,id]
       g.display(Cylinder(x-nn*dl, x+nn*dl, aspectratio=0.3, color=col))
     }
@@ -229,19 +230,19 @@ class TactoidSimulation {
     var ltheta=AreaIntegral(fn (x, n) n.inner(normal()), self.director)
     var larea=Area()
 
-    var dot = ltheta.integrand(self.mesh, self.director) 
+    var dot = ltheta.integrand(self.mesh, self.director)
     var area = larea.integrand(self.mesh, self.director)
 
     var f = File(file, "w")
     var conn = self.mesh.connectivitymatrix(0,2)
 
     for (id in self.bnd.idlistforgrade(2)) {
-      var v = conn.rowindices(id) 
+      var v = conn.rowindices(id)
       var x = 0
       for (vid in v) {
         x+=self.mesh.vertexposition(vid)
       }
-      x/=v.count() 
+      x/=v.count()
 
       f.write("${id} ${x[0]} ${x[1]} ${x[2]} ${dot[0,id]/area[0,id]}")
     }
@@ -253,19 +254,19 @@ class TactoidSimulation {
     var ltheta=AreaIntegral(fn (x, n) n[0], self.director)
     var larea=Area()
 
-    var dot = ltheta.integrand(self.mesh, self.director) 
+    var dot = ltheta.integrand(self.mesh, self.director)
     var area = larea.integrand(self.mesh, self.director)
 
     var f = File(file, "w")
     var conn = self.mesh.connectivitymatrix(0,2)
 
     for (id in self.bnd.idlistforgrade(2)) {
-      var v = conn.rowindices(id) 
+      var v = conn.rowindices(id)
       var x = 0
       for (vid in v) {
         x+=self.mesh.vertexposition(vid)
       }
-      x/=v.count() 
+      x/=v.count()
 
       f.write("${id} ${x[0]} ${x[1]} ${x[2]} ${dot[0,id]/area[0,id]}")
     }
@@ -279,7 +280,7 @@ fn curate(sim) {
     //var sel = sim.selectRefineLength(lambda=1.5)
     //Show(plotselection(sim.mesh, sel, grade=1))
     //print "Refining ${sel.count(1)} elements:"
-    //sim.refine(selection=sel) 
+    //sim.refine(selection=sel)
     print "Regularize:"
     // Regularize the point spacing on the interior
     sim.regularize(500)
@@ -293,12 +294,12 @@ fn optimizationLoop(sim, niter) {
     // Start with an optimized field
     print "Initial field iteration:"
     sim.optimizeField(100)
-    
+
     for (i in 1..niter) {
         for (j in 1..10) {
             print "Shape iteration ${i}, ${j}"
             sim.optimizeShape(5)
-            if (sim.sopt.totalenergy()>1000) return 
+            if (sim.sopt.totalenergy()>1000) return
             print "Field iteration ${i}, ${j}"
             sim.optimizeField(20)
             if (sim.hasConverged()) break
@@ -312,20 +313,20 @@ fn optimizationLoop(sim, niter) {
 
 var kappa = 0.6
 
-var sim = TactoidSimulation(kappa=kappa) 
+var sim = TactoidSimulation(kappa=kappa)
 
 sim.loadVTK("initial.vtk") // Uncomment to load initial config from VTK
 
 sim.initialField()
 
-print sim.mesh.count() 
+print sim.mesh.count()
 sim.refine() // Global refine
-print sim.mesh.count() 
+print sim.mesh.count()
 
 for (omega, k in 1..2.2:0.2) {
   print "Omega: ${omega}"
   sim.kappa = kappa
-  sim.omega = omega 
+  sim.omega = omega
 
   // Reinitialize problem
   sim.setupSelections()
