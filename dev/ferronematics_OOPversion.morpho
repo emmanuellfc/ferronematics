@@ -16,7 +16,7 @@ class FerronematicSimulation {
   }
 
   initialMesh(delta=0.2) {
-    var dom = fn (x) -(x[0]^2+x[1]^2+x[2]^2-1)
+    var dom = fn (x) -(x[0]^2+x[1]^2-1)
     var mg = MeshGen(dom, [-1..1:delta, -1..1:delta])
     self.mesh = mg.build()
     self.mesh.addgrade(1)
@@ -43,7 +43,7 @@ class FerronematicSimulation {
   }
 
   initialField() {
-    self.director = Field(self.mesh, fn (x,y,z) Matrix([1,0,0]))
+    self.director = Field(self.mesh, fn(x,y) Matrix([1,0,0]))
   }
 
   setupSelections() {
@@ -56,10 +56,7 @@ class FerronematicSimulation {
     var lnematic=Nematic(self.director, ksplay=self.kappa, ktwist=self.kappa, kbend=self.kappa)
     self.problem.addenergy(lnematic)
 
-    var larea=Area()
-    self.problem.addenergy(larea, selection=self.bnd)
-
-    var apolaranchoring = LineIntegral(fn (x, n) 1 - n.inner(tangent())^2, self.director)
+    var apolaranchoring = LineIntegral(fn (x, n) (1 - n.inner(tangent())^2), self.director)
     self.problem.addenergy(apolaranchoring, selection=self.bnd, prefactor = self.omega)
 
     var polaranchoring = LineIntegral(fn (x, n) n.inner(tangent()) - 1, self.director)
@@ -275,4 +272,81 @@ class FerronematicSimulation {
 
     f.close()
   }
+}
+
+
+
+
+// Attempt to curate the mesh
+fn curate(sim) {
+    //var sel = sim.selectRefineLength(lambda=1.5)
+    //Show(plotselection(sim.mesh, sel, grade=1))
+    //print "Refining ${sel.count(1)} elements:"
+    //sim.refine(selection=sel)
+    print "Regularize:"
+    // Regularize the point spacing on the interior
+    sim.regularize(500)
+    print "Retriangulate:"
+    // Retriangulate to improve mesh quality
+    sim.retriangulate()
+}
+
+// Main optimization loop
+fn optimizationLoop(sim, niter) {
+    // Start with an optimized field
+    print "Initial field iteration:"
+    sim.optimizeField(100)
+
+    for (i in 1..niter) {
+        for (j in 1..10) {
+            print "Shape iteration ${i}, ${j}"
+            sim.optimizeShape(5)
+            if (sim.sopt.totalenergy()>1000) return
+            print "Field iteration ${i}, ${j}"
+            sim.optimizeField(20)
+            if (sim.hasConverged()) break
+        }
+        if (sim.hasConverged()) break
+
+        print "Regularization ${i}"
+        //sim.regularize(10)
+    }
+}
+
+var kappa = 0.6
+
+var sim = FerronematicSimulation(kappa=kappa)
+
+// sim.loadVTK("initial.vtk") // Uncomment to load initial config from VTK
+sim.initialMesh()
+sim.initialField()
+
+print sim.mesh.count()
+sim.refine() // Global refine
+print sim.mesh.count()
+
+for (omega, k in 1..2.2:0.2) {
+  print "Omega: ${omega}"
+  sim.kappa = kappa
+  sim.omega = omega
+
+  // Reinitialize problem
+  sim.setupSelections()
+  sim.setupProblem()
+  sim.setupRegularization()
+  sim.setupOptimizers()
+
+  optimizationLoop(sim, 100)
+
+  if (sim.sopt.totalenergy()>1000) {
+    print "Energy limit exceeded ${sim.sopt.totalenergy()}"
+    break
+  }
+
+  system("mkdir k${kappa}")
+
+  sim.surfaceProfile("k${kappa}/profile${omega}.txt")
+  sim.thetaProfile("k${kappa}/tprofile${omega}.txt")
+
+  Show(sim.visualize())
 }
