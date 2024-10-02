@@ -1,0 +1,77 @@
+import optimize
+import meshtools
+import plot
+
+// Mesh re-construction //
+var r1 = 1.0
+var r2 = 0.4
+var m = Mesh("anulus.mesh")
+var bnd = Selection(m, boundary=true)
+var bnd1 = Selection(m, fn(x,y) (x^2+y^2) < r2)      // inner radius
+var bnd2 = Selection(m, fn(x,y) (x^2+y^2) > r1-0.01) // outer radius
+bnd1 = bnd.intersection(bnd1)
+bnd1.addgrade(1)
+bnd2 = bnd.intersection(bnd2)
+bnd2.addgrade(1)
+
+// // Physical paremeters //
+var rho = 1.3 // Deep in the nematic phase
+var EA = 3 // Anchoring strength
+var K = 0.01 // Bending modulus
+var a2 = (1-rho)
+var a4 = (1+rho)/rho^2
+
+
+// Q-Tensor Problem Definition //
+var q_tensor = Field(m, fn(x,y) Matrix([0.01*random(1), 0.01*random(1)]))
+
+// Define bulk free energy
+fn landau(x, q) {
+  var qt = q.norm()
+  var qt2=qt*qt
+  return a2*qt2 + a4*qt2*qt2
+}
+// Define anchoring energy at the boundary
+fn anchoring(x, q) {
+  var t = tangent()
+  var wxx = t[0]*t[0]-0.5
+  var wxy = t[0]*t[1]
+  return (q[0]-wxx)^2+(q[1]-wxy)^2
+}
+
+var bulk = AreaIntegral(landau, q_tensor)
+var anchor = LineIntegral(anchoring, q_tensor)
+var elastic = GradSq(q_tensor)
+
+var problem = OptimizationProblem(m)
+problem.addenergy(bulk)
+problem.addenergy(elastic, prefactor = K)
+problem.addenergy(anchor, selection=bnd1, prefactor=EA)
+problem.addenergy(anchor, selection=bnd2, prefactor=0)
+
+var opt = FieldOptimizer(problem, q_tensor)
+opt.linesearch(500)
+
+fn qtodirector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx*=sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+fn qtoorder(q) {
+  var S = 2*q.norm()
+  return S
+}
+
+// Convert the q-tensor to the director and order
+var nn = Field(m, Matrix([1,0,0]))
+for (i in 0...m.count()) nn[i]=qtodirector(q_tensor[i])
+var S = Field(m, 0)
+for (i in 0...m.count()) S[i]=qtoorder(q_tensor[i])
+var sb = ScaleBar(posn=[1.2,0,0], length=1, textcolor=Black)
+var splot = plotfield(S, scalebar = sb, colormap=PlasmaMap())
+var gdisp = splot
+Show(gdisp)

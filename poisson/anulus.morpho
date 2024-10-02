@@ -15,54 +15,56 @@ var dom = a.difference(b)
 var mg = MeshGen(dom, [-1..1:0.1, -1..1:0.1], quiet=false)
 var m = mg.build()
 
-var bnd = Selection(m, boundary=true)
-var bnd1 = Selection(m, fn(x,y) (x^2+y^2) < r2)
-var bnd2 = Selection(m, fn(x,y) (x^2+y^2) > r1-0.01)
+m.save("anulus.mesh")
 
-bnd1 = bnd.intersection(bnd1)
-bnd1.addgrade(1)
-bnd2 = bnd.intersection(bnd2)
-bnd2.addgrade(1)
+// var bnd = Selection(m, boundary=true)
+// var bnd1 = Selection(m, fn(x,y) (x^2+y^2) < r2)
+// var bnd2 = Selection(m, fn(x,y) (x^2+y^2) > r1-0.01)
 
-var problem = OptimizationProblem(m)
-var phi = Field(m, fn (x,y) 0)
-var le = GradSq(phi)
-problem.addenergy(le)
+// bnd1 = bnd.intersection(bnd1)
+// bnd1.addgrade(1)
+// bnd2 = bnd.intersection(bnd2)
+// bnd2.addgrade(1)
 
-fn cFunctional(x, n) {
-    var rho = Field(m, fn (x,y) exp((x^2+y^2)/2))
-    return rho*n
-}
+// var problem = OptimizationProblem(m)
+// var phi = Field(m, fn (x,y) 0)
+// var le = GradSq(phi)
+// problem.addenergy(le)
 
-var cEnergy = AreaIntegral(cFunctional, phi)
-problem.addenergy(cEnergy)
+// fn cFunctional(x, n) {
+//     var rho = Field(m, fn (x,y) exp((x^2+y^2)/2))
+//     return rho*n
+// }
 
-var v1 = 0, v2 = 1
-var lt1 = LineIntegral(fn (x, v) (v-v1)^2, phi)
-problem.addenergy(lt1, selection=bnd1, prefactor=100)
-var lt2 = LineIntegral(fn (x, v) (v-v2)^2, phi)
-problem.addenergy(lt2, selection=bnd2, prefactor=100)
+// var cEnergy = AreaIntegral(cFunctional, phi)
+// problem.addenergy(cEnergy)
 
-var opt = FieldOptimizer(problem, phi)
-opt.conjugategradient(100)
+// var v1 = 0, v2 = 1
+// var lt1 = LineIntegral(fn (x, v) (v-v1)^2, phi)
+// problem.addenergy(lt1, selection=bnd1, prefactor=100)
+// var lt2 = LineIntegral(fn (x, v) (v-v2)^2, phi)
+// problem.addenergy(lt2, selection=bnd2, prefactor=100)
 
-var en = le.integrand(phi)
-var mean = en.sum()/en.count()
-var srefine = Selection(m)
-for (id in 0...en.count()) if (en[0,id]>1.5*mean) srefine[2,id]=true
+// var opt = FieldOptimizer(problem, phi)
+// opt.conjugategradient(100)
 
-var ref = MeshRefiner([m, phi, bnd, bnd1, bnd2])
-var refmap = ref.refine(selection=srefine)
+// var en = le.integrand(phi)
+// var mean = en.sum()/en.count()
+// var srefine = Selection(m)
+// for (id in 0...en.count()) if (en[0,id]>1.5*mean) srefine[2,id]=true
 
-for (el in [problem, opt]) el.update(refmap)
-m = refmap[m]
-phi = refmap[phi]
-bnd = refmap[bnd]
-bnd1 = refmap[bnd1]
-bnd2 = refmap[bnd2]
+// var ref = MeshRefiner([m, phi, bnd, bnd1, bnd2])
+// var refmap = ref.refine(selection=srefine)
 
-equiangulate(m)
-opt.conjugategradient(1000)
-var sb = ScaleBar(posn=[1.2,0,0], length=1, textcolor=Black)
-var f1 = plotfield(phi, scalebar=sb, colormap=PlasmaMap())
-Show(f1)
+// for (el in [problem, opt]) el.update(refmap)
+// m = refmap[m]
+// phi = refmap[phi]
+// bnd = refmap[bnd]
+// bnd1 = refmap[bnd1]
+// bnd2 = refmap[bnd2]
+
+// equiangulate(m)
+// opt.conjugategradient(1000)
+// var sb = ScaleBar(posn=[1.2,0,0], length=1, textcolor=Black)
+// var f1 = plotfield(phi, scalebar=sb, colormap=PlasmaMap())
+// Show(f1)
