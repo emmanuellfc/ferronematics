@@ -1,0 +1,58 @@
+import meshtools
+import plot
+import optimize
+
+var L = 1.0
+var delta = 0.1
+var m = AreaMesh(fn (u,v) [u,v,0], -L/2..L/2:delta, -L/2..L/2:delta)
+m.addgrade(1)
+
+var bnd = Selection(m, boundary=true)
+var bnd1 = Selection(m, fn(x, y, z) abs(x+L/2)<0.01 || abs(y+L/2)<0.01)
+var bnd2 = Selection(m, fn(x, y, z) abs(x-L/2)<0.01 || abs(y-L/2)<0.01)
+for (b in [bnd1, bnd2]) b.addgrade(1)
+bnd1 = bnd.intersection(bnd1)
+bnd2 = bnd.intersection(bnd2)
+
+
+var problem = OptimizationProblem(m)
+var phi = Field(m, fn (x,y,z) 0)
+var le = GradSq(phi)
+problem.addenergy(le)
+
+fn cFunctional(x, n) {
+    var rho = Field(m, fn (x,y,z) exp((x^2+y^2)/10))
+    return rho*n
+}
+
+var cEnergy = AreaIntegral(cFunctional, phi)
+problem.addenergy(cEnergy)
+
+var v1 = 0, v2 = 1
+var lt1 = LineIntegral(fn (x, v) (v-v1)^2, phi)
+problem.addenergy(lt1, selection=bnd1, prefactor=100)
+var lt2 = LineIntegral(fn (x, v) (v-v2)^2, phi)
+problem.addenergy(lt2, selection=bnd2, prefactor=100)
+
+var opt = FieldOptimizer(problem, phi)
+opt.conjugategradient(100)
+
+var en = le.integrand(phi) 
+var mean = en.sum()/en.count() 
+var srefine = Selection(m)
+for (id in 0...en.count()) if (en[0,id]>1.5*mean) srefine[2,id]=true
+
+var ref = MeshRefiner([m, phi, bnd, bnd1, bnd2])
+var refmap = ref.refine(selection=srefine)
+
+for (el in [problem, opt]) el.update(refmap)
+m = refmap[m]
+phi = refmap[phi]
+bnd = refmap[bnd]
+bnd1 = refmap[bnd1]
+bnd2 = refmap[bnd2]
+
+equiangulate(m)
+opt.conjugategradient(1000)
+var f1 = plotfield(phi, style = "interpolate", colormap=ViridisMap())
+Show(f1)
