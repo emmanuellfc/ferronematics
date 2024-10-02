@@ -1,0 +1,61 @@
+// Implementation of Landau Expansion
+// for Q-Tensor
+// To-Do:
+//       - Implement Apolar Anchoring Condition
+//       - Add Dimentionless Parameters for Landau Expandsion
+
+
+import optimize
+import plot
+import meshtools
+import functionals
+
+
+var NS = 0.1
+var EA = 0.5
+var ITERS = 500
+
+var m = Mesh("dense_disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(1)
+var qt = Field(m, fn (x,y,z) Matrix([NS*random(1), NS*random(1)]))
+
+// Landu Functional
+fn landau(x, q) {
+  var qn = q.norm()
+  var q2 = qn * qn
+  return q2 + q2*q2
+}
+
+// Anchoring Functional
+fn anchoring(x, q) {
+  var t = tangent()
+  var wxx = t[0]*t[0]-0.5
+  var wxy = t[0]*t[1]
+  return (q[0]-wxx)^2+(q[1]-wxy)^2
+}
+
+var optProblem = OptimizationProblem(m)
+var lEnergy = AreaIntegral(landau, qt)
+optProblem.addenergy(lEnergy)
+
+var aEnergy = LineIntegral(anchoring, qt)
+optProblem.addenergy(aEnergy, selection=bnd, prefactor = EA)
+
+var opt = FieldOptimizer(optProblem, qt)
+opt.conjugategradient(ITERS)
+
+// Q-Tensor to Scalar S
+fn qToS(q) {
+  var S = 2*q.norm()
+  return S
+}
+
+// Now we create a new Field variable
+// and we polute this var with qToS
+
+var S = Field(m, 0)
+for (i in 0...m.count()) S[i]=qToS(qt[i])
+var sb = ScaleBar(posn=[1.2,0,0], length=1.5, textcolor=Black)
+var g = plotfield(S, style="interpolate", scalebar = sb, colormap = PlasmaMap())
+Show(g)
