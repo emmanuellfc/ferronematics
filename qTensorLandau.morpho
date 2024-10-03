@@ -4,16 +4,19 @@
 //       - Implement Apolar Anchoring Condition
 //       - Add Dimentionless Parameters for Landau Expandsion
 
-
 import optimize
 import plot
 import meshtools
 import functionals
+import povray
 
-
+// Phenomenological parameters //
 var NS = 0.1
-var EA = 0.5
+var EA = 0.75
 var ITERS = 500
+var K = 1.0
+var T1 = -2.025
+var T2 = 2.5
 
 var m = Mesh("dense_disk.mesh")
 var bnd = Selection(m, boundary=true)
@@ -24,7 +27,7 @@ var qt = Field(m, fn (x,y,z) Matrix([NS*random(1), NS*random(1)]))
 fn landau(x, q) {
   var qn = q.norm()
   var q2 = qn * qn
-  return q2 + q2*q2
+  return T1*q2 + T2*q2*q2
 }
 
 // Anchoring Functional
@@ -37,10 +40,14 @@ fn anchoring(x, q) {
 
 var optProblem = OptimizationProblem(m)
 var lEnergy = AreaIntegral(landau, qt)
+
 optProblem.addenergy(lEnergy)
 
 var aEnergy = LineIntegral(anchoring, qt)
 optProblem.addenergy(aEnergy, selection=bnd, prefactor = EA)
+
+var eEnergy = GradSq(qt)
+optProblem.addenergy(eEnergy, prefactor = K)
 
 var opt = FieldOptimizer(optProblem, qt)
 opt.conjugategradient(ITERS)
@@ -50,12 +57,46 @@ fn qToS(q) {
   var S = 2*q.norm()
   return S
 }
+fn qToN(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx = nx*sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+fn visualize(m, nn, dl, aspectratio=0.3) {
+  var v = m.vertexmatrix()
+  var nv = v.dimensions()[1]
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x = v.column(i)
+    g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=aspectratio))
+  }
+  return g
+}
 
 // Now we create a new Field variable
 // and we polute this var with qToS
-
 var S = Field(m, 0)
+var N = Field(m, Matrix([1,0,0]))
 for (i in 0...m.count()) S[i]=qToS(qt[i])
-var sb = ScaleBar(posn=[1.2,0,0], length=1.5, textcolor=Black)
-var g = plotfield(S, style="interpolate", scalebar = sb, colormap = PlasmaMap())
-Show(g)
+for (i in 0...m.count()) N[i]=qToN(qt[i])
+
+// Plot the result //
+var sb  = ScaleBar(posn = [1.2,0,0], length = 1.5, textcolor=White)
+var g   = plotfield(S, style="interpolate", scalebar = sb, colormap = ViridisMap())
+var gnn = visualize(m, N, 0.05)
+var fig = g+gnn
+Show(fig)
+
+// // Generate a POVRaytracer object using the Graphics() object
+var pov = POVRaytracer(fig)
+
+// Set the viewing angle in degrees. The larger the angle, the larger the field of view.
+pov.viewangle=35
+pov.viewpoint = Matrix([0,0,6])
+pov.light = [Matrix([3,4,5]), Matrix([-3,-4,5])]
+// Render to a .pov file. This also generates a .png image with the same name.
+pov.render("Ferro_Qtensor_EA_${EA}.pov")
