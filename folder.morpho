@@ -1,0 +1,4 @@
+var folder_name = "ferro_droplet_figures"
+
+if (Folder.isfolder(folder_name)==true) {print "Folder exists!"}
+else {system("mkdir ${folder_name}")}

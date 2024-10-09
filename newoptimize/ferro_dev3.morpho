@@ -1,0 +1,119 @@
+import optimize4
+import meshtools
+import plot
+import povray
+import functionals
+
+var m = Mesh("dense_disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(0)
+
+// var nn = Field(m, Matrix([random(1),random(1),0]))
+var nn = Field(m, fn (x,y,z) Matrix([sin(sqrt(x^2+y^2)),0,0]))
+// var nn = Field(m, fn (x,y,z) x^2+y^2)
+var anchorVal = Field(m, fn(x,y,z) Matrix([1.0, 0]))
+
+
+// Order Parameter and Polarization Values
+var t2 = 0.1
+var t4 = -0.1
+var s = 0.4
+var s2= s*s
+var P0 = s*sqrt(-t2/(2*t4))
+
+// Functional Definitions //
+// Landau-like expansion for the polarization Field: Bulk
+fn landau(x, nn) {
+  var nnt = nn.norm()
+  var nt2 = nnt*nnt
+  return t2*nt2 + t4*nt2*nt2
+}
+
+fn fEnergy(nn, k1) {
+  return Nematic(nn, ksplay = k1)
+}
+// Flexielectric coupling: work in progress
+// fn flexo(x, nn) {
+// }
+
+fn flexo(x, n) {
+    var g = grad(n)
+    // var nnt = nn.norm()
+    return g
+}
+// Auxiliar function: Getting scalar order parameter
+fn qtoorder(q) {
+  var S = q.norm()
+  return S
+}
+
+//
+fn visualize(m, nn, dl) {
+  var v = m.vertexmatrix()
+  var nv = m.count()
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x =v.column(i)
+      g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.1))
+  }
+  return g
+}
+
+// Display results
+fn graphicResults(m, nn) {
+  var S = Field(m, 0)
+  for (i in 0...m.count()) S[i]=qtoorder(nn[i])
+  var sb = ScaleBar(posn=[1.5,0,0], length=1, textcolor=Black)
+  var splot = plotfield(S, style="interpolate", scalebar=sb, colormap=HueMap())
+  // var gnn   = visualize(m, nn, 0.05)
+  var gdisp = splot//+gnn
+  return gdisp
+}
+
+fn optFunc(m, nn, k1, anchor) {
+  var problem = OptimizationProblem(m)
+
+  var ln = fEnergy(nn, k1)  // Frank free energy 1-constant approximation
+  problem.addenergy(ln)
+
+  var bulk = AreaIntegral(landau, nn)
+  problem.addenergy(bulk)
+
+  var flexoenergy = AreaIntegral(flexo, nn)
+  problem.addenergy(flexoenergy)
+
+  var ls = Length()
+  problem.addenergy(ls, selection=bnd, prefactor=1)
+
+  var laq  = LineIntegral(fn (x, n) 1 - n.inner(tangent())^2, nn)   // Apolar anchoring
+  // var laq  = LineIntegral(fn (x, n) 1 - n.inner(anchorVal)^2, nn)   // Apolar anchoring
+  problem.addenergy(laq, selection=bnd, prefactor= anchor)
+
+  var lap = LineIntegral(fn (x, n) n.inner(tangent()) - 1, nn)      // Polar anchoring
+  problem.addenergy(lap, selection=bnd, prefactor = - anchor)
+
+  var lv = Area()
+  problem.addconstraint(lv)
+
+  var adapt = ProblemAdapter(problem, nn)
+
+  var control = PenaltyController(adapt, mu0=1, mumul=10)
+  control.optimize(15)
+  
+  return problem
+}
+
+// POVRaytracer function for exporting plot
+fn tracer(fig, file_name) {
+  var pov = POVRaytracer(fig)
+  pov.viewangle = 32
+  pov.light = [Matrix([3,3,10]), Matrix([-3,3,10]), Matrix([0,-3,10])]
+  pov.render(file_name)
+}
+
+// Testing Functions
+for (anchor in [0.01, 0.1]) {
+  var optTest1 = optFunc(m, nn, 1.0, anchor)
+  var graphicsTest1 = graphicResults(m, nn)
+  Show(graphicsTest1)
+}

@@ -1,0 +1,21 @@
+import meshgen
+import meshtools
+import plot
+import functionals
+
+var m = Mesh("dense_disk.mesh")
+
+var g = plotmesh(m, grade = [0,1])
+var f = Field(m, fn (x, y, z) x^2)
+var g1 = plotfield(f, style="interpolate", colormap=HueMap())
+fn plotSplay(f) {
+    var splay = GradSq(f)
+    var g = plotfield(splay, style="interpolate", colormap = HueMap())
+    return g
+}
+// Show(g+g1)
+Show(g1+g)
+// Show(g+g1)
+
+// Show(plotSplay)
+

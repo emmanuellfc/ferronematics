@@ -1,0 +1,24 @@
+import meshtools
+import plot
+
+var m = Mesh("dense_disk.mesh")
+// var phi = Field(m, fn (x,y,z) sin(Pi*x)*sin(Pi*y))
+// var phi = Field(m, fn (x,y,z) sin(sqrt(x^2+y^2)))
+// var phi = Field(m, fn (x,y,z) arctan(x,y))
+// var phi = Field(m, fn (x,y,z) arctan(x,y))
+
+var phi = Field(m, fn (x,y,z) Matrix([sin(sqrt(x^2+y^2)),0]))
+var anchorVal = Field(m, fn(x,y,z) Matrix([1.0, 0]))
+
+fn prod(x, y) {
+    var prod = x.inner(y)
+    return prod
+}
+
+var test = prod(phi, anchorVal)
+print test
+
+// var sb = ScaleBar(posn=[1.2,0,0], length=1, textcolor=Black)
+// var f = plotfield(test, style="interpolate", scalebar=sb)
+// Show(f)
+

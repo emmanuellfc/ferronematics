@@ -1,0 +1,13 @@
+import meshtools
+import plot
+
+var m = Mesh("dense_disk.mesh")
+var f = Field(m, fn (x,y,z) sin(Pi*x)*sin(Pi*y))
+
+fn flexo(x, n) {
+	var g = grad(n)
+	print g
+}
+
+var test = AreaIntegral(flexo, f)
+print test

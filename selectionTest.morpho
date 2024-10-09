@@ -1,0 +1,31 @@
+// Playing with MeshGen //
+// import meshgen
+// import plot
+
+// var r1 = 1.0
+// var r2 = 0.4
+
+// var a = CircularDomain(Matrix([0,0]), r1)
+// var b = CircularDomain(Matrix([0,0]), r2)
+// // var dom = a.difference(b)
+// var mg = MeshGen(a, [-1..1:0.1, -1..1:0.1], quiet=false)
+// var m = mg.build()
+// var m2 = Selection(m, fn(x,y) (x^2+y^2) < r2)
+// m2.addgrade(1)
+
+// var sel = plotselection(m, m2, grade=[0,1])
+// Show(sel)
+// m.save("anulus.mesh")
+
+
+import meshtools
+import plot
+
+
+var r2 = 0.25
+var m = AreaMesh(fn (u,v) [u,v,0], -1..1:0.05, -1..1:0.05)
+m.addgrade(1)
+var m2 = Selection(m, fn(x,y,z) (x^2 + y^2) < r2)
+m2.addgrade(1)
+var g = plotselection(m, m2, grade=[1])
+Show(g)

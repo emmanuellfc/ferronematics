@@ -1,0 +1,7 @@
+fn create_dir(dir_name) {
+    if (Folder.isfolder(dir_name) != true){
+        var cmd = "mkdir " + dir_name
+        system(cmd)
+    } else {print "Folder exist!"}
+}
+var test = create_dir("test")

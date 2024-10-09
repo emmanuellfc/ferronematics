@@ -1,30 +1,33 @@
-// The idea is to solve Poisson equation
-// in a more complicated geometry
-// So far looks good
+// Mesh creation: Square with a Hole//
+// Tactoid-Tactoid Simulation //
 
 import optimize
 import meshgen
 import plot
+import meshtools
 
 var r1 = 1.0
 var r2 = 0.4
-
-var a = CircularDomain(Matrix([0,0]), r1)
+var a = RectangularDomain([-1..1,-1..1])
 var b = CircularDomain(Matrix([0,0]), r2)
 var dom = a.difference(b)
-var mg = MeshGen(dom, [-1..1:0.1, -1..1:0.1], quiet=false)
+var mg = MeshGen(dom, [-1..1:0.05, -1..1:0.05], quiet=false)
 var m = mg.build()
 
-m.save("anulus.mesh")
+var bnd = Selection(m, boundary=true)
+var bnd1 = Selection(m, fn(x,y) (x^2+y^2) < r2)
+var bnd2 = Selection(m, fn(x,y) (x^2+y^2) > r2)
 
-// var bnd = Selection(m, boundary=true)
-// var bnd1 = Selection(m, fn(x,y) (x^2+y^2) < r2)
-// var bnd2 = Selection(m, fn(x,y) (x^2+y^2) > r1-0.01)
+bnd1 = bnd.intersection(bnd1)
+bnd1.addgrade(1)
+bnd2 = bnd.intersection(bnd2)
+bnd2.addgrade(1)
 
-// bnd1 = bnd.intersection(bnd1)
-// bnd1.addgrade(1)
-// bnd2 = bnd.intersection(bnd2)
-// bnd2.addgrade(1)
+var s1 = plotselection(m, bnd1, grade=[1])
+Show(s1)
+var s2 = plotselection(m, bnd2, grade=[1])
+Show(s2)
+// m.save("tactoid_tactoid_geometry.mesh")
 
 // var problem = OptimizationProblem(m)
 // var phi = Field(m, fn (x,y) 0)

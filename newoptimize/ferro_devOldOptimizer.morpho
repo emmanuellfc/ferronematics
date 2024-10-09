@@ -1,0 +1,120 @@
+import optimize
+import meshtools
+import plot
+import povray
+
+var m = Mesh("dense_disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(0)
+var nn = Field(m, Matrix([1,0,0]))
+
+// Order Parameter and Polarization Values
+var t2 = 0.1
+var t4 = -0.1
+var s = 0.4
+var s2= s*s
+var P0 = s*sqrt(-t2/(2*t4))
+
+// Functional Definitions //
+// Landau-like expansion for the polarization Field: Bulk
+fn landau(x, nn) {
+  var nnt = nn.norm()
+  var nt2 = nnt*nnt
+  return t2*nt2 + t4*nt2*nt2
+}
+
+fn fEnergy(nn, k1) {
+  return Nematic(nn, ksplay = k1)
+}
+// Flexielectric coupling: work in progress
+fn flexo(x, nn) {
+}
+
+// Auxiliar function: Getting scalar order parameter
+fn qtoorder(q) {
+  var S = 2*q.norm()
+  return S
+}
+
+//
+fn visualize(m, nn, dl) {
+  var v = m.vertexmatrix()
+  var nv = m.count()
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x =v.column(i)
+      g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=0.1))
+  }
+  return g
+}
+
+// Display results
+fn graphicResults(m, nn) {
+  var S = Field(m, 0)
+  for (i in 0...m.count()) S[i]=qtoorder(nn[i])
+  var sb = ScaleBar(posn=[1.5,0,0], length=1, textcolor=Black)
+  var splot = plotfield(S, style="interpolate", scalebar=sb, colormap=PlasmaMap())
+  var gnn   = visualize(m, nn, 0.05)
+  var gdisp = splot+gnn
+  return gdisp
+}
+
+fn optFunc(m, nn, k1, anchor) {
+  var problem = OptimizationProblem(m)
+
+  var ln = fEnergy(nn, k1)  // Frank free energy 1-constant approximation
+  problem.addenergy(ln)
+
+  var bulk = AreaIntegral(landau, nn)
+  problem.addenergy(bulk)
+
+  var ls = Length()
+  problem.addenergy(ls, selection=bnd, prefactor=10)
+
+  var laq  = LineIntegral(fn (x, n) 1 - n.inner(tangent())^2, nn)   // Apolar anchoring
+  problem.addenergy(laq, selection=bnd, prefactor= anchor)
+
+  var lap = LineIntegral(fn (x, n) n.inner(tangent()) - 1, nn)      // Polar anchoring
+  problem.addenergy(lap, selection=bnd, prefactor = -anchor)
+
+  var lv = Area()
+  problem.addconstraint(lv)
+
+  var cn = NormSq(nn)
+  problem.addlocalconstraint(cn, target=1)
+
+  return problem
+}
+
+fn adapter(problem, nn) {
+  var adapt = ProblemAdapter(problem, nn)
+  return adapt
+}
+
+fn controlOptimize(adapt, mu, g) {
+  var control = PenaltyController(adapt, mu0=mu)
+  return control.optimize(g)
+}
+
+// POVRaytracer function for exporting plot
+fn tracer(fig, file_name) {
+  var pov = POVRaytracer(fig)
+  pov.viewangle = 32
+  pov.light = [Matrix([3,3,10]), Matrix([-3,3,10]), Matrix([0,-3,10])]
+  pov.render(file_name)
+}
+
+// Testing
+for (anchor in [1.0]) {
+  var optTest1 = optFunc(m, nn, 1.0, anchor)
+  var adapterTest1 = adapter(optTest1, nn)
+  var optimizeTest1 = controlOptimize(adapterTest1, 100, 15)
+  var graphicsTest1 = graphicResults(m, nn)
+  Show(graphicsTest1)
+}
+
+// var optTest1 = optFunc(m, nn, 1, 1.0, 1.0, 1)
+// var adapterTest1 = adapter(optTest1, nn, 100, 15)
+// var graphicsTest1 = graphicResults(m, nn)
+// // var savegraphicsTest1 = tracer(graphicsTest1, "test1.png")
+// Show(graphicsTest1)

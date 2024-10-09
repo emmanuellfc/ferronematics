@@ -1,0 +1,613 @@
+Iteration 0. Energy: 0.891967 delta E: 0.982542 stepsize: 0.5
+Iteration 1. Energy: 0.461595 delta E: 0.430373 stepsize: 0.5
+Iteration 2. Energy: 0.272306 delta E: 0.189289 stepsize: 0.5
+Iteration 3. Energy: 0.188509 delta E: 0.0837964 stepsize: 0.5
+Iteration 4. Energy: 0.150958 delta E: 0.0375516 stepsize: 0.5
+Iteration 5. Energy: 0.133734 delta E: 0.0172242 stepsize: 0.5
+Iteration 6. Energy: 0.125484 delta E: 0.00824992 stepsize: 0.5
+Iteration 7. Energy: 0.121224 delta E: 0.00426004 stepsize: 0.5
+Iteration 8. Energy: 0.118758 delta E: 0.00246539 stepsize: 0.5
+Iteration 9. Energy: 0.117116 delta E: 0.00164171 stepsize: 0.5
+Iteration 10. Energy: 0.115866 delta E: 0.00124999 stepsize: 0.5
+Iteration 11. Energy: 0.114814 delta E: 0.00105201 stepsize: 0.5
+Iteration 12. Energy: 0.113872 delta E: 0.000942037 stepsize: 0.5
+Iteration 13. Energy: 0.113 delta E: 0.000872877 stepsize: 0.5
+Iteration 14. Energy: 0.112176 delta E: 0.000823315 stepsize: 0.5
+Iteration 15. Energy: 0.111392 delta E: 0.000783725 stepsize: 0.5
+Iteration 16. Energy: 0.110643 delta E: 0.000749676 stepsize: 0.5
+Iteration 17. Energy: 0.109924 delta E: 0.000719079 stepsize: 0.5
+Iteration 18. Energy: 0.109233 delta E: 0.000690915 stepsize: 0.5
+Iteration 19. Energy: 0.108568 delta E: 0.000664652 stepsize: 0.5
+Iteration 20. Energy: 0.107928 delta E: 0.000639993 stepsize: 0.5
+Iteration 21. Energy: 0.107311 delta E: 0.000616747 stepsize: 0.5
+Iteration 22. Energy: 0.106717 delta E: 0.000594781 stepsize: 0.5
+Iteration 23. Energy: 0.106143 delta E: 0.00057399 stepsize: 0.5
+Iteration 24. Energy: 0.105588 delta E: 0.000554288 stepsize: 0.5
+Iteration 25. Energy: 0.105053 delta E: 0.000535599 stepsize: 0.5
+Iteration 26. Energy: 0.104535 delta E: 0.000517855 stepsize: 0.5
+Iteration 27. Energy: 0.104034 delta E: 0.000500994 stepsize: 0.5
+Iteration 28. Energy: 0.103549 delta E: 0.00048496 stepsize: 0.5
+Iteration 29. Energy: 0.103079 delta E: 0.000469701 stepsize: 0.5
+Iteration 30. Energy: 0.102624 delta E: 0.000455169 stepsize: 0.5
+Iteration 31. Energy: 0.102183 delta E: 0.000441321 stepsize: 0.5
+Iteration 32. Energy: 0.101755 delta E: 0.000428114 stepsize: 0.5
+Iteration 33. Energy: 0.101339 delta E: 0.00041551 stepsize: 0.5
+Iteration 34. Energy: 0.100936 delta E: 0.000403475 stepsize: 0.5
+Iteration 35. Energy: 0.100544 delta E: 0.000391975 stepsize: 0.5
+Iteration 36. Energy: 0.100163 delta E: 0.000380979 stepsize: 0.5
+Iteration 37. Energy: 0.0997923 delta E: 0.00037046 stepsize: 0.5
+Iteration 38. Energy: 0.0994319 delta E: 0.000360391 stepsize: 0.5
+Iteration 39. Energy: 0.0990811 delta E: 0.000350746 stepsize: 0.5
+Iteration 40. Energy: 0.0987396 delta E: 0.000341503 stepsize: 0.5
+Iteration 41. Energy: 0.098407 delta E: 0.00033264 stepsize: 0.5
+Iteration 42. Energy: 0.0980828 delta E: 0.000324136 stepsize: 0.5
+Iteration 43. Energy: 0.0977669 delta E: 0.000315974 stepsize: 0.5
+Iteration 44. Energy: 0.0974587 delta E: 0.000308135 stepsize: 0.5
+Iteration 45. Energy: 0.0971581 delta E: 0.000300602 stepsize: 0.5
+Iteration 46. Energy: 0.0968648 delta E: 0.000293361 stepsize: 0.5
+Iteration 47. Energy: 0.0965784 delta E: 0.000286396 stepsize: 0.5
+Iteration 48. Energy: 0.0962987 delta E: 0.000279694 stepsize: 0.5
+Iteration 49. Energy: 0.0960254 delta E: 0.000273241 stepsize: 0.5
+Iteration 50. Energy: 0.0957584 delta E: 0.000267027 stepsize: 0.5
+Iteration 51. Energy: 0.0954974 delta E: 0.000261039 stepsize: 0.5
+Iteration 52. Energy: 0.0952421 delta E: 0.000255267 stepsize: 0.5
+Iteration 53. Energy: 0.0949924 delta E: 0.0002497 stepsize: 0.5
+Iteration 54. Energy: 0.0947481 delta E: 0.00024433 stepsize: 0.5
+Iteration 55. Energy: 0.0945089 delta E: 0.000239146 stepsize: 0.5
+Iteration 56. Energy: 0.0942748 delta E: 0.000234142 stepsize: 0.5
+Iteration 57. Energy: 0.0940455 delta E: 0.000229307 stepsize: 0.5
+Iteration 58. Energy: 0.0938208 delta E: 0.000224636 stepsize: 0.5
+Iteration 59. Energy: 0.0936007 delta E: 0.000220121 stepsize: 0.5
+Iteration 60. Energy: 0.093385 delta E: 0.000215755 stepsize: 0.5
+Iteration 61. Energy: 0.0931734 delta E: 0.000211532 stepsize: 0.5
+Iteration 62. Energy: 0.092966 delta E: 0.000207445 stepsize: 0.5
+Iteration 63. Energy: 0.0927625 delta E: 0.000203489 stepsize: 0.5
+Iteration 64. Energy: 0.0925628 delta E: 0.000199659 stepsize: 0.5
+Iteration 65. Energy: 0.0923669 delta E: 0.000195949 stepsize: 0.5
+Iteration 66. Energy: 0.0921745 delta E: 0.000192354 stepsize: 0.5
+Iteration 67. Energy: 0.0919857 delta E: 0.00018887 stepsize: 0.5
+Iteration 68. Energy: 0.0918002 delta E: 0.000185492 stepsize: 0.5
+Iteration 69. Energy: 0.091618 delta E: 0.000182216 stepsize: 0.5
+Iteration 70. Energy: 0.0914389 delta E: 0.000179039 stepsize: 0.5
+Iteration 71. Energy: 0.091263 delta E: 0.000175955 stepsize: 0.5
+Iteration 72. Energy: 0.09109 delta E: 0.000172962 stepsize: 0.5
+Iteration 73. Energy: 0.09092 delta E: 0.000170056 stepsize: 0.5
+Iteration 74. Energy: 0.0907527 delta E: 0.000167234 stepsize: 0.5
+Iteration 75. Energy: 0.0905882 delta E: 0.000164492 stepsize: 0.5
+Iteration 76. Energy: 0.0904264 delta E: 0.000161828 stepsize: 0.5
+Iteration 77. Energy: 0.0902672 delta E: 0.000159239 stepsize: 0.5
+Iteration 78. Energy: 0.0901104 delta E: 0.000156721 stepsize: 0.5
+Iteration 79. Energy: 0.0899562 delta E: 0.000154273 stepsize: 0.5
+Iteration 80. Energy: 0.0898043 delta E: 0.000151893 stepsize: 0.5
+Iteration 81. Energy: 0.0896547 delta E: 0.000149576 stepsize: 0.5
+Iteration 82. Energy: 0.0895074 delta E: 0.000147322 stepsize: 0.5
+Iteration 83. Energy: 0.0893622 delta E: 0.000145128 stepsize: 0.5
+Iteration 84. Energy: 0.0892193 delta E: 0.000142992 stepsize: 0.5
+Iteration 85. Energy: 0.0890783 delta E: 0.000140911 stepsize: 0.5
+Iteration 86. Energy: 0.0889395 delta E: 0.000138885 stepsize: 0.5
+Iteration 87. Energy: 0.0888025 delta E: 0.000136911 stepsize: 0.5
+Iteration 88. Energy: 0.0886676 delta E: 0.000134988 stepsize: 0.5
+Iteration 89. Energy: 0.0885344 delta E: 0.000133113 stepsize: 0.5
+Iteration 90. Energy: 0.0884032 delta E: 0.000131286 stepsize: 0.5
+Iteration 91. Energy: 0.0882737 delta E: 0.000129504 stepsize: 0.5
+Iteration 92. Energy: 0.0881459 delta E: 0.000127766 stepsize: 0.5
+Iteration 93. Energy: 0.0880198 delta E: 0.000126071 stepsize: 0.5
+Iteration 94. Energy: 0.0878954 delta E: 0.000124417 stepsize: 0.5
+Iteration 95. Energy: 0.0877726 delta E: 0.000122803 stepsize: 0.5
+Iteration 96. Energy: 0.0876514 delta E: 0.000121228 stepsize: 0.5
+Iteration 97. Energy: 0.0875317 delta E: 0.000119691 stepsize: 0.5
+Iteration 98. Energy: 0.0874135 delta E: 0.00011819 stepsize: 0.5
+Iteration 99. Energy: 0.0872968 delta E: 0.000116724 stepsize: 0.5
+Iteration 100. Energy: 0.0871815 delta E: 0.000115292 stepsize: 0.5
+Iteration 101. Energy: 0.0870676 delta E: 0.000113894 stepsize: 0.5
+Iteration 102. Energy: 0.0869551 delta E: 0.000112527 stepsize: 0.5
+Iteration 103. Energy: 0.0868439 delta E: 0.000111192 stepsize: 0.5
+Iteration 104. Energy: 0.086734 delta E: 0.000109887 stepsize: 0.5
+Iteration 105. Energy: 0.0866254 delta E: 0.000108612 stepsize: 0.5
+Iteration 106. Energy: 0.086518 delta E: 0.000107364 stepsize: 0.5
+Iteration 107. Energy: 0.0864119 delta E: 0.000106145 stepsize: 0.5
+Iteration 108. Energy: 0.0863069 delta E: 0.000104952 stepsize: 0.5
+Iteration 109. Energy: 0.0862031 delta E: 0.000103786 stepsize: 0.5
+Iteration 110. Energy: 0.0861005 delta E: 0.000102644 stepsize: 0.5
+Iteration 111. Energy: 0.0859989 delta E: 0.000101528 stepsize: 0.5
+Iteration 112. Energy: 0.0858985 delta E: 0.000100435 stepsize: 0.5
+Iteration 113. Energy: 0.0857991 delta E: 9.93659e-05 stepsize: 0.5
+Iteration 114. Energy: 0.0857008 delta E: 9.83192e-05 stepsize: 0.5
+Iteration 115. Energy: 0.0856035 delta E: 9.72945e-05 stepsize: 0.5
+Iteration 116. Energy: 0.0855072 delta E: 9.62912e-05 stepsize: 0.5
+Iteration 117. Energy: 0.0854119 delta E: 9.53088e-05 stepsize: 0.5
+Iteration 118. Energy: 0.0853176 delta E: 9.43466e-05 stepsize: 0.5
+Iteration 119. Energy: 0.0852242 delta E: 9.34042e-05 stepsize: 0.5
+Iteration 120. Energy: 0.0851317 delta E: 9.2481e-05 stepsize: 0.5
+Iteration 121. Energy: 0.0850401 delta E: 9.15765e-05 stepsize: 0.5
+Iteration 122. Energy: 0.0849494 delta E: 9.06902e-05 stepsize: 0.5
+Iteration 123. Energy: 0.0848596 delta E: 8.98217e-05 stepsize: 0.5
+Iteration 124. Energy: 0.0847706 delta E: 8.89705e-05 stepsize: 0.5
+Iteration 125. Energy: 0.0846825 delta E: 8.81361e-05 stepsize: 0.5
+Iteration 126. Energy: 0.0845952 delta E: 8.73182e-05 stepsize: 0.5
+Iteration 127. Energy: 0.0845087 delta E: 8.65162e-05 stepsize: 0.5
+Iteration 128. Energy: 0.0844229 delta E: 8.57299e-05 stepsize: 0.5
+Iteration 129. Energy: 0.084338 delta E: 8.49588e-05 stepsize: 0.5
+Iteration 130. Energy: 0.0842538 delta E: 8.42026e-05 stepsize: 0.5
+Iteration 131. Energy: 0.0841703 delta E: 8.34609e-05 stepsize: 0.5
+Iteration 132. Energy: 0.0840876 delta E: 8.27333e-05 stepsize: 0.5
+Iteration 133. Energy: 0.0840056 delta E: 8.20195e-05 stepsize: 0.5
+Iteration 134. Energy: 0.0839242 delta E: 8.13191e-05 stepsize: 0.5
+Iteration 135. Energy: 0.0838436 delta E: 8.0632e-05 stepsize: 0.5
+Iteration 136. Energy: 0.0837637 delta E: 7.99576e-05 stepsize: 0.5
+Iteration 137. Energy: 0.0836844 delta E: 7.92958e-05 stepsize: 0.5
+Iteration 138. Energy: 0.0836057 delta E: 7.86462e-05 stepsize: 0.5
+Iteration 139. Energy: 0.0835277 delta E: 7.80086e-05 stepsize: 0.5
+Iteration 140. Energy: 0.0834503 delta E: 7.73827e-05 stepsize: 0.5
+Iteration 141. Energy: 0.0833736 delta E: 7.67682e-05 stepsize: 0.5
+Iteration 142. Energy: 0.0832974 delta E: 7.61649e-05 stepsize: 0.5
+Iteration 143. Energy: 0.0832218 delta E: 7.55725e-05 stepsize: 0.5
+Iteration 144. Energy: 0.0831468 delta E: 7.49908e-05 stepsize: 0.5
+Iteration 145. Energy: 0.0830724 delta E: 7.44195e-05 stepsize: 0.5
+Iteration 146. Energy: 0.0829985 delta E: 7.38584e-05 stepsize: 0.5
+Iteration 147. Energy: 0.0829252 delta E: 7.33073e-05 stepsize: 0.5
+Iteration 148. Energy: 0.0828525 delta E: 7.27659e-05 stepsize: 0.5
+Iteration 149. Energy: 0.0827802 delta E: 7.22341e-05 stepsize: 0.5
+Iteration 150. Energy: 0.0827085 delta E: 7.17117e-05 stepsize: 0.5
+Iteration 151. Energy: 0.0826373 delta E: 7.11984e-05 stepsize: 0.5
+Iteration 152. Energy: 0.0825666 delta E: 7.06941e-05 stepsize: 0.5
+Iteration 153. Energy: 0.0824964 delta E: 7.01985e-05 stepsize: 0.5
+Iteration 154. Energy: 0.0824267 delta E: 6.97116e-05 stepsize: 0.5
+Iteration 155. Energy: 0.0823575 delta E: 6.9233e-05 stepsize: 0.5
+Iteration 156. Energy: 0.0822887 delta E: 6.87627e-05 stepsize: 0.5
+Iteration 157. Energy: 0.0822204 delta E: 6.83005e-05 stepsize: 0.5
+Iteration 158. Energy: 0.0821526 delta E: 6.78462e-05 stepsize: 0.5
+Iteration 159. Energy: 0.0820852 delta E: 6.73997e-05 stepsize: 0.5
+Iteration 160. Energy: 0.0820182 delta E: 6.69607e-05 stepsize: 0.5
+Iteration 161. Energy: 0.0819517 delta E: 6.65292e-05 stepsize: 0.5
+Iteration 162. Energy: 0.0818856 delta E: 6.6105e-05 stepsize: 0.5
+Iteration 163. Energy: 0.0818199 delta E: 6.5688e-05 stepsize: 0.5
+Iteration 164. Energy: 0.0817546 delta E: 6.52779e-05 stepsize: 0.5
+Iteration 165. Energy: 0.0816897 delta E: 6.48748e-05 stepsize: 0.5
+Iteration 166. Energy: 0.0816253 delta E: 6.44784e-05 stepsize: 0.5
+Iteration 167. Energy: 0.0815612 delta E: 6.40887e-05 stepsize: 0.5
+Iteration 168. Energy: 0.0814975 delta E: 6.37054e-05 stepsize: 0.5
+Iteration 169. Energy: 0.0814341 delta E: 6.33286e-05 stepsize: 0.5
+Iteration 170. Energy: 0.0813712 delta E: 6.2958e-05 stepsize: 0.5
+Iteration 171. Energy: 0.0813086 delta E: 6.25935e-05 stepsize: 0.5
+Iteration 172. Energy: 0.0812464 delta E: 6.22351e-05 stepsize: 0.5
+Iteration 173. Energy: 0.0811845 delta E: 6.18826e-05 stepsize: 0.5
+Iteration 174. Energy: 0.0811229 delta E: 6.1536e-05 stepsize: 0.5
+Iteration 175. Energy: 0.0810617 delta E: 6.1195e-05 stepsize: 0.5
+Iteration 176. Energy: 0.0810009 delta E: 6.08597e-05 stepsize: 0.5
+Iteration 177. Energy: 0.0809404 delta E: 6.05299e-05 stepsize: 0.5
+Iteration 178. Energy: 0.0808801 delta E: 6.02055e-05 stepsize: 0.5
+Iteration 179. Energy: 0.0808203 delta E: 5.98864e-05 stepsize: 0.5
+Iteration 180. Energy: 0.0807607 delta E: 5.95726e-05 stepsize: 0.5
+Iteration 181. Energy: 0.0807014 delta E: 5.92639e-05 stepsize: 0.5
+Iteration 182. Energy: 0.0806425 delta E: 5.89602e-05 stepsize: 0.5
+Iteration 183. Energy: 0.0805838 delta E: 5.86615e-05 stepsize: 0.5
+Iteration 184. Energy: 0.0805254 delta E: 5.83677e-05 stepsize: 0.5
+Iteration 185. Energy: 0.0804674 delta E: 5.80787e-05 stepsize: 0.5
+Iteration 186. Energy: 0.0804096 delta E: 5.77945e-05 stepsize: 0.5
+Iteration 187. Energy: 0.080352 delta E: 5.75149e-05 stepsize: 0.5
+Iteration 188. Energy: 0.0802948 delta E: 5.72398e-05 stepsize: 0.5
+Iteration 189. Energy: 0.0802378 delta E: 5.69692e-05 stepsize: 0.5
+Iteration 190. Energy: 0.0801811 delta E: 5.67031e-05 stepsize: 0.5
+Iteration 191. Energy: 0.0801247 delta E: 5.64413e-05 stepsize: 0.5
+Iteration 192. Energy: 0.0800685 delta E: 5.61838e-05 stepsize: 0.5
+Iteration 193. Energy: 0.0800126 delta E: 5.59305e-05 stepsize: 0.5
+Iteration 194. Energy: 0.0799569 delta E: 5.56814e-05 stepsize: 0.5
+Iteration 195. Energy: 0.0799015 delta E: 5.54363e-05 stepsize: 0.5
+Iteration 196. Energy: 0.0798463 delta E: 5.51953e-05 stepsize: 0.5
+Iteration 197. Energy: 0.0797913 delta E: 5.49582e-05 stepsize: 0.5
+Iteration 198. Energy: 0.0797366 delta E: 5.4725e-05 stepsize: 0.5
+Iteration 199. Energy: 0.0796821 delta E: 5.44957e-05 stepsize: 0.5
+Iteration 200. Energy: 0.0796278 delta E: 5.42701e-05 stepsize: 0.5
+Iteration 201. Energy: 0.0795738 delta E: 5.40482e-05 stepsize: 0.5
+Iteration 202. Energy: 0.0795199 delta E: 5.38301e-05 stepsize: 0.5
+Iteration 203. Energy: 0.0794663 delta E: 5.36155e-05 stepsize: 0.5
+Iteration 204. Energy: 0.0794129 delta E: 5.34045e-05 stepsize: 0.5
+Iteration 205. Energy: 0.0793597 delta E: 5.3197e-05 stepsize: 0.5
+Iteration 206. Energy: 0.0793067 delta E: 5.29929e-05 stepsize: 0.5
+Iteration 207. Energy: 0.0792539 delta E: 5.27923e-05 stepsize: 0.5
+Iteration 208. Energy: 0.0792013 delta E: 5.2595e-05 stepsize: 0.5
+Iteration 209. Energy: 0.0791489 delta E: 5.2401e-05 stepsize: 0.5
+Iteration 210. Energy: 0.0790967 delta E: 5.22102e-05 stepsize: 0.5
+Iteration 211. Energy: 0.0790447 delta E: 5.20227e-05 stepsize: 0.5
+Iteration 212. Energy: 0.0789929 delta E: 5.18384e-05 stepsize: 0.5
+Iteration 213. Energy: 0.0789412 delta E: 5.16571e-05 stepsize: 0.5
+Iteration 214. Energy: 0.0788897 delta E: 5.1479e-05 stepsize: 0.5
+Iteration 215. Energy: 0.0788384 delta E: 5.13039e-05 stepsize: 0.5
+Iteration 216. Energy: 0.0787873 delta E: 5.11318e-05 stepsize: 0.5
+Iteration 217. Energy: 0.0787363 delta E: 5.09626e-05 stepsize: 0.5
+Iteration 218. Energy: 0.0786855 delta E: 5.07963e-05 stepsize: 0.5
+Iteration 219. Energy: 0.0786349 delta E: 5.0633e-05 stepsize: 0.5
+Iteration 220. Energy: 0.0785844 delta E: 5.04724e-05 stepsize: 0.5
+Iteration 221. Energy: 0.0785341 delta E: 5.03147e-05 stepsize: 0.5
+Iteration 222. Energy: 0.078484 delta E: 5.01597e-05 stepsize: 0.5
+Iteration 223. Energy: 0.078434 delta E: 5.00074e-05 stepsize: 0.5
+Iteration 224. Energy: 0.0783841 delta E: 4.98578e-05 stepsize: 0.5
+Iteration 225. Energy: 0.0783344 delta E: 4.97109e-05 stepsize: 0.5
+Iteration 226. Energy: 0.0782848 delta E: 4.95666e-05 stepsize: 0.5
+Iteration 227. Energy: 0.0782354 delta E: 4.94249e-05 stepsize: 0.5
+Iteration 228. Energy: 0.0781861 delta E: 4.92857e-05 stepsize: 0.5
+Iteration 229. Energy: 0.078137 delta E: 4.9149e-05 stepsize: 0.5
+Iteration 230. Energy: 0.0780879 delta E: 4.90148e-05 stepsize: 0.5
+Iteration 231. Energy: 0.0780391 delta E: 4.88831e-05 stepsize: 0.5
+Iteration 232. Energy: 0.0779903 delta E: 4.87538e-05 stepsize: 0.5
+Iteration 233. Energy: 0.0779417 delta E: 4.86269e-05 stepsize: 0.5
+Iteration 234. Energy: 0.0778932 delta E: 4.85023e-05 stepsize: 0.5
+Iteration 235. Energy: 0.0778448 delta E: 4.838e-05 stepsize: 0.5
+Iteration 236. Energy: 0.0777965 delta E: 4.82601e-05 stepsize: 0.5
+Iteration 237. Energy: 0.0777484 delta E: 4.81424e-05 stepsize: 0.5
+Iteration 238. Energy: 0.0777004 delta E: 4.8027e-05 stepsize: 0.5
+Iteration 239. Energy: 0.0776525 delta E: 4.79138e-05 stepsize: 0.5
+Iteration 240. Energy: 0.0776047 delta E: 4.78027e-05 stepsize: 0.5
+Iteration 241. Energy: 0.077557 delta E: 4.76939e-05 stepsize: 0.5
+Iteration 242. Energy: 0.0775094 delta E: 4.75871e-05 stepsize: 0.5
+Iteration 243. Energy: 0.0774619 delta E: 4.74825e-05 stepsize: 0.5
+Iteration 244. Energy: 0.0774145 delta E: 4.73799e-05 stepsize: 0.5
+Iteration 245. Energy: 0.0773672 delta E: 4.72794e-05 stepsize: 0.5
+Iteration 246. Energy: 0.07732 delta E: 4.7181e-05 stepsize: 0.5
+Iteration 247. Energy: 0.077273 delta E: 4.70845e-05 stepsize: 0.5
+Iteration 248. Energy: 0.077226 delta E: 4.699e-05 stepsize: 0.5
+Iteration 249. Energy: 0.0771791 delta E: 4.68975e-05 stepsize: 0.5
+Iteration 250. Energy: 0.0771323 delta E: 4.68069e-05 stepsize: 0.5
+Iteration 251. Energy: 0.0770855 delta E: 4.67182e-05 stepsize: 0.5
+Iteration 252. Energy: 0.0770389 delta E: 4.66314e-05 stepsize: 0.5
+Iteration 253. Energy: 0.0769924 delta E: 4.65465e-05 stepsize: 0.5
+Iteration 254. Energy: 0.0769459 delta E: 4.64634e-05 stepsize: 0.5
+Iteration 255. Energy: 0.0768995 delta E: 4.63822e-05 stepsize: 0.5
+Iteration 256. Energy: 0.0768532 delta E: 4.63027e-05 stepsize: 0.5
+Iteration 257. Energy: 0.076807 delta E: 4.6225e-05 stepsize: 0.5
+Iteration 258. Energy: 0.0767608 delta E: 4.61491e-05 stepsize: 0.5
+Iteration 259. Energy: 0.0767148 delta E: 4.60749e-05 stepsize: 0.5
+Iteration 260. Energy: 0.0766688 delta E: 4.60024e-05 stepsize: 0.5
+Iteration 261. Energy: 0.0766228 delta E: 4.59316e-05 stepsize: 0.5
+Iteration 262. Energy: 0.076577 delta E: 4.58625e-05 stepsize: 0.5
+Iteration 263. Energy: 0.0765312 delta E: 4.5795e-05 stepsize: 0.5
+Iteration 264. Energy: 0.0764855 delta E: 4.57292e-05 stepsize: 0.5
+Iteration 265. Energy: 0.0764398 delta E: 4.5665e-05 stepsize: 0.5
+Iteration 266. Energy: 0.0763942 delta E: 4.56024e-05 stepsize: 0.5
+Iteration 267. Energy: 0.0763486 delta E: 4.55414e-05 stepsize: 0.5
+Iteration 268. Energy: 0.0763032 delta E: 4.54819e-05 stepsize: 0.5
+Iteration 269. Energy: 0.0762577 delta E: 4.5424e-05 stepsize: 0.5
+Iteration 270. Energy: 0.0762124 delta E: 4.53676e-05 stepsize: 0.5
+Iteration 271. Energy: 0.0761671 delta E: 4.53127e-05 stepsize: 0.5
+Iteration 272. Energy: 0.0761218 delta E: 4.52593e-05 stepsize: 0.5
+Iteration 273. Energy: 0.0760766 delta E: 4.52074e-05 stepsize: 0.5
+Iteration 274. Energy: 0.0760314 delta E: 4.51569e-05 stepsize: 0.5
+Iteration 275. Energy: 0.0759863 delta E: 4.51079e-05 stepsize: 0.5
+Iteration 276. Energy: 0.0759413 delta E: 4.50603e-05 stepsize: 0.5
+Iteration 277. Energy: 0.0758963 delta E: 4.50141e-05 stepsize: 0.5
+Iteration 278. Energy: 0.0758513 delta E: 4.49693e-05 stepsize: 0.5
+Iteration 279. Energy: 0.0758064 delta E: 4.49258e-05 stepsize: 0.5
+Iteration 280. Energy: 0.0757615 delta E: 4.48837e-05 stepsize: 0.5
+Iteration 281. Energy: 0.0757166 delta E: 4.4843e-05 stepsize: 0.5
+Iteration 282. Energy: 0.0756718 delta E: 4.48035e-05 stepsize: 0.5
+Iteration 283. Energy: 0.0756271 delta E: 4.47654e-05 stepsize: 0.5
+Iteration 284. Energy: 0.0755823 delta E: 4.47286e-05 stepsize: 0.5
+Iteration 285. Energy: 0.0755376 delta E: 4.4693e-05 stepsize: 0.5
+Iteration 286. Energy: 0.075493 delta E: 4.46587e-05 stepsize: 0.5
+Iteration 287. Energy: 0.0754484 delta E: 4.46257e-05 stepsize: 0.5
+Iteration 288. Energy: 0.0754038 delta E: 4.45939e-05 stepsize: 0.5
+Iteration 289. Energy: 0.0753592 delta E: 4.45633e-05 stepsize: 0.5
+Iteration 290. Energy: 0.0753147 delta E: 4.45339e-05 stepsize: 0.5
+Iteration 291. Energy: 0.0752702 delta E: 4.45057e-05 stepsize: 0.5
+Iteration 292. Energy: 0.0752257 delta E: 4.44787e-05 stepsize: 0.5
+Iteration 293. Energy: 0.0751812 delta E: 4.44529e-05 stepsize: 0.5
+Iteration 294. Energy: 0.0751368 delta E: 4.44282e-05 stepsize: 0.5
+Iteration 295. Energy: 0.0750924 delta E: 4.44046e-05 stepsize: 0.5
+Iteration 296. Energy: 0.075048 delta E: 4.43822e-05 stepsize: 0.5
+Iteration 297. Energy: 0.0750037 delta E: 4.43608e-05 stepsize: 0.5
+Iteration 298. Energy: 0.0749593 delta E: 4.43406e-05 stepsize: 0.5
+Iteration 299. Energy: 0.074915 delta E: 4.43214e-05 stepsize: 0.5
+Iteration 300. Energy: 0.0748707 delta E: 4.43033e-05 stepsize: 0.5
+Iteration 301. Energy: 0.0748264 delta E: 4.42862e-05 stepsize: 0.5
+Iteration 302. Energy: 0.0747821 delta E: 4.42702e-05 stepsize: 0.5
+Iteration 303. Energy: 0.0747379 delta E: 4.42553e-05 stepsize: 0.5
+Iteration 304. Energy: 0.0746936 delta E: 4.42413e-05 stepsize: 0.5
+Iteration 305. Energy: 0.0746494 delta E: 4.42284e-05 stepsize: 0.5
+Iteration 306. Energy: 0.0746052 delta E: 4.42164e-05 stepsize: 0.5
+Iteration 307. Energy: 0.074561 delta E: 4.42054e-05 stepsize: 0.5
+Iteration 308. Energy: 0.0745168 delta E: 4.41954e-05 stepsize: 0.5
+Iteration 309. Energy: 0.0744726 delta E: 4.41863e-05 stepsize: 0.5
+Iteration 310. Energy: 0.0744284 delta E: 4.41782e-05 stepsize: 0.5
+Iteration 311. Energy: 0.0743843 delta E: 4.4171e-05 stepsize: 0.5
+Iteration 312. Energy: 0.0743401 delta E: 4.41648e-05 stepsize: 0.5
+Iteration 313. Energy: 0.0742959 delta E: 4.41594e-05 stepsize: 0.5
+Iteration 314. Energy: 0.0742518 delta E: 4.4155e-05 stepsize: 0.5
+Iteration 315. Energy: 0.0742076 delta E: 4.41514e-05 stepsize: 0.5
+Iteration 316. Energy: 0.0741635 delta E: 4.41487e-05 stepsize: 0.5
+Iteration 317. Energy: 0.0741193 delta E: 4.41468e-05 stepsize: 0.5
+Iteration 318. Energy: 0.0740752 delta E: 4.41458e-05 stepsize: 0.5
+Iteration 319. Energy: 0.074031 delta E: 4.41457e-05 stepsize: 0.5
+Iteration 320. Energy: 0.0739869 delta E: 4.41464e-05 stepsize: 0.5
+Iteration 321. Energy: 0.0739427 delta E: 4.41478e-05 stepsize: 0.5
+Iteration 322. Energy: 0.0738986 delta E: 4.41501e-05 stepsize: 0.5
+Iteration 323. Energy: 0.0738544 delta E: 4.41532e-05 stepsize: 0.5
+Iteration 324. Energy: 0.0738103 delta E: 4.41571e-05 stepsize: 0.5
+Iteration 325. Energy: 0.0737661 delta E: 4.41618e-05 stepsize: 0.5
+Iteration 326. Energy: 0.073722 delta E: 4.41672e-05 stepsize: 0.5
+Iteration 327. Energy: 0.0736778 delta E: 4.41733e-05 stepsize: 0.5
+Iteration 328. Energy: 0.0736336 delta E: 4.41802e-05 stepsize: 0.5
+Iteration 329. Energy: 0.0735894 delta E: 4.41879e-05 stepsize: 0.5
+Iteration 330. Energy: 0.0735452 delta E: 4.41962e-05 stepsize: 0.5
+Iteration 331. Energy: 0.073501 delta E: 4.42053e-05 stepsize: 0.5
+Iteration 332. Energy: 0.0734568 delta E: 4.42151e-05 stepsize: 0.5
+Iteration 333. Energy: 0.0734126 delta E: 4.42256e-05 stepsize: 0.5
+Iteration 334. Energy: 0.0733683 delta E: 4.42367e-05 stepsize: 0.5
+Iteration 335. Energy: 0.0733241 delta E: 4.42485e-05 stepsize: 0.5
+Iteration 336. Energy: 0.0732798 delta E: 4.4261e-05 stepsize: 0.5
+Iteration 337. Energy: 0.0732355 delta E: 4.42741e-05 stepsize: 0.5
+Iteration 338. Energy: 0.0731913 delta E: 4.42879e-05 stepsize: 0.5
+Iteration 339. Energy: 0.073147 delta E: 4.43023e-05 stepsize: 0.5
+Iteration 340. Energy: 0.0731026 delta E: 4.43173e-05 stepsize: 0.5
+Iteration 341. Energy: 0.0730583 delta E: 4.4333e-05 stepsize: 0.5
+Iteration 342. Energy: 0.073014 delta E: 4.43492e-05 stepsize: 0.5
+Iteration 343. Energy: 0.0729696 delta E: 4.4366e-05 stepsize: 0.5
+Iteration 344. Energy: 0.0729252 delta E: 4.43834e-05 stepsize: 0.5
+Iteration 345. Energy: 0.0728808 delta E: 4.44014e-05 stepsize: 0.5
+Iteration 346. Energy: 0.0728364 delta E: 4.442e-05 stepsize: 0.5
+Iteration 347. Energy: 0.0727919 delta E: 4.44391e-05 stepsize: 0.5
+Iteration 348. Energy: 0.0727475 delta E: 4.44588e-05 stepsize: 0.5
+Iteration 349. Energy: 0.072703 delta E: 4.4479e-05 stepsize: 0.5
+Iteration 350. Energy: 0.0726585 delta E: 4.44997e-05 stepsize: 0.5
+Iteration 351. Energy: 0.072614 delta E: 4.45209e-05 stepsize: 0.5
+Iteration 352. Energy: 0.0725694 delta E: 4.45427e-05 stepsize: 0.5
+Iteration 353. Energy: 0.0725249 delta E: 4.45649e-05 stepsize: 0.5
+Iteration 354. Energy: 0.0724803 delta E: 4.45877e-05 stepsize: 0.5
+Iteration 355. Energy: 0.0724357 delta E: 4.46109e-05 stepsize: 0.5
+Iteration 356. Energy: 0.072391 delta E: 4.46346e-05 stepsize: 0.5
+Iteration 357. Energy: 0.0723464 delta E: 4.46588e-05 stepsize: 0.5
+Iteration 358. Energy: 0.0723017 delta E: 4.46834e-05 stepsize: 0.5
+Iteration 359. Energy: 0.072257 delta E: 4.47085e-05 stepsize: 0.5
+Iteration 360. Energy: 0.0722123 delta E: 4.4734e-05 stepsize: 0.5
+Iteration 361. Energy: 0.0721675 delta E: 4.476e-05 stepsize: 0.5
+Iteration 362. Energy: 0.0721227 delta E: 4.47863e-05 stepsize: 0.5
+Iteration 363. Energy: 0.0720779 delta E: 4.48131e-05 stepsize: 0.5
+Iteration 364. Energy: 0.0720331 delta E: 4.48403e-05 stepsize: 0.5
+Iteration 365. Energy: 0.0719882 delta E: 4.48679e-05 stepsize: 0.5
+Iteration 366. Energy: 0.0719433 delta E: 4.48959e-05 stepsize: 0.5
+Iteration 367. Energy: 0.0718984 delta E: 4.49242e-05 stepsize: 0.5
+Iteration 368. Energy: 0.0718534 delta E: 4.4953e-05 stepsize: 0.5
+Iteration 369. Energy: 0.0718084 delta E: 4.49821e-05 stepsize: 0.5
+Iteration 370. Energy: 0.0717634 delta E: 4.50115e-05 stepsize: 0.5
+Iteration 371. Energy: 0.0717184 delta E: 4.50413e-05 stepsize: 0.5
+Iteration 372. Energy: 0.0716733 delta E: 4.50715e-05 stepsize: 0.5
+Iteration 373. Energy: 0.0716282 delta E: 4.51019e-05 stepsize: 0.5
+Iteration 374. Energy: 0.0715831 delta E: 4.51327e-05 stepsize: 0.5
+Iteration 375. Energy: 0.0715379 delta E: 4.51638e-05 stepsize: 0.5
+Iteration 376. Energy: 0.0714927 delta E: 4.51953e-05 stepsize: 0.5
+Iteration 377. Energy: 0.0714475 delta E: 4.5227e-05 stepsize: 0.5
+Iteration 378. Energy: 0.0714022 delta E: 4.5259e-05 stepsize: 0.5
+Iteration 379. Energy: 0.0713569 delta E: 4.52913e-05 stepsize: 0.5
+Iteration 380. Energy: 0.0713116 delta E: 4.53239e-05 stepsize: 0.5
+Iteration 381. Energy: 0.0712663 delta E: 4.53567e-05 stepsize: 0.5
+Iteration 382. Energy: 0.0712209 delta E: 4.53898e-05 stepsize: 0.5
+Iteration 383. Energy: 0.0711755 delta E: 4.54231e-05 stepsize: 0.5
+Iteration 384. Energy: 0.07113 delta E: 4.54567e-05 stepsize: 0.5
+Iteration 385. Energy: 0.0710845 delta E: 4.54906e-05 stepsize: 0.5
+Iteration 386. Energy: 0.071039 delta E: 4.55247e-05 stepsize: 0.5
+Iteration 387. Energy: 0.0709934 delta E: 4.55589e-05 stepsize: 0.5
+Iteration 388. Energy: 0.0709478 delta E: 4.55934e-05 stepsize: 0.5
+Iteration 389. Energy: 0.0709022 delta E: 4.56282e-05 stepsize: 0.5
+Iteration 390. Energy: 0.0708565 delta E: 4.56631e-05 stepsize: 0.5
+Iteration 391. Energy: 0.0708108 delta E: 4.56982e-05 stepsize: 0.5
+Iteration 392. Energy: 0.0707651 delta E: 4.57335e-05 stepsize: 0.5
+Iteration 393. Energy: 0.0707193 delta E: 4.57689e-05 stepsize: 0.5
+Iteration 394. Energy: 0.0706735 delta E: 4.58046e-05 stepsize: 0.5
+Iteration 395. Energy: 0.0706277 delta E: 4.58404e-05 stepsize: 0.5
+Iteration 396. Energy: 0.0705818 delta E: 4.58763e-05 stepsize: 0.5
+Iteration 397. Energy: 0.0705359 delta E: 4.59124e-05 stepsize: 0.5
+Iteration 398. Energy: 0.07049 delta E: 4.59487e-05 stepsize: 0.5
+Iteration 399. Energy: 0.070444 delta E: 4.5985e-05 stepsize: 0.5
+Iteration 400. Energy: 0.0703979 delta E: 4.60215e-05 stepsize: 0.5
+Iteration 401. Energy: 0.0703519 delta E: 4.60582e-05 stepsize: 0.5
+Iteration 402. Energy: 0.0703058 delta E: 4.60949e-05 stepsize: 0.5
+Iteration 403. Energy: 0.0702597 delta E: 4.61317e-05 stepsize: 0.5
+Iteration 404. Energy: 0.0702135 delta E: 4.61687e-05 stepsize: 0.5
+Iteration 405. Energy: 0.0701673 delta E: 4.62057e-05 stepsize: 0.5
+Iteration 406. Energy: 0.070121 delta E: 4.62428e-05 stepsize: 0.5
+Iteration 407. Energy: 0.0700748 delta E: 4.628e-05 stepsize: 0.5
+Iteration 408. Energy: 0.0700284 delta E: 4.63173e-05 stepsize: 0.5
+Iteration 409. Energy: 0.0699821 delta E: 4.63546e-05 stepsize: 0.5
+Iteration 410. Energy: 0.0699357 delta E: 4.6392e-05 stepsize: 0.5
+Iteration 411. Energy: 0.0698893 delta E: 4.64294e-05 stepsize: 0.5
+Iteration 412. Energy: 0.0698428 delta E: 4.64669e-05 stepsize: 0.5
+Iteration 413. Energy: 0.0697963 delta E: 4.65044e-05 stepsize: 0.5
+Iteration 414. Energy: 0.0697498 delta E: 4.6542e-05 stepsize: 0.5
+Iteration 415. Energy: 0.0697032 delta E: 4.65795e-05 stepsize: 0.5
+Iteration 416. Energy: 0.0696566 delta E: 4.66171e-05 stepsize: 0.5
+Iteration 417. Energy: 0.0696099 delta E: 4.66547e-05 stepsize: 0.5
+Iteration 418. Energy: 0.0695632 delta E: 4.66923e-05 stepsize: 0.5
+Iteration 419. Energy: 0.0695165 delta E: 4.67299e-05 stepsize: 0.5
+Iteration 420. Energy: 0.0694697 delta E: 4.67674e-05 stepsize: 0.5
+Iteration 421. Energy: 0.0694229 delta E: 4.6805e-05 stepsize: 0.5
+Iteration 422. Energy: 0.0693761 delta E: 4.68425e-05 stepsize: 0.5
+Iteration 423. Energy: 0.0693292 delta E: 4.688e-05 stepsize: 0.5
+Iteration 424. Energy: 0.0692823 delta E: 4.69175e-05 stepsize: 0.5
+Iteration 425. Energy: 0.0692353 delta E: 4.69549e-05 stepsize: 0.5
+Iteration 426. Energy: 0.0691883 delta E: 4.69923e-05 stepsize: 0.5
+Iteration 427. Energy: 0.0691413 delta E: 4.70296e-05 stepsize: 0.5
+Iteration 428. Energy: 0.0690942 delta E: 4.70669e-05 stepsize: 0.5
+Iteration 429. Energy: 0.0690471 delta E: 4.7104e-05 stepsize: 0.5
+Iteration 430. Energy: 0.069 delta E: 4.71412e-05 stepsize: 0.5
+Iteration 431. Energy: 0.0689528 delta E: 4.71782e-05 stepsize: 0.5
+Iteration 432. Energy: 0.0689056 delta E: 4.72151e-05 stepsize: 0.5
+Iteration 433. Energy: 0.0688583 delta E: 4.7252e-05 stepsize: 0.5
+Iteration 434. Energy: 0.068811 delta E: 4.72887e-05 stepsize: 0.5
+Iteration 435. Energy: 0.0687637 delta E: 4.73253e-05 stepsize: 0.5
+Iteration 436. Energy: 0.0687164 delta E: 4.73619e-05 stepsize: 0.5
+Iteration 437. Energy: 0.068669 delta E: 4.73983e-05 stepsize: 0.5
+Iteration 438. Energy: 0.0686215 delta E: 4.74345e-05 stepsize: 0.5
+Iteration 439. Energy: 0.0685741 delta E: 4.74707e-05 stepsize: 0.5
+Iteration 440. Energy: 0.0685266 delta E: 4.75067e-05 stepsize: 0.5
+Iteration 441. Energy: 0.068479 delta E: 4.75426e-05 stepsize: 0.5
+Iteration 442. Energy: 0.0684314 delta E: 4.75783e-05 stepsize: 0.5
+Iteration 443. Energy: 0.0683838 delta E: 4.76138e-05 stepsize: 0.5
+Iteration 444. Energy: 0.0683362 delta E: 4.76492e-05 stepsize: 0.5
+Iteration 445. Energy: 0.0682885 delta E: 4.76845e-05 stepsize: 0.5
+Iteration 446. Energy: 0.0682408 delta E: 4.77195e-05 stepsize: 0.5
+Iteration 447. Energy: 0.068193 delta E: 4.77544e-05 stepsize: 0.5
+Iteration 448. Energy: 0.0681452 delta E: 4.77891e-05 stepsize: 0.5
+Iteration 449. Energy: 0.0680974 delta E: 4.78236e-05 stepsize: 0.5
+Iteration 450. Energy: 0.0680495 delta E: 4.78579e-05 stepsize: 0.5
+Iteration 451. Energy: 0.0680016 delta E: 4.7892e-05 stepsize: 0.5
+Iteration 452. Energy: 0.0679537 delta E: 4.79259e-05 stepsize: 0.5
+Iteration 453. Energy: 0.0679058 delta E: 4.79595e-05 stepsize: 0.5
+Iteration 454. Energy: 0.0678578 delta E: 4.7993e-05 stepsize: 0.5
+Iteration 455. Energy: 0.0678097 delta E: 4.80262e-05 stepsize: 0.5
+Iteration 456. Energy: 0.0677617 delta E: 4.80592e-05 stepsize: 0.5
+Iteration 457. Energy: 0.0677136 delta E: 4.8092e-05 stepsize: 0.5
+Iteration 458. Energy: 0.0676655 delta E: 4.81245e-05 stepsize: 0.5
+Iteration 459. Energy: 0.0676173 delta E: 4.81568e-05 stepsize: 0.5
+Iteration 460. Energy: 0.0675691 delta E: 4.81888e-05 stepsize: 0.5
+Iteration 461. Energy: 0.0675209 delta E: 4.82205e-05 stepsize: 0.5
+Iteration 462. Energy: 0.0674726 delta E: 4.8252e-05 stepsize: 0.5
+Iteration 463. Energy: 0.0674244 delta E: 4.82832e-05 stepsize: 0.5
+Iteration 464. Energy: 0.0673761 delta E: 4.83142e-05 stepsize: 0.5
+Iteration 465. Energy: 0.0673277 delta E: 4.83448e-05 stepsize: 0.5
+Iteration 466. Energy: 0.0672793 delta E: 4.83752e-05 stepsize: 0.5
+Iteration 467. Energy: 0.0672309 delta E: 4.84053e-05 stepsize: 0.5
+Iteration 468. Energy: 0.0671825 delta E: 4.84351e-05 stepsize: 0.5
+Iteration 469. Energy: 0.067134 delta E: 4.84646e-05 stepsize: 0.5
+Iteration 470. Energy: 0.0670855 delta E: 4.84937e-05 stepsize: 0.5
+Iteration 471. Energy: 0.067037 delta E: 4.85226e-05 stepsize: 0.5
+Iteration 472. Energy: 0.0669885 delta E: 4.85512e-05 stepsize: 0.5
+Iteration 473. Energy: 0.0669399 delta E: 4.85794e-05 stepsize: 0.5
+Iteration 474. Energy: 0.0668913 delta E: 4.86073e-05 stepsize: 0.5
+Iteration 475. Energy: 0.0668426 delta E: 4.86348e-05 stepsize: 0.5
+Iteration 476. Energy: 0.066794 delta E: 4.8662e-05 stepsize: 0.5
+Iteration 477. Energy: 0.0667453 delta E: 4.86889e-05 stepsize: 0.5
+Iteration 478. Energy: 0.0666966 delta E: 4.87154e-05 stepsize: 0.5
+Iteration 479. Energy: 0.0666478 delta E: 4.87416e-05 stepsize: 0.5
+Iteration 480. Energy: 0.0665991 delta E: 4.87674e-05 stepsize: 0.5
+Iteration 481. Energy: 0.0665503 delta E: 4.87929e-05 stepsize: 0.5
+Iteration 482. Energy: 0.0665015 delta E: 4.88179e-05 stepsize: 0.5
+Iteration 483. Energy: 0.0664526 delta E: 4.88426e-05 stepsize: 0.5
+Iteration 484. Energy: 0.0664037 delta E: 4.8867e-05 stepsize: 0.5
+Iteration 485. Energy: 0.0663549 delta E: 4.88909e-05 stepsize: 0.5
+Iteration 486. Energy: 0.0663059 delta E: 4.89144e-05 stepsize: 0.5
+Iteration 487. Energy: 0.066257 delta E: 4.89376e-05 stepsize: 0.5
+Iteration 488. Energy: 0.066208 delta E: 4.89604e-05 stepsize: 0.5
+Iteration 489. Energy: 0.0661591 delta E: 4.89827e-05 stepsize: 0.5
+Iteration 490. Energy: 0.0661101 delta E: 4.90047e-05 stepsize: 0.5
+Iteration 491. Energy: 0.066061 delta E: 4.90262e-05 stepsize: 0.5
+Iteration 492. Energy: 0.066012 delta E: 4.90473e-05 stepsize: 0.5
+Iteration 493. Energy: 0.0659629 delta E: 4.9068e-05 stepsize: 0.5
+Iteration 494. Energy: 0.0659138 delta E: 4.90883e-05 stepsize: 0.5
+Iteration 495. Energy: 0.0658647 delta E: 4.91082e-05 stepsize: 0.5
+Iteration 496. Energy: 0.0658156 delta E: 4.91276e-05 stepsize: 0.5
+Iteration 497. Energy: 0.0657664 delta E: 4.91465e-05 stepsize: 0.5
+Iteration 498. Energy: 0.0657173 delta E: 4.91651e-05 stepsize: 0.5
+Iteration 499. Energy: 0.0656681 delta E: 4.91831e-05 stepsize: 0.5
+===Profiler output: Execution took 43.365 seconds with 220615 samples===
+landau                              36.54% [80613 samples]
+AreaIntegral.fieldgradient          19.10% [42142 samples]
+anchoring                           17.06% [37628 samples]
+AreaIntegral.total                  6.45% [14235 samples]
+Matrix.norm                         4.88% [10756 samples]
+GradSq.fieldgradient                3.39% [7482 samples]
+FieldOptimizer.evalgradient         3.14% [6933 samples]
+LineIntegral.fieldgradient          2.35% [5190 samples]
+Show.trianglecomplexobjectdata      2.15% [4743 samples]
+Optimizer.total                     1.42% [3125 samples]
+GradSq.total                        1.17% [2575 samples]
+LineIntegral.total                  1.01% [2229 samples]
+tangent                             0.39% [862 samples]
+Optimizer.report                    0.23% [501 samples]
+(garbage collector)                 0.12% [269 samples]
+KDTree.donearest                    0.08% [176 samples]
+File.write                          0.07% [145 samples]
+Range.enumerate                     0.05% [114 samples]
+Range                               0.05% [108 samples]
+Sphere.totrianglecomplex            0.05% [107 samples]
+Optimizer.gradient                  0.03% [66 samples]
+Optimizer.totalforce                0.02% [47 samples]
+Folder.isfolder                     0.02% [44 samples]
+Mesh                                0.02% [36 samples]
+KDTree.insert                       0.02% [35 samples]
+Matrix.column                       0.01% [32 samples]
+system                              0.01% [28 samples]
+plotmesh                            0.01% [26 samples]
+FieldOptimizer.energies             0.01% [24 samples]
+MeshBuilder.makeconnectivity        0.01% [23 samples]
+Field.clone                         0.01% [22 samples]
+List                                0.01% [19 samples]
+ChebyshevMap.rgb                    0.01% [17 samples]
+Optimizer.totalenergy               0.01% [13 samples]
+ScaleBar.coords                     0.00% [11 samples]
+Selection                           0.00% [11 samples]
+List.append                         0.00% [10 samples]
+Object.has                          0.00% [9 samples]
+Optimizer.reprojectlocalconstraints 0.00% [9 samples]
+FieldOptimizer.localconstraints     0.00% [8 samples]
+String.split                        0.00% [8 samples]
+ElementList._add                    0.00% [8 samples]
+Show.searchfontfolder               0.00% [8 samples]
+ElementList._match                  0.00% [8 samples]
+FieldOptimizer.checkfield           0.00% [7 samples]
+Show.matchfontfile                  0.00% [6 samples]
+Optimizer.bracketstepsize           0.00% [6 samples]
+Matrix                              0.00% [6 samples]
+KDTreeNode.init                     0.00% [6 samples]
+Optimizer.energywithstepsize        0.00% [5 samples]
+MeshMerge.mergegrade                0.00% [5 samples]
+ChebyshevMap._chebyshev             0.00% [5 samples]
+Optimizer.initlocalconstraints      0.00% [5 samples]
+Array                               0.00% [5 samples]
+Folder.contents                     0.00% [5 samples]
+cross3d                             0.00% [5 samples]
+Optimizer.step                      0.00% [5 samples]
+Sphere.init                         0.00% [4 samples]
+Field.acc                           0.00% [4 samples]
+Sparse.rowindices                   0.00% [4 samples]
+MeshMerge.addvertex                 0.00% [3 samples]
+_plotcolortomatrix                  0.00% [3 samples]
+(global)                            0.00% [3 samples]
+mod                                 0.00% [3 samples]
+Optimizer.reprojectconstraints      0.00% [3 samples]
+Cylinder.totrianglecomplex          0.00% [3 samples]
+List.enumerate                      0.00% [2 samples]
+Matrix.setcolumn                    0.00% [2 samples]
+Optimizer.subtractconstraints       0.00% [2 samples]
+abs                                 0.00% [2 samples]
+FieldOptimizer.settarget            0.00% [2 samples]
+ElementList._checksrt               0.00% [2 samples]
+Sphere.refinementlevel              0.00% [2 samples]
+_vertto3d                           0.00% [2 samples]
+_plotcolorforelement                0.00% [2 samples]
+Selection.addgrade                  0.00% [2 samples]
+File.close                          0.00% [2 samples]
+List.clone                          0.00% [2 samples]
+File                                0.00% [2 samples]
+PolyhedronMesh                      0.00% [2 samples]
+Show.visit                          0.00% [1 samples]
+Show.uid                            0.00% [1 samples]
+Field                               0.00% [1 samples]
+(anonymous)                         0.00% [1 samples]
+isnil                               0.00% [1 samples]
+FieldOptimizer.constraints          0.00% [1 samples]
+Show.addfont                        0.00% [1 samples]
+MeshMerge.addelement                0.00% [1 samples]
+MeshBuilder.addelement              0.00% [1 samples]
+MeshBuilder.addface                 0.00% [1 samples]
+Text.init                           0.00% [1 samples]
+MeshMerge.merge                     0.00% [1 samples]
+GradSq.init                         0.00% [1 samples]
+_bbox                               0.00% [1 samples]
+Show.visit                          0.00% [1 samples]
+FieldOptimizer.gettarget            0.00% [1 samples]
+Mesh.addgrade                       0.00% [1 samples]
+qtoorder                            0.00% [1 samples]
+MeshMerge.mergevertices             0.00% [1 samples]
+ElementList.ismember                0.00% [1 samples]
+Optimizer.dolinesearch              0.00% [1 samples]
+List.ismember                       0.00% [1 samples]
+ElementList.addelement              0.00% [1 samples]
+Show.visitgeneric                   0.00% [1 samples]
+plotfield                           0.00% [1 samples]
+MeshBuilder.build                   0.00% [1 samples]
+TriangleComplex.init                0.00% [1 samples]
+Sparse.dimensions                   0.00% [1 samples]
+Field.enumerate                     0.00% [1 samples]
+qtodirector                         0.00% [1 samples]
+Show.write                          0.00% [1 samples]
+===
