@@ -12,7 +12,8 @@ import povray
 // Phenomenological parameters //
 var ITERS = 2000  // Total iterations
 var NS = 0.1      // Noise Strength
-var K = 4.5
+var H = 4.5
+var TA = 0.1      // Tangential Anchoring Strength
 var AA = 0.1      // Apolar Anchoring Strength
 var PA = 0.1      // Polar Anchoring Strength
 var T1 = -2.025   // Tau1 Parameter
@@ -32,7 +33,7 @@ fn landau(x, q) {
 }
 
 // Anchoring Functional
-fn anchoring(x, q) {
+fn tangentialAnchoring(x, q) {
   var t = tangent()
   var wxx = t[0]*t[0]-0.5
   var wxy = t[0]*t[1]
@@ -52,14 +53,17 @@ var optProblem = OptimizationProblem(m)
 var lEnergy = AreaIntegral(landau, qt)
 optProblem.addenergy(lEnergy)
 
-var apolarEnergy = LineIntegral(apolarAnchoring, qt)
-optProblem.addenergy(apolarEnergy, selection=bnd, prefactor = AA)
+var tangentialEnergy = LineIntegral(tangentialAnchoring, qt)
+optProblem.addenergy(tangentialEnergy, selection=bnd, prefactor = TA)
 
-var polarEnergy = LineIntegral(polarAnchoring, qt)
-optProblem.addenergy(polarEnergy, selection=bnd, prefactor = -PA)
+// var apolarEnergy = LineIntegral(apolarAnchoring, qt)
+// optProblem.addenergy(apolarEnergy, selection=bnd, prefactor = AA)
+
+// var polarEnergy = LineIntegral(polarAnchoring, qt)
+// optProblem.addenergy(polarEnergy, selection=bnd, prefactor = -PA)
 
 var eEnergy = GradSq(qt)
-optProblem.addenergy(eEnergy, prefactor = K)
+optProblem.addenergy(eEnergy, prefactor = H)
 
 var opt = FieldOptimizer(optProblem, qt)
 opt.conjugategradient(ITERS)
@@ -72,12 +76,12 @@ opt.conjugategradient(ITERS)
 
 
 // Q-Tensor to Scalar S
-fn qToS(q) {
-  var S = 2*q.norm()
+fn nsToNorm(q) {
+  var S = q.norm()
   return S
 }
 
-fn qToN(q) {
+fn normToVector(q) {
   var S = 2*q.norm()
   var Q = q/S
   var nx = sqrt(Q[0]+0.5)
@@ -101,8 +105,8 @@ fn visualize(m, nn, dl, aspectratio=0.3) {
 // and we polute this var with qToS
 var S = Field(m, 0)
 var N = Field(m, Matrix([1,0,0]))
-for (i in 0...m.count()) S[i]=qToS(qt[i])
-for (i in 0...m.count()) N[i]=qToN(qt[i])
+for (i in 0...m.count()) S[i]=nsToNorm(qt[i])
+for (i in 0...m.count()) N[i]=normToVector(qt[i])
 
 // Plot the result //
 var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)

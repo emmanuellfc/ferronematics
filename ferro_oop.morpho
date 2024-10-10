@@ -1,8 +1,21 @@
 // OOP Version for Ferronematics Code //
 
-import meshtools
+import optimize
 import plot
+import meshtools
+import functionals
+import povray
 import vtk
+
+// Phenomenological parameters //
+var ITERS = 2000  // Total iterations
+var NS = 0.1      // Noise Strength
+var K = 4.5
+var AA = 0.1      // Apolar Anchoring Strength
+var PA = 0.1      // Polar Anchoring Strength
+var T1 = -2.025   // Tau1 Parameter
+var T2 = 0.405142 // Tau1 Parameter
+//
 
 fn landau(x, q) {
   var qn = q.norm()
