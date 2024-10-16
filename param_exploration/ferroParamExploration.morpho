@@ -1,0 +1,148 @@
+// Development Version of Ferronematic Droplets Code //
+// N-Vector
+// To-Do:
+
+
+import optimize
+import plot
+import meshtools
+import functionals
+import povray
+import vtk
+
+// Phenomenological parameters //
+var ITERS = 2000  // Total iterations
+var NS = 0.1      // Noise Strength
+var H = 4.5
+var TA = 20.0      // Tangential Anchoring Strength
+var AA = 0.1      // Apolar Anchoring Strength
+var PA = 0.1      // Polar Anchoring Strength
+var T1 = -202.5   // Tau1 Parameter
+var T2 = 40.5142 // Tau1 Parameter
+
+var m = Mesh("dense_disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(1)
+var qt = Field(m, fn (x,y,z) Matrix([NS*random(1), NS*random(1)]))
+var R0 = Field(m, fn (x,y,z) Matrix([1,0]))
+
+// Landu Functional
+fn landau(x, q) {
+  var qn = q.norm()
+  var q2 = qn * qn
+  return T1*q2 + T2*q2*q2
+}
+
+// Anchoring Functional
+fn tangentialAnchoring(x, q) {
+  var t = tangent()
+  var wxx = t[0]*t[0]-0.5
+  var wxy = t[0]*t[1]
+  return (q[0]-wxx)^2+(q[1]-wxy)^2
+}
+
+fn apolarAnchoring(x, q) {
+  return 1 - q[0]^2
+}
+
+fn polarAnchoring(x, q) {
+  return q[0] - 1
+}
+
+var optProblem = OptimizationProblem(m)
+
+var lEnergy = AreaIntegral(landau, qt)
+optProblem.addenergy(lEnergy)
+
+var tangentialEnergy = LineIntegral(tangentialAnchoring, qt)
+optProblem.addenergy(tangentialEnergy, selection=bnd, prefactor = TA)
+
+// var apolarEnergy = LineIntegral(apolarAnchoring, qt)
+// optProblem.addenergy(apolarEnergy, selection=bnd, prefactor = AA)
+
+// var polarEnergy = LineIntegral(polarAnchoring, qt)
+// optProblem.addenergy(polarEnergy, selection=bnd, prefactor = -PA)
+
+var eEnergy = GradSq(qt)
+optProblem.addenergy(eEnergy, prefactor = H)
+
+var opt = FieldOptimizer(optProblem, qt)
+opt.conjugategradient(ITERS)
+
+// Refinement
+// var mr = MeshRefiner([m, qt]); // Set the refiner up
+// var refmap = mr.refine(); // Perform the refinement
+// for (el in [optProblem, opt]) el.update(refmap); // Update the problem
+// m = refmap[m]; qt=refmap[qt];  // Update variables
+
+
+// ns-Tensor to Scalar S
+fn nsToNorm(q) {
+  var S = q.norm()
+  return S
+}
+
+fn normToVector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx = nx*sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+fn visualize(m, nn, dl, aspectratio=0.3) {
+  var v = m.vertexmatrix()
+  var nv = v.dimensions()[1]
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x = v.column(i)
+    g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=aspectratio))
+  }
+  return g
+}
+
+// Now we create a new Field variable
+// and we polute this var with qToS
+var s = Field(m, 0)
+var ns = Field(m, Matrix([1,0,0]))
+for (i in 0...m.count()) s[i]=nsToNorm(qt[i])
+for (i in 0...m.count()) ns[i]=normToVector(qt[i])
+
+// Plot the result //
+var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)
+var g   = plotfield(s, style="interpolate", scalebar = sb, colormap = ViridisMap())
+var gnn = visualize(m, ns, 0.05)
+var fig = g+gnn
+Show(fig)
+
+
+// Generate a POVRaytracer object using the Graphics() object
+var pov_name = "Ferro_Droplet_TA_${TA}_TAU1_${T1}.pov"
+// var mv_files = "mv " + pov_name + png_name + folder_name
+var pov = POVRaytracer(fig)
+
+// Set the viewing angle in degrees. The larger the angle, the larger the field of view.
+pov.viewangle = 35
+pov.viewpoint = Matrix([0,0,6])
+pov.light = [Matrix([3,4,5]), Matrix([-3,-4,5])]
+// Render to a .pov file. This also generates a .png image with the same name.
+pov.render(pov_name)
+// var vtks = VTKExporter(s, fieldname="s")
+// vtks.export("NormSqData.vtk")
+
+// var vtkns = VTKExporter(ns, fieldname="nss")
+// vtkns.export("DirectorData.vtk")
+
+
+
+
+// var folder_name = "ferro_droplet_figures"
+// if (Folder.isfolder(folder_name)==true) {
+//   print "Folder exists!"
+// }
+// else {
+//   system("mkdir ${folder_name}")
+// }
+
+// // system(mv_files)
