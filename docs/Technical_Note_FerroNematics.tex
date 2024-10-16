@@ -1,0 +1,221 @@
+
+\documentclass[oneside,english]{amsart}
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3.5cm,bmargin=3.5cm,lmargin=3cm,rmargin=3cm}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{amstext}
+\usepackage{amsthm}
+\usepackage{setspace}
+\onehalfspacing
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\title{Ferronematics: Technical Note}
+
+\maketitle
+Key findings of the model:
+\begin{itemize}
+\item The control parameter is the temperature, and they observe a transition
+form CV-type topologies to L-type topologies as function of this parameter.
+In particular, as the temperature decreased, the droplets grew, and
+the polar topology transitioned from the CV-type to the L-type structure.
+\item On the other hand, by comparing droplets\textquoteright{} free energy
+landscapes, they were able to prove that elastic anisotropy minimally
+affects polarization topology, which implies that a one single-elastic-approximation
+is enough for describing the transition.
+\item So, what are the core elements for the transition?
+\end{itemize}
+The free energy is taken from \cite{key-1}
+
+\begin{align*}
+f & =\frac{K_{11}}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{K_{22}}{2}\left(\mathbf{N}\cdot\nabla\times\mathbf{N}\right)^{2}+\frac{K_{33}}{2}\left(\mathbf{N}\times\nabla\times\mathbf{N}\right)^{2}\\
+ & +\frac{\tau_{1}}{2}\mathbf{P}^{2}+\frac{\tau_{2}}{2}\mathbf{P}^{4}+\frac{h}{2}\left(\nabla\mathbf{P}\right)^{2}-\gamma\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{P}-\frac{1}{2}\mathbf{P}\cdot\mathbf{E}_{d}.
+\end{align*}
+On the other hand, the surface anchoring is given by 
+\[
+f_{s}=\frac{1}{2}W_{Q}\left[1-\left(\mathbf{n}\cdot\mathbf{R}_{0}\right)^{2}\right]-W_{P}\left[\mathbf{n}\cdot\mathbf{R}_{0}-1\right].
+\]
+Now, considering a linear coupling between the nematic order parameter
+and the polarization, i.e., $\mathbf{P}=P_{0}\mathbf{N}$, where $\mathbf{N}=s\mathbf{n}$,
+we have the bulk free energy, without taking into consideration the
+depolarization effect, is given by 
+\begin{align*}
+f= & \frac{K_{11}}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{K_{22}}{2}\left(\mathbf{N}\cdot\nabla\times\mathbf{N}\right)^{2}+\frac{K_{33}}{2}\left(\mathbf{N}\times\nabla\times\mathbf{N}\right)^{2}\\
+ & +\frac{\tau_{1}}{2}P_{0}^{2}\mathbf{N}^{2}+\frac{\tau_{2}}{2}P_{0}^{4}\mathbf{N}^{4}+\frac{h}{2}P_{0}^{2}\left(\nabla\mathbf{N}\right)^{2}-\gamma P_{0}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N}.
+\end{align*}
+
+\begin{align*}
+f= & \frac{K_{11}}{2}\frac{1}{\xi^{2}}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{K_{22}}{2}\frac{1}{\xi^{2}}\left(\mathbf{N}\cdot\nabla\times\mathbf{N}\right)^{2}+\frac{K_{33}}{2}\frac{1}{\xi^{2}}\left(\mathbf{N}\times\nabla\times\mathbf{N}\right)^{2}\\
+ & +\frac{\tau_{1}}{2}P_{0}^{2}\mathbf{N}^{2}+\frac{\tau_{2}}{2}P_{0}^{4}\mathbf{N}^{4}+\frac{h}{2}P_{0}^{2}\frac{1}{\xi^{2}}\left(\nabla\mathbf{N}\right)^{2}-\gamma P_{0}\frac{1}{\xi}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N}.
+\end{align*}
+
+\begin{align*}
+\int_{\Omega}f= & \xi^{2}\left(\frac{K_{11}}{2}\frac{1}{\xi^{2}}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{K_{22}}{2}\frac{1}{\xi^{2}}\left(\mathbf{N}\cdot\nabla\times\mathbf{N}\right)^{2}+\frac{K_{33}}{2}\frac{1}{\xi^{2}}\left(\mathbf{N}\times\nabla\times\mathbf{N}\right)^{2}\right)\\
+ & +\xi^{2}\left(\frac{\tau_{1}}{2}P_{0}^{2}\mathbf{N}^{2}+\frac{\tau_{2}}{2}P_{0}^{4}\mathbf{N}^{4}+\frac{h}{2}P_{0}^{2}\frac{1}{\xi^{2}}\left(\nabla\mathbf{N}\right)^{2}-\gamma P_{0}\frac{1}{\xi}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N}\right).
+\end{align*}
+\begin{align*}
+\int_{\Omega}f= & \frac{K_{11}}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{K_{22}}{2}\left(\mathbf{N}\cdot\nabla\times\mathbf{N}\right)^{2}+\frac{K_{33}}{2}\left(\mathbf{N}\times\nabla\times\mathbf{N}\right)^{2}\\
+ & +\frac{\tau_{1}}{2}P_{0}^{2}\xi^{2}\mathbf{N}^{2}+\frac{\tau_{2}}{2}P_{0}^{4}\xi^{2}\mathbf{N}^{4}+\frac{h}{2}P_{0}^{2}\left(\nabla\mathbf{N}\right)^{2}-\gamma P_{0}\xi\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N}.
+\end{align*}
+
+
+\subsection*{One Constant Approximation}
+
+In the one constant approximation the Fredericks free energy reduces
+to $\frac{1}{2}K_{1}\left(\nabla\mathbf{N}\right)^{2}$, thus it follows
+that 
+\[
+f=\frac{K_{11}}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{\tau_{1}}{2}\mathbf{P}^{2}+\frac{\tau_{2}}{2}\mathbf{P}^{4}+\frac{h}{2}\left(\nabla\mathbf{P}\right)^{2}-\gamma\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{P},
+\]
+again, without taking the depolarization effect. We could write the
+above free energy in terms of just $\mathbf{N}$ as follows 
+\[
+f=\frac{K_{11}}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{\tau_{1}P_{0}^{2}}{2}\mathbf{N}^{2}+\frac{\tau_{2}P_{0}^{4}}{2}\mathbf{N}^{4}+\frac{hP_{0}^{2}}{2}\left(\nabla\mathbf{N}\right)^{2}-\gamma P_{0}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N},
+\]
+Now, let's choose $K_{11}$ for rescaling and $\xi$ for rescaling
+and dimensionless purposes respectively 
+\[
+f^{\prime}=\frac{1}{2}\left(\nabla\cdot\mathbf{N}\right)^{2}+\frac{1}{2}\tau_{1}^{\prime}\mathbf{N}^{2}+\frac{1}{2}\tau_{2}^{\prime}\mathbf{N}^{4}+\frac{1}{2}h^{\prime}\left(\nabla\mathbf{N}\right)^{2}-\gamma^{\prime}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N},
+\]
+where the constants are given by 
+
+\[
+\tau_{1}^{\prime}=\frac{\tau_{1}P_{0}^{2}}{K_{11}}\xi^{2},\tau_{2}^{\prime}=\frac{\tau_{2}P_{0}^{4}}{K_{11}}\xi^{2},h^{\prime}=\frac{hP_{0}^{2}}{K_{11}},\gamma^{\prime}=\frac{\gamma P_{0}}{K_{11}}\xi.
+\]
+The numerical values of the constants are given by
+
+\begin{minipage}[t]{1\columnwidth}%
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline 
+Parameters & Values & Rescaled Values\tabularnewline
+\hline 
+\hline 
+$K_{11}$ & $10^{-12}N$ & \tabularnewline
+\hline 
+$K_{33}$ & $1.2\times10^{-12}N$ & \tabularnewline
+\hline 
+$P_{0}$ & $0.045\text{\ensuremath{\frac{C}{m^{2}}}}$ & \tabularnewline
+\hline 
+$\tau_{1}$ & $-10^{3}\frac{Jm}{C}$ & \tabularnewline
+\hline 
+$\tau_{2}$ & $9.88\times10^{5}\frac{Jm^{5}}{C^{4}}$ & \tabularnewline
+\hline 
+$\gamma$ & $10^{-4}V$ & \tabularnewline
+\hline 
+$\varepsilon$ & $10^{-7}\frac{F}{m}$ & \tabularnewline
+\hline 
+$\beta$ & $10^{-5}$ & \tabularnewline
+\hline 
+$W_{Q}$ & $1\times10^{-6}\frac{J}{m^{2}}$ & \tabularnewline
+\hline 
+$W_{P}$ & $1\times10^{-6}\frac{J}{m^{2}}$ & \tabularnewline
+\hline 
+$h$ & $10^{-10}Jm^{3}C^{-2}$ & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{center}%
+\end{minipage}
+
+And from this we can compute the numerical values as follows
+\begin{align*}
+\tau_{1}^{\prime} & =-\frac{\left(10^{3}\right)\left(0.045\right)^{2}}{\left(10^{-12}\right)}\xi^{2},\\
+\tau_{2}^{\prime} & =\frac{\left(9.88\times10^{5}\right)\left(0.045\right)^{4}}{\left(10^{-12}\right)}\xi^{2},\\
+h^{\prime} & =\frac{\left(10^{-10}\right)\left(0.045\right)^{2}}{\left(10^{-12}\right)},\\
+\gamma^{\prime} & =\frac{\left(10^{-4}\right)\left(0.045\right)}{\left(10^{-12}\right)}\xi
+\end{align*}
+
+therefore, we have 
+\begin{align*}
+\tau_{1}^{\prime} & =-2.025\times10^{12}\xi^{2}\\
+\tau_{2}^{\prime} & =4.05142\times10^{11}\xi^{2}\\
+h^{\prime} & =0.2025\\
+\gamma^{\prime} & =4.5\times10^{6}\xi
+\end{align*}
+and if we choose $\xi=1\times10^{-6},$ then we have
+\begin{align*}
+\tau_{1}^{\prime} & =-2.025\\
+\tau_{2}^{\prime} & =0.405142\\
+h^{\prime} & =0.2025\\
+\gamma^{\prime} & =4.5
+\end{align*}
+ sand for the surface terms we have $ $the following expressions
+for the dimensionless parameters
+\[
+\omega_{Q}^{\prime}=\frac{W_{Q}}{K_{11}}\xi,\hspace{1em}\omega_{P}^{\prime}=\frac{W_{P}}{K_{11}}\xi
+\]
+
+\textbf{It makes sense to consider $\xi$ as the size of the domain.}
+
+For the CV type here are some numerical values for the phenomenological
+parameters;
+\[
+K_{11}=10^{-12}N,
+\]
+
+\textbf{What about the Depolarization Effect?}
+
+By definition, the depolarization effect occurs when the electric
+field inside a material is reduced due to the alignment of dipoles
+within the material, which produce their own opposing field. For the
+CV-type we have the following expression for the depolarization
+
+\[
+f=\frac{1}{2}P_{\text{eff}}\cos\left(b+kr\right)\left[\frac{1}{r}+\frac{\beta P_{\text{eff}}\cos\left(b+kr\right)}{\epsilon}\right],
+\]
+
+Under the one constant approximation we have the following free energy
+
+\[
+f^{\prime}=K_{1}^{\prime}\left(\nabla\cdot\mathbf{N}\right)^{2}+\tau_{1}^{\prime}\mathbf{N}^{2}+\tau_{2}^{\prime}\mathbf{N}^{4}+h^{\prime}\left(\nabla\mathbf{N}\right)^{2}-\gamma^{\prime}\left(\nabla\cdot\mathbf{N}\right)\mathbf{N}\cdot\mathbf{N},
+\]
+with the same dimensionless constants as in the full model.
+
+\textbf{Question: Is there a special boundary condition for the electric
+field---already know that P is tangent to the boundary.}
+
+Results So Far:
+
+Landau:
+
+To-Do: $+\frac{\tau_{1}}{2}P_{0}^{2}\mathbf{N}^{2}+\frac{\tau_{2}}{2}P_{0}^{4}\mathbf{N}^{4}$
+\begin{enumerate}
+\item \textbf{Landau only (Done)}
+\item \textbf{Landau + $|\nabla P|^{2}$ : We observe some kind of.}
+\item \textbf{Landau + $|\nabla P|^{2}$ + Anchoring: We observe some kind
+of structural transition.}
+\item Landau + $|\nabla P|^{2}$+Frank
+\item Everything
+\item Learn that solving Poisson is equivalent to minimizing $\int\left(\left|\nabla\phi\right|^{2}-\rho\phi\right)d^{n}x$
+\end{enumerate}
+
+\subsection{Code Section}
+
+To-Do:
+
+Use Mathematica to work out the equilibrium value of P as a function
+of T just for the Landau Expansion (using dimensionless parameters).
+\begin{thebibliography}{1}
+\bibitem{key-1}Rosseto, Michely P., and Jonathan V. Selinger. \textquotedbl Theory
+of the splay nematic phase: single versus double splay.\textquotedbl{}
+Physical Review E 101, no. 5 (2020): 052707.
+
+\end{thebibliography}
+
+\end{document}

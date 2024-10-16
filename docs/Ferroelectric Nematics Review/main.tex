@@ -1,0 +1,155 @@
+\documentclass{article}
+\usepackage{charter} % Palatino Font
+\usepackage{graphicx} % Required for inserting images
+\usepackage{biblatex} %Imports biblatex package
+\usepackage{breqn} % break equations automatically
+\addbibresource{References.bib} %Import the bibliography file
+
+\title{Ferroelectric Nematic Review}
+\author{J Emmanuel Flores}
+\date{July 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Kinds of Polar LC\cite{zou2024extended}}
+\begin{itemize}
+    \item Antiferroelectric splay nematic
+    \item Achiral Ferroelectric Nematic
+    \item Chiral Ferroelectric Nematic (Helielectric Nematic)
+    \item Heliconal ferroelectric nematic
+    \item Ferroelectric smectic-A
+\end{itemize}
+Elastic free energy description of $N_{F}$
+\begin{itemize}
+    \item the leading term that couples to the divergence of the director field indicates a preference of positive splay.
+    \item this can be considered and the flexoelectric interaction in the $N_{F}$ state.
+    \item the stability of  a polar state should be determined by the Landau free energy.
+    \item $N_{F}$ state dislikes any distortion of the polarization fields, therefore, we must include the free energy cost for the inhomogeneous polarization field.
+\end{itemize}
+To the lowest terms, the Landau free energy in terms of the polarization is given by 
+\begin{equation}
+    f=\frac{A}{2}|P|^2
+\end{equation}
+
+Coupling flexoelectricity
+This terms is essential to determine the polarization alignment and topology in the $N_{F}$, and the HN*
+Depolarization charge effect
+
+\subsection{Splay Nematic Phase\cite{mertelj2018splay}}
+
+The free energy is given by 
+
+\begin{equation}
+    f = \frac{1}{2}C_{1} Q{ij,k}Q{ij,k}-C_5 Q_{ij}Q_{ik,k}Q_{jl,l}-\gamma_0 Q_{ij,j}P_i + \frac{1}{2}t P_{i}P_{i} + \frac{1}{2}bP_{i,j}P_{i,j}
+    \end{equation}
+
+The paper deal with a description of a transition from uniaxial nematic to a novel phase characterized by a periodic splay modulation of the director. The transition is weakly first order. The description of the free Landau free energy is given in terms of the tensor order parameter $Q_{ij}$.
+In the nematic phase, the splay deformation gives rise to some kind of flexoelectric polarization, thus, we assume that the transition is guided by a flexoelectric coupling between the polarization and gradients of $Q_{ij}$.
+The last term in the free energy is needed for the stabilization of the splay state.
+
+
+\subsection{Ferroelectric to Ferroelastic\cite{sebastian2020ferroelectric}}
+The free energy is given by
+
+\begin{equation}
+    f = \frac{1}{2}K_{1}(\nabla\cdot \mathbf{n})^2 +\frac{1}{2}K_3(\mathbf{n}\times(\nabla\times\mathbf{n}))^2 - \gamma \mathbf{n}(\nabla\cdot\mathbf{n})\cdot\mathbf{P}+\frac{1}{2}t\mathbf{P}\cdot\mathbf{P}+\frac{1}{2}b(\nabla\mathbf{P})^2,
+\end{equation}
+where $\gamma$ is the flexoelectric coefficient.
+
+In the paper, they show that ferroelectric ordering causes the formation of splay-nematic LC. In general, we describe the nematic state using a tensor order parameter. However, in the case of this transition, the critical behavior is limited to the temperature range where the scalar order parameter is approximately constant and the description of the nematic phase by the director $\mathbf{n}$ is enough.
+
+The type of transition described by this model is a 2nd order phase transition, and it can be extended to a weakly first order phase transition by adding high order terms.
+
+
+\subsection{Spontaneous electric polarization\cite{yang2022spontaneous}}
+The free energy has the following contributions
+
+\begin{equation}
+    F = \int dV\left[ f_L + f_e + f_d\right] + \int d\Omega f_s + F_{core}
+\end{equation}
+
+\begin{itemize}
+    \item Dipolar interactions.
+    \item Landau expansion.
+    \item Frank free energy
+    \item Anchoring
+    \item Defect core energies
+\end{itemize}
+\subsubsection{Landau Energy}
+This contribution is used for describing the stability of the $N_{F}$ state. The deeper potential well at a finite polarization corresponds to a more stable ferroelectric state.
+\begin{equation}
+    f_{L} = \frac{a}{2}|\mathbf{P}|^2+\frac{b}{2}|\mathbf{P}|^4.
+\end{equation}
+
+\subsubsection{Frank Energy}
+Standard elastic energy for liquid crystals.
+
+\begin{equation}
+    f_{e} = \frac{1}{2}K_{11}(\nabla\cdot\mathbf{n})^2+\frac{1}{2}K_{22}(\mathbf{n}\cdot(\nabla\times\mathbf{n}))^2 + \frac{1}{2}K_{33}(\mathbf{n}\times(\nabla\times\mathbf{n}))^2
+\end{equation}
+
+\subsubsection{Dipolar Energy}
+Describes electrostatic contributions from all the interacting polar bodies in the system, which includes:
+\begin{itemize}
+    \item changes arising from the splay polarization field.
+    \item boundary charge due to discontinuity in the polarization on the interface.
+\end{itemize}
+
+\begin{equation}
+    f_{d} =\frac{1}{8\pi\varepsilon_0\varepsilon_{r}}\int dV\left[ \frac{\mathbf{p}(\mathbf{r}^{\prime})\cdot\mathbf{p}(\mathbf{r})}{|\mathbf{r}-\mathbf{r}^{\prime}|^3} - \frac{[3\mathbf{p}(\mathbf{r}^{\prime})\cdot(\mathbf{r}-\mathbf{r}^\prime)][(\mathbf{p}(\mathbf{r})\cdot(\mathbf{r}-\mathbf{r}^\prime))]}{|\mathbf{r}-\mathbf{r}^{\prime}|^5}\right]
+\end{equation}
+
+\subsubsection{Anchoring}
+Energy cost for anchoring conditions.
+
+\begin{equation}
+    f_s = \frac{1}{2}w_s(\cos\theta-\mathbf{n}\cdot\mathbf{v})^2
+\end{equation}
+
+\begin{itemize}
+    \item $w_s$ anchoring coefficient
+    \item $\mathbf{v}$ normal vector to the droplet surface
+    \item $\theta$ deviation angle between the polarization and the surface normal.
+\end{itemize}
+
+\subsubsection{Core defect energies}
+Energy cost for the following kind of core defects:
+\begin{itemize}
+    \item Simple polarization vortex
+        \begin{equation}
+            F_{core} = \pi K L\ln(R_1/a)
+        \end{equation}
+    \item escaped polarization vortex
+        \begin{equation}
+            F_{core} = \frac{8}{3}\pi K R_2
+        \end{equation}
+    \item bipolar structure
+        \begin{equation}
+            F_{core} = 8\pi K R_2
+        \end{equation}
+\end{itemize}
+$K$ is taken as the average of the splay, bend, and twist deformations.
+
+\subsection{Topology of ferroelectric nematic droplets}
+The free energy is given by the contribution of the bulk and anchoring, the bulk is given by 
+
+\begin{dmath}
+    f = \frac{1}{2}K_{11}(\nabla\cdot\mathbf{N})^2 + \frac{1}{2}K_{22}(\mathbf{N}\cdot(\nabla\times\mathbf{N}))^2+\frac{1}{2}K_{33}(\mathbf{N}\times(\nabla\times \mathbf{N}))^2 + \frac{1}{2}\tau_{1}|\mathbf{P}|^2 + \frac{1}{2}\tau_{2}|\mathbf{P}|^4 + \frac{h}{2}(\nabla\mathbf{P})^2 - \gamma\mathbf{N}(\nabla\cdot\mathbf{N})\cdot\mathbf{P} - \frac{1}{2}\mathbf{P}\cdot\mathbf{E}_{d},
+\end{dmath}
+whereas the surface contribution is given by 
+
+\begin{dmath}
+    f_s = \frac{1}{2}W_{q}\left[1- (\mathbf{n}\cdot R_{0})^2\right] - W_{p}(\mathbf{n}\cdot R_{0}-1).
+\end{dmath}
+In the paper, they observe a direct isotropic to ferroelectric nematic transition, without going into the apolar nematic upon decreasing temperature. And in this situation, the nematic order can be regarded as induced by the polarization order.
+They consider a linear coupling between the nematic order parameter and the polarization order
+
+\begin{equation}
+    \mathbf{N}=s\mathbf{n}, \mathbf{P} = P_{0}\mathbf{N}=P_{0}s\mathbf{n}
+\end{equation}
+
+
+\end{document}

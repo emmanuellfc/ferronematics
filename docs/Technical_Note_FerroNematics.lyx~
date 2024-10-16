@@ -928,15 +928,6 @@ Learn that solving Poisson is equivalent to minimizing
 Code Section
 \end_layout
 
-\begin_layout Standard
-To-Do:
-\end_layout
-
-\begin_layout Standard
-Use Mathematica to work out the equilibrium value of P as a function of
- T just for the Landau Expansion (using dimensionless parameters).
-\end_layout
-
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
