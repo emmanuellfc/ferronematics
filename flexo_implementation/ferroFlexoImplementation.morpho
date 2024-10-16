@@ -1,0 +1,141 @@
+// Development Version of Ferronematic Droplets Code //
+// ns-Vector
+// Implementation of flexo-term in the free energy expansion //
+
+import optimize
+import plot
+import meshtools
+import functionals
+import povray
+import vtk
+
+//------------ Phenomenological Parameters ------------//
+var ITERS = 2000   // Total iterations
+var NS = 0.1       // Noise Strength
+var H = 4.5
+var GAMMA = 10     // flexo coefficient
+var TA = 50.0      // Tangential Anchoring Strength
+var AA = 0.1       // Apolar Anchoring Strength
+var PA = 0.1       // Polar Anchoring Strength
+var T1 = -202.5    // Tau1 Parameter
+var T2 = 40.5142   // Tau1 Parameter
+
+//--------------------------------------------------//
+//------------ Define Main Functions ------------//
+fn export_figure(fig, fig_name) {
+  var pov = POVRaytracer(fig)
+  pov.viewangle = 35
+  pov.viewpoint = Matrix([0,0,6])
+  pov.light = [Matrix([3,4,5]), Matrix([-3,-4,5])]
+  pov.render(fig_name)
+}
+
+// Landu Functional
+fn landau(x, q) {
+  var qn = q.norm()
+  var q2 = qn * qn
+  return T1*q2 + T2*q2*q2
+}
+
+// Anchoring Functional
+fn tangentialAnchoring(x, q) {
+  var t = tangent()
+  var wxx = t[0]*t[0]-0.5
+  var wxy = t[0]*t[1]
+  return (q[0]-wxx)^2+(q[1]-wxy)^2
+}
+
+// Apolar and Polar Anchoring //
+fn apolarAnchoring(x, q) {
+  return 1 - q[0]^2
+}
+
+fn polarAnchoring(x, q) {
+  return q[0] - 1
+}
+
+// Flexo Functional
+fn flexo(x, n) {
+    var nnorm = n.norm()
+    var n2 = nnorm*nnorm
+    var fl = GAMMA*grad(n)*n2
+    return fl
+}
+
+// ns-Tensor to Scalar S
+fn nsToNorm(n) {
+  var S = n.norm()
+  return S
+}
+
+fn normToVector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx = nx*sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+fn visualize(m, nn, dl, aspectratio=0.3) {
+  var v = m.vertexmatrix()
+  var nv = v.dimensions()[1]
+  var g = Graphics()
+  for (i in 0...nv) {
+    var x = v.column(i)
+    g.display(Arrow(x-nn[i]*dl, x+nn[i]*dl, aspectratio=aspectratio))
+  }
+  return g
+}
+
+//--------------------------------------------------//
+
+//------------ Simulation ------------//
+var m = Mesh("dense_disk.mesh")
+var bnd = Selection(m, boundary=true)
+bnd.addgrade(1)
+var ns = Field(m, fn (x,y,z) Matrix([NS*random(1), NS*random(1)]))
+var R0 = Field(m, fn (x,y,z) Matrix([1,0]))
+
+// Optimization Problem //
+var optProblem = OptimizationProblem(m)
+
+var lEnergy = AreaIntegral(landau, ns)
+optProblem.addenergy(lEnergy)
+
+var tangentialEnergy = LineIntegral(tangentialAnchoring, ns)
+optProblem.addenergy(tangentialEnergy, selection=bnd, prefactor = TA)
+
+// var apolarEnergy = LineIntegral(apolarAnchoring, ns)
+// optProblem.addenergy(apolarEnergy, selection=bnd, prefactor = AA)
+
+// var polarEnergy = LineIntegral(polarAnchoring, ns)
+// optProblem.addenergy(polarEnergy, selection=bnd, prefactor = -PA)
+
+var eEnergy = GradSq(ns)
+optProblem.addenergy(eEnergy, prefactor = H)
+
+// var flexoEnergy = AreaIntegral(flexo, ns)
+// optProblem.addenergy(flexoEnergy)
+
+var opt = FieldOptimizer(optProblem, ns)
+opt.conjugategradient(ITERS)
+
+//------------ Refinement ------------//
+var mr = MeshRefiner([m, ns]);                    // Set the refiner up
+var refmap = mr.refine();                         // Perform the refinement
+for (el in [optProblem, opt]) el.update(refmap);  // Update the problem
+m = refmap[m]; ns=refmap[ns];                     // Update variables
+
+
+//------------ Plot Result ------------//
+var s = Field(m, 0)
+var nsNew = Field(m, Matrix([1,0,0]))
+for (i in 0...m.count()) s[i]=nsToNorm(ns[i])
+for (i in 0...m.count()) nsNew[i]=normToVector(ns[i])
+var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)
+var g   = plotfield(s, style="interpolate", scalebar = sb, colormap = ViridisMap())
+var gnn = visualize(m, nsNew, 0.05)
+var fig = g + gnn
+var fname = "Test_Figure.pov"
+export_figure(fig, fname)
