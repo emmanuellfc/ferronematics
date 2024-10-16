@@ -8,16 +8,17 @@ import plot
 import meshtools
 import functionals
 import povray
+import vtk
 
 // Phenomenological parameters //
 var ITERS = 2000  // Total iterations
 var NS = 0.1      // Noise Strength
 var H = 4.5
-var TA = 0.1      // Tangential Anchoring Strength
+var TA = 160.0      // Tangential Anchoring Strength
 var AA = 0.1      // Apolar Anchoring Strength
 var PA = 0.1      // Polar Anchoring Strength
-var T1 = -2.025   // Tau1 Parameter
-var T2 = 0.405142 // Tau1 Parameter
+var T1 = -202.5   // Tau1 Parameter
+var T2 = 40.5142 // Tau1 Parameter
 
 var m = Mesh("dense_disk.mesh")
 var bnd = Selection(m, boundary=true)
@@ -75,7 +76,7 @@ opt.conjugategradient(ITERS)
 // m = refmap[m]; qt=refmap[qt];  // Update variables
 
 
-// Q-Tensor to Scalar S
+// ns-Tensor to Scalar S
 fn nsToNorm(q) {
   var S = q.norm()
   return S
@@ -103,25 +104,34 @@ fn visualize(m, nn, dl, aspectratio=0.3) {
 
 // Now we create a new Field variable
 // and we polute this var with qToS
-var S = Field(m, 0)
-var N = Field(m, Matrix([1,0,0]))
-for (i in 0...m.count()) S[i]=nsToNorm(qt[i])
-for (i in 0...m.count()) N[i]=normToVector(qt[i])
+var s = Field(m, 0)
+var ns = Field(m, Matrix([1,0,0]))
+for (i in 0...m.count()) s[i]=nsToNorm(qt[i])
+for (i in 0...m.count()) ns[i]=normToVector(qt[i])
 
 // Plot the result //
 var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)
-var g   = plotfield(S, style="interpolate", scalebar = sb, colormap = ViridisMap())
-var gnn = visualize(m, N, 0.05)
+var g   = plotfield(s, style="interpolate", scalebar = sb, colormap = ViridisMap())
+var gnn = visualize(m, ns, 0.05)
 var fig = g+gnn
 Show(fig)
 
-var folder_name = "ferro_droplet_figures"
-if (Folder.isfolder(folder_name)==true) {
-  print "Folder exists!"
-}
-else {
-  system("mkdir ${folder_name}")
-}
+// var vtks = VTKExporter(s, fieldname="s")
+// vtks.export("NormSqData.vtk")
+
+// var vtkns = VTKExporter(ns, fieldname="nss")
+// vtkns.export("DirectorData.vtk")
+
+
+
+
+// var folder_name = "ferro_droplet_figures"
+// if (Folder.isfolder(folder_name)==true) {
+//   print "Folder exists!"
+// }
+// else {
+//   system("mkdir ${folder_name}")
+// }
 // // Generate a POVRaytracer object using the Graphics() object
 // var pov_name = "Ferro_Droplet_EA_${EA}.pov "
 // var png_name = "Ferro_Droplet_EA_${EA}.png "

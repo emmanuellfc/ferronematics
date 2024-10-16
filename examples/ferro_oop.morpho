@@ -1,0 +1,232 @@
+// OOP Version for Ferronematics Code //
+
+import optimize
+import plot
+import meshgen
+import functionals
+import povray
+import vtk
+
+// Phenomenological parameters //
+var NITERS = 2000  // Total iterations
+var NS = 0.1      // Noise Strength
+var H = 4.5
+var TA = 160      // Tangential Anchoring Strength
+var AA = 0.1      // Apolar Anchoring Strength
+var PA = 0.1      // Polar Anchoring Strength
+var T1 = -202.5   // Tau1 Parameter
+var T2 = 405.142  // Tau1 Parameter
+
+// fn landau(x, q) {
+//   var qn = q.norm()
+//   var q2 = qn * qn
+//   return T1*q2 + T2*q2*q2
+// }
+
+// Declare Types of Anchoring Functionals //
+// fn tangentialAnchoring(x, ns) {
+//   var t = tangent()
+//   var wxx = t[0]*t[0]-0.5
+//   var wxy = t[0]*t[1]
+//   return (ns[0]-wxx)^2+(ns[1]-wxy)^2
+// }
+
+fn apolarAnchoring(x, ns) {
+  return 1 - ns[0]^2
+}
+
+fn polarAnchoring(x, ns) {
+  return ns[0] - 1
+}
+
+// ns-Tensor to Scalar S
+fn nsToNorm(q) {
+  var S = q.norm()
+  return S
+}
+
+fn normToVector(q) {
+  var S = 2*q.norm()
+  var Q = q/S
+  var nx = sqrt(Q[0]+0.5)
+  var ny = abs(Q[1]/nx)
+  nx = nx*sign(Q[1])
+  return Matrix([nx,ny,0])
+}
+
+
+// Main Class for FerroSimulation //
+class FerroSimulation{
+  init() {
+    // self.tau1 = tau1
+    // self.tau2 = tau2
+    self.mesh = nil
+    self.director = nil
+  }
+
+  initialMesh(DELTA=0.2) {
+    var dom = fn (x) -(x[0]^2+x[1]^2 - 1)
+    var mg = MeshGen(dom, [-1..1:DELTA, -1..1:DELTA])
+    self.mesh = mg.build()
+    self.mesh.addgrade(1)
+    return self.mesh
+  }
+
+  loadMesh(fname) {
+    self.mesh = Mesh(fname)
+  }
+
+  loadVTK(fname) {
+    var vtkimp = VTKImporter(fname)
+    self.mesh = vtkimp.mesh()
+    self.director = vtkimp.field("director")
+  }
+
+  saveVTK(fname) {
+    var vtkexp = VTKExporter(self.director, fieldname = "director")
+    vtkexp.export(fname)
+  }
+
+  initialField() {
+    // self.director = Field(self.mesh, fn (x,y,z) Matrix([1,0]))
+    self.director = Field(self.mesh, fn (x,y,z) Matrix([NS*random(1), NS*random(1)]))
+  }
+
+  setupSelections(){
+    self.bnd = Selection(self.mesh, boundary=true)
+    return self.bnd
+  }
+
+  setupProblem() {
+    self.problem = OptimizationProblem(self.mesh)
+
+    // Landau-like Free Energy //
+    fn landau(x, q) {
+      var qn = q.norm()
+      var q2 = qn * qn
+      return T1*q2 + T2*q2*q2
+    }
+
+    fn tangentialAnchoring(x, ns) {
+      var t = tangent()
+      var wxx = t[0]*t[0]-0.5
+      var wxy = t[0]*t[1]
+      return (ns[0]-wxx)^2+(ns[1]-wxy)^2
+    }
+
+    // Landau-like Free Energy //
+    var lbulk = AreaIntegral(landau, self.director)
+    self.problem.addenergy(lbulk)
+
+    var eEnergy = GradSq(self.director)
+    self.problem.addenergy(eEnergy, prefactor = H)
+
+    var tangentialEnergy = LineIntegral(tangentialAnchoring, self.director)
+    self.problem.addenergy(tangentialEnergy, selection=self.bnd, prefactor = TA)
+
+    // var leq = EquiElement()
+    // self.problem.addenergy(leq, prefactor=0.0001)
+
+    return self.problem
+  }
+
+  setupRegularization() {
+    self.rproblem = OptimizationProblem(self.mesh)
+
+    var leq = EquiElement()
+    self.rproblem.addenergy(leq)
+
+    return self.rproblem
+  }
+
+  setupOptimizers() {
+    self.fopt = FieldOptimizer(self.problem, self.director)
+    self.fopt.steosize = 0.001
+    self.fopt.steplimit = 0.1
+    self.fopt.etol = 1e-6
+  }
+
+  hasConverged() {
+    return self.fopt.hasconverged()
+  }
+
+  optimizeField(NITERS) {
+    self.fopt.relax(1)
+    self.fopt.conjugategradient(NITERS)
+  }
+
+  visualizeDirectorSize() {
+    var ll = Length().integrand(self.mesh)
+    return ll.sum()/ll.count()/2
+  }
+
+  visualizeMesh(grade=nil) {
+    var g = [1], sel = nil
+    if (grade) g = grade
+    if (!islist(g)) g =[g]
+      return plotmesh(self.mesh, selection = sel, grade=g)
+  }
+
+  visualizeField() {
+    var S = Field(self.mesh, 0)
+    for (i in 0...self.mesh.count()) S[i]=nsToNorm(self.director[i])
+    var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)
+    var g   = plotfield(S, style="interpolate", scalebar = sb, colormap = ViridisMap())
+    return g
+  }
+  // Not working properly //
+  visualizeDirector() {
+    // var col = color
+    // if (isnil(color)) col = White
+    var v = self.mesh.vertexmatrix()
+    var nv = v.dimensions()[1]
+    var g = Graphics()
+    for (i in 0...nv) {
+      var x = v.column(i)
+      var nn = self.director[0,i]
+      var m = Matrix([nn[0], nn[1],0])
+      g.display(Arrow(x-m*0.05, x+m*0.05, aspectratio=0.3))
+    }
+    return g
+  }
+
+  visualize() {
+    return self.visualizeField() + self.visualizeDirector()
+  }
+}
+
+// Main Optimization Loop //
+fn optimizationLoop(sim, steps) {
+  sim.optimizeField(steps)
+
+  // for (i in 1..NITERS) {
+  //   for (j in 1..10) {
+  //     print "Field Optimization ${i}, ${j}"
+  //     sim.optimizeField(20)
+  //     if (sim.hasConverged()) break
+  //   }
+  //   if (sim.hasConverged()) break
+  // }
+}
+
+var sim = FerroSimulation()
+sim.loadMesh("dense_disk.mesh")
+sim.initialField()
+sim.setupSelections()
+sim.setupProblem()
+sim.setupOptimizers()
+sim.optimizeField(NITERS)
+Show(sim.visualize())
+
+// for (tau1 in -200..0:50) {
+//   print "Tau1: ${tau1}"
+//   sim.tau1 = tau1
+//   // Reinitialize problem
+//   sim.setupSelections()
+//   sim.setupProblem()
+//   // sim.setupRegularization()
+//   sim.setupOptimizers()
+//   sim.optimizeField(NITERS)
+
+//   Show(sim.visualize())
+// }
