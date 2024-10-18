@@ -1,20 +1,20 @@
 \documentclass{article}
 \usepackage{charter} % Palatino Font
-\usepackage{graphicx} % Required for inserting images
-\usepackage{biblatex} %Imports biblatex package
+\usepackage{graphicx}
+\usepackage{cite}
 \usepackage{breqn} % break equations automatically
-\addbibresource{References.bib} %Import the bibliography file
+
 
 \title{Ferroelectric Nematic Review}
 \author{J Emmanuel Flores}
-\date{July 2024}
+\date{\today}
 
 \begin{document}
 
 \maketitle
 
 \section{Introduction}
-\subsection{Kinds of Polar LC\cite{zou2024extended}}
+\subsection{Kinds of Polar LC \cite{zou2024extended}}
 \begin{itemize}
     \item Antiferroelectric splay nematic
     \item Achiral Ferroelectric Nematic
@@ -151,5 +151,6 @@ They consider a linear coupling between the nematic order parameter and the pola
     \mathbf{N}=s\mathbf{n}, \mathbf{P} = P_{0}\mathbf{N}=P_{0}s\mathbf{n}
 \end{equation}
 
-
+\bibliography{References.bib}
+\bibliographystyle{plain}
 \end{document}

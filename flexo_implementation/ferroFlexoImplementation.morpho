@@ -26,8 +26,9 @@ fn export_figure(fig, fig_name) {
   var pov = POVRaytracer(fig)
   pov.viewangle = 35
   pov.viewpoint = Matrix([0,0,6])
+  pov.background = White
   pov.light = [Matrix([3,4,5]), Matrix([-3,-4,5])]
-  pov.render(fig_name)
+  pov.render(fig_name, display=false)
 }
 
 // Landu Functional
@@ -58,7 +59,8 @@ fn polarAnchoring(x, q) {
 fn flexo(x, n) {
     var nnorm = n.norm()
     var n2 = nnorm*nnorm
-    var fl = GAMMA*grad(n)*n2
+    var div = grad(n).trace()
+    var fl = GAMMA*div*n2
     return fl
 }
 

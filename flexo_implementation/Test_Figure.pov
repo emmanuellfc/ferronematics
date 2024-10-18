@@ -3463,1734 +3463,1734 @@ normal_vectors { 1728,
 <0, 0, 1>
 }
 texture_list { 1728, 
-texture{ pigment{ rgb <0.255353, 0.255933, 0.526493>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.230979, 0.322753, 0.544624>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.204008, 0.385401, 0.553768>  } }, 
-texture{ pigment{ rgb <0.230979, 0.322753, 0.544624>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.230979, 0.322753, 0.544624>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.183024, 0.428843, 0.557554>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.158721, 0.477147, 0.559309>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.135643, 0.528572, 0.556809>  } }, 
-texture{ pigment{ rgb <0.158721, 0.477147, 0.559309>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.158721, 0.477147, 0.559309>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.12227, 0.604539, 0.540273>  } }, 
-texture{ pigment{ rgb <0.123361, 0.61299, 0.537253>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.12677, 0.627372, 0.531498>  } }, 
-texture{ pigment{ rgb <0.123361, 0.61299, 0.537253>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.123361, 0.61299, 0.537253>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.255353, 0.255933, 0.526493>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.144064, 0.508172, 0.558479>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.12227, 0.604539, 0.540273>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.329148, 0.776791, 0.404613>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.121903, 0.588069, 0.545425>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.122541, 0.607171, 0.539361>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.128257, 0.631852, 0.52954>  } }, 
-texture{ pigment{ rgb <0.122541, 0.607171, 0.539361>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.122541, 0.607171, 0.539361>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.136137, 0.527279, 0.556945>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.126325, 0.558133, 0.552475>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.121781, 0.594067, 0.543658>  } }, 
-texture{ pigment{ rgb <0.126325, 0.558133, 0.552475>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.126325, 0.558133, 0.552475>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.207975, 0.376753, 0.552794>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.186838, 0.421175, 0.55702>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.164572, 0.465426, 0.559177>  } }, 
-texture{ pigment{ rgb <0.186838, 0.421175, 0.55702>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.186838, 0.421175, 0.55702>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.207975, 0.376753, 0.552794>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.233668, 0.315943, 0.543267>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.256889, 0.251238, 0.524733>  } }, 
-texture{ pigment{ rgb <0.233668, 0.315943, 0.543267>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.233668, 0.315943, 0.543267>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.156384, 0.481896, 0.559299>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.138089, 0.522307, 0.557428>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.124362, 0.567255, 0.550628>  } }, 
-texture{ pigment{ rgb <0.138089, 0.522307, 0.557428>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.138089, 0.522307, 0.557428>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.12791, 0.552007, 0.553576>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578314, 0.548039>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.122928, 0.610188, 0.538284>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578314, 0.548039>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578314, 0.548039>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.207975, 0.376753, 0.552794>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.122719, 0.577988, 0.548121>  } }, 
-texture{ pigment{ rgb <0.122096, 0.584651, 0.546377>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.255353, 0.255933, 0.526493>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.277747, 0.173391, 0.483113>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.284505, 0.0929513, 0.41502>  } }, 
-texture{ pigment{ rgb <0.277747, 0.173391, 0.483113>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.137857, 0.522889, 0.557375>  } }, 
-texture{ pigment{ rgb <0.277747, 0.173391, 0.483113>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.975077, 0.903058, 0.126308>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.960278, 0.901543, 0.117302>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.123415, 0.613307, 0.537135>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609359, 0.538583>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.122927, 0.610186, 0.538285>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609359, 0.538583>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609359, 0.538583>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
+texture{ pigment{ rgb <0.253116, 0.262639, 0.528878>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.228804, 0.328178, 0.545643>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.201979, 0.389762, 0.55423>  } }, 
+texture{ pigment{ rgb <0.228804, 0.328178, 0.545643>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.228804, 0.328178, 0.545643>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.181689, 0.431511, 0.557726>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.157631, 0.479356, 0.559309>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.134948, 0.530423, 0.556607>  } }, 
+texture{ pigment{ rgb <0.157631, 0.479356, 0.559309>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.157631, 0.479356, 0.559309>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604505, 0.540285>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612833, 0.537312>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.126691, 0.627115, 0.531608>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612833, 0.537312>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612833, 0.537312>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.253116, 0.262639, 0.528878>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.142579, 0.511565, 0.558269>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604505, 0.540285>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.32968, 0.776986, 0.404319>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.121933, 0.587425, 0.545607>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606453, 0.539612>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.127975, 0.63105, 0.529897>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606453, 0.539612>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606453, 0.539612>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.135777, 0.528221, 0.556846>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.126162, 0.558814, 0.552346>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.121784, 0.594529, 0.543517>  } }, 
+texture{ pigment{ rgb <0.126162, 0.558814, 0.552346>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.126162, 0.558814, 0.552346>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.211133, 0.369745, 0.551947>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.189715, 0.415336, 0.556573>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.16703, 0.460548, 0.559061>  } }, 
+texture{ pigment{ rgb <0.189715, 0.415336, 0.556573>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.189715, 0.415336, 0.556573>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.211133, 0.369745, 0.551947>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.236944, 0.307483, 0.54145>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.260074, 0.241239, 0.520728>  } }, 
+texture{ pigment{ rgb <0.236944, 0.307483, 0.54145>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.236944, 0.307483, 0.54145>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.158073, 0.47846, 0.55931>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.139311, 0.5193, 0.557691>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.124878, 0.564618, 0.551188>  } }, 
+texture{ pigment{ rgb <0.139311, 0.5193, 0.557691>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.139311, 0.5193, 0.557691>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.128458, 0.550049, 0.553905>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576616, 0.548462>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.122731, 0.608735, 0.538807>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576616, 0.548462>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576616, 0.548462>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.211133, 0.369745, 0.551947>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.123312, 0.57351, 0.549212>  } }, 
+texture{ pigment{ rgb <0.122483, 0.580137, 0.547574>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.253116, 0.262639, 0.528878>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.276214, 0.180852, 0.488196>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.284771, 0.0999133, 0.421649>  } }, 
+texture{ pigment{ rgb <0.276214, 0.180852, 0.488196>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.136935, 0.52522, 0.557153>  } }, 
+texture{ pigment{ rgb <0.276214, 0.180852, 0.488196>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.974818, 0.903032, 0.126136>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.959961, 0.90151, 0.117127>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.123235, 0.612222, 0.537539>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608112, 0.539028>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.122732, 0.60874, 0.538805>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608112, 0.539028>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608112, 0.539028>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
 texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.625599, 0.853339, 0.224322>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.640487, 0.856108, 0.214462>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.621365, 0.852539, 0.227123>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.636637, 0.855399, 0.217012>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
 texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.999705, 0.905472, 0.144917>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.994396, 0.904963, 0.140533>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.908083, 0.895798, 0.0989624>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.122272, 0.604557, 0.540267>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.121836, 0.597363, 0.542634>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.121781, 0.59412, 0.543642>  } }, 
-texture{ pigment{ rgb <0.121836, 0.597363, 0.542634>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.121836, 0.597363, 0.542634>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.123413, 0.613296, 0.537139>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.12466, 0.619528, 0.534735>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.128253, 0.631842, 0.529545>  } }, 
-texture{ pigment{ rgb <0.12466, 0.619528, 0.534735>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.12466, 0.619528, 0.534735>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.580262, 0.844453, 0.254141>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.723533, 0.870354, 0.160595>  } }, 
-texture{ pigment{ rgb <0.736857, 0.872465, 0.152469>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.889207, 0.893563, 0.0973457>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.183024, 0.428843, 0.557554>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.193618, 0.407329, 0.555906>  } }, 
-texture{ pigment{ rgb <0.204008, 0.385401, 0.553768>  } }, 
-texture{ pigment{ rgb <0.193618, 0.407329, 0.555906>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.121794, 0.595449, 0.543234>  } }, 
-texture{ pigment{ rgb <0.193618, 0.407329, 0.555906>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.204008, 0.385401, 0.553768>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.125494, 0.561725, 0.551778>  } }, 
-texture{ pigment{ rgb <0.342484, 0.781571, 0.397213>  } }, 
-texture{ pigment{ rgb <0.122829, 0.57707, 0.54835>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.568264, 0.841978, 0.261937>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.136137, 0.527279, 0.556945>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.136154, 0.527235, 0.55695>  } }, 
-texture{ pigment{ rgb <0.135643, 0.528572, 0.556809>  } }, 
-texture{ pigment{ rgb <0.136154, 0.527235, 0.55695>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.155899, 0.676701, 0.50517>  } }, 
-texture{ pigment{ rgb <0.136154, 0.527235, 0.55695>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.366749, 0.789785, 0.383638>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.135643, 0.528572, 0.556809>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.139308, 0.654743, 0.518238>  } }, 
-texture{ pigment{ rgb <0.415419, 0.804688, 0.355839>  } }, 
-texture{ pigment{ rgb <0.151453, 0.671567, 0.508436>  } }, 
-texture{ pigment{ rgb <0.121903, 0.588069, 0.545425>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.122332, 0.60519, 0.54005>  } }, 
-texture{ pigment{ rgb <0.12677, 0.627372, 0.531498>  } }, 
-texture{ pigment{ rgb <0.122332, 0.60519, 0.54005>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.333384, 0.778331, 0.402267>  } }, 
-texture{ pigment{ rgb <0.122332, 0.60519, 0.54005>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.12677, 0.627372, 0.531498>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.37293, 0.791787, 0.380153>  } }, 
-texture{ pigment{ rgb <0.368208, 0.790261, 0.382816>  } }, 
-texture{ pigment{ rgb <0.860061, 0.889949, 0.0995686>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.850782, 0.888756, 0.101364>  } }, 
-texture{ pigment{ rgb <0.550047, 0.838115, 0.273672>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.322288, 0.774251, 0.408407>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.391896, 0.797723, 0.369381>  } }, 
-texture{ pigment{ rgb <0.585359, 0.845488, 0.250815>  } }, 
-texture{ pigment{ rgb <0.732889, 0.871841, 0.154863>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.908661, 0.895865, 0.0990523>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.868887, 0.891064, 0.0983284>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.860089, 0.889952, 0.0995639>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.714364, 0.868874, 0.166316>  } }, 
-texture{ pigment{ rgb <0.908951, 0.895898, 0.0990984>  } }, 
-texture{ pigment{ rgb <0.762507, 0.876404, 0.137636>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.915561, 0.89666, 0.100317>  } }, 
-texture{ pigment{ rgb <0.923567, 0.897568, 0.102232>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.123415, 0.613307, 0.537135>  } }, 
-texture{ pigment{ rgb <0.124662, 0.619537, 0.534732>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.128257, 0.631852, 0.52954>  } }, 
-texture{ pigment{ rgb <0.124662, 0.619537, 0.534732>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.124662, 0.619537, 0.534732>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.871752, 0.891422, 0.0980283>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.128257, 0.631852, 0.52954>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.380631, 0.794234, 0.375794>  } }, 
-texture{ pigment{ rgb <0.861754, 0.890164, 0.0992945>  } }, 
-texture{ pigment{ rgb <0.382766, 0.794904, 0.374582>  } }, 
-texture{ pigment{ rgb <0.803738, 0.882402, 0.117087>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.702979, 0.867006, 0.173537>  } }, 
-texture{ pigment{ rgb <0.627797, 0.853753, 0.222867>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.12227, 0.604539, 0.540273>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.121835, 0.59732, 0.542648>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.121781, 0.594067, 0.543658>  } }, 
-texture{ pigment{ rgb <0.121835, 0.59732, 0.542648>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.249271, 0.742769, 0.44868>  } }, 
-texture{ pigment{ rgb <0.121835, 0.59732, 0.542648>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.467689, 0.818824, 0.32492>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.601683, 0.84874, 0.24011>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.121781, 0.594067, 0.543658>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.201097, 0.71493, 0.476184>  } }, 
-texture{ pigment{ rgb <0.530249, 0.833762, 0.286272>  } }, 
-texture{ pigment{ rgb <0.233169, 0.734332, 0.457699>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.965055, 0.902038, 0.120026>  } }, 
-texture{ pigment{ rgb <0.925627, 0.8978, 0.102803>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.960195, 0.901535, 0.117256>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.925198, 0.897751, 0.102681>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.960991, 0.901617, 0.117697>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.94273, 0.899682, 0.1088>  } }, 
-texture{ pigment{ rgb <0.951679, 0.90064, 0.112838>  } }, 
-texture{ pigment{ rgb <0.969055, 0.902448, 0.122442>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.156384, 0.481896, 0.559299>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.160523, 0.473516, 0.559292>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.164572, 0.465426, 0.559177>  } }, 
-texture{ pigment{ rgb <0.160523, 0.473516, 0.559292>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.133551, 0.644352, 0.523645>  } }, 
-texture{ pigment{ rgb <0.160523, 0.473516, 0.559292>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.164572, 0.465426, 0.559177>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.126268, 0.625699, 0.532208>  } }, 
-texture{ pigment{ rgb <0.440408, 0.811659, 0.341208>  } }, 
-texture{ pigment{ rgb <0.128668, 0.632988, 0.529031>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.275398, 0.0380211, 0.362507>  } }, 
-texture{ pigment{ rgb <0.281676, 0.150173, 0.465799>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
-texture{ pigment{ rgb <0.256889, 0.251238, 0.524733>  } }, 
-texture{ pigment{ rgb <0.281676, 0.150173, 0.465799>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.281676, 0.150173, 0.465799>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.256889, 0.251238, 0.524733>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.128757, 0.549009, 0.554075>  } }, 
-texture{ pigment{ rgb <0.533635, 0.834518, 0.284129>  } }, 
-texture{ pigment{ rgb <0.140595, 0.516209, 0.557939>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.640462, 0.856103, 0.214479>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.12791, 0.552007, 0.553576>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.126245, 0.558467, 0.552412>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.124362, 0.567255, 0.550628>  } }, 
-texture{ pigment{ rgb <0.126245, 0.558467, 0.552412>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.184559, 0.70299, 0.486197>  } }, 
-texture{ pigment{ rgb <0.126245, 0.558467, 0.552412>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.45678, 0.816011, 0.331473>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.124362, 0.567255, 0.550628>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.175607, 0.695725, 0.49184>  } }, 
-texture{ pigment{ rgb <0.49065, 0.824532, 0.310946>  } }, 
-texture{ pigment{ rgb <0.186308, 0.704337, 0.485115>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.895342, 0.894298, 0.097594>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.950467, 0.900511, 0.112255>  } }, 
-texture{ pigment{ rgb <0.961285, 0.901648, 0.117861>  } }, 
-texture{ pigment{ rgb <0.993146, 0.904842, 0.13953>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.74123, 0.873148, 0.149857>  } }, 
-texture{ pigment{ rgb <0.685778, 0.864117, 0.184638>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.123413, 0.613296, 0.537139>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609356, 0.538584>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.122928, 0.610188, 0.538284>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609356, 0.538584>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.122813, 0.609356, 0.538584>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.529181, 0.833523, 0.286947>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.122928, 0.610188, 0.538284>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.232242, 0.733824, 0.458222>  } }, 
-texture{ pigment{ rgb <0.575396, 0.843456, 0.257309>  } }, 
-texture{ pigment{ rgb <0.261513, 0.748742, 0.441889>  } }, 
-texture{ pigment{ rgb <0.123413, 0.613296, 0.537139>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.350311, 0.784286, 0.392851>  } }, 
-texture{ pigment{ rgb <0.26806, 0.7518, 0.438272>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.632712, 0.854671, 0.219612>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.784821, 0.879701, 0.125903>  } }, 
-texture{ pigment{ rgb <0.731224, 0.871578, 0.155875>  } }, 
-texture{ pigment{ rgb <0.911118, 0.896149, 0.0994623>  } }, 
-texture{ pigment{ rgb <0.84706, 0.888272, 0.10222>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.625529, 0.853326, 0.224368>  } }, 
-texture{ pigment{ rgb <0.88553, 0.893118, 0.0973211>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.935643, 0.89891, 0.106042>  } }, 
-texture{ pigment{ rgb <0.757161, 0.875597, 0.140623>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.424433, 0.807251, 0.350592>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.595571, 0.847533, 0.244127>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.938567, 0.89923, 0.107133>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.488848, 0.824094, 0.312052>  } }, 
-texture{ pigment{ rgb <0.649398, 0.857732, 0.208561>  } }, 
-texture{ pigment{ rgb <0.766341, 0.876979, 0.135532>  } }, 
-texture{ pigment{ rgb <0.956458, 0.901144, 0.115248>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.738178, 0.872672, 0.151677>  } }, 
-texture{ pigment{ rgb <0.72506, 0.870598, 0.159652>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.275398, 0.0380211, 0.362507>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.999483, 0.905451, 0.144729>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.993984, 0.904923, 0.140201>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.908202, 0.895811, 0.0989807>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604499, 0.540287>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.121783, 0.594517, 0.543521>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.123236, 0.612224, 0.537538>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.124448, 0.618592, 0.535106>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.127974, 0.631048, 0.529898>  } }, 
+texture{ pigment{ rgb <0.124448, 0.618592, 0.535106>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.124448, 0.618592, 0.535106>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.583214, 0.845054, 0.252215>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.722245, 0.870147, 0.161393>  } }, 
+texture{ pigment{ rgb <0.736867, 0.872467, 0.152463>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.888226, 0.893445, 0.0973301>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.181689, 0.431511, 0.557726>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.19192, 0.410825, 0.556205>  } }, 
+texture{ pigment{ rgb <0.201979, 0.389762, 0.55423>  } }, 
+texture{ pigment{ rgb <0.19192, 0.410825, 0.556205>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.121857, 0.597982, 0.542438>  } }, 
+texture{ pigment{ rgb <0.19192, 0.410825, 0.556205>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.201979, 0.389762, 0.55423>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.124799, 0.565011, 0.551106>  } }, 
+texture{ pigment{ rgb <0.347359, 0.783269, 0.394498>  } }, 
+texture{ pigment{ rgb <0.122503, 0.579949, 0.547623>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.571578, 0.842667, 0.259789>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.135777, 0.528221, 0.556846>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.135632, 0.528603, 0.556806>  } }, 
+texture{ pigment{ rgb <0.134948, 0.530423, 0.556607>  } }, 
+texture{ pigment{ rgb <0.135632, 0.528603, 0.556806>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.157027, 0.677943, 0.50436>  } }, 
+texture{ pigment{ rgb <0.135632, 0.528603, 0.556806>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.371313, 0.791267, 0.381066>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.134948, 0.530423, 0.556607>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.140675, 0.656914, 0.517047>  } }, 
+texture{ pigment{ rgb <0.419219, 0.805775, 0.353632>  } }, 
+texture{ pigment{ rgb <0.152826, 0.673197, 0.507414>  } }, 
+texture{ pigment{ rgb <0.121933, 0.587425, 0.545607>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604717, 0.540212>  } }, 
+texture{ pigment{ rgb <0.126691, 0.627115, 0.531608>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604717, 0.540212>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.33263, 0.778058, 0.402685>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604717, 0.540212>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.126691, 0.627115, 0.531608>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.372829, 0.791755, 0.38021>  } }, 
+texture{ pigment{ rgb <0.368233, 0.790269, 0.382803>  } }, 
+texture{ pigment{ rgb <0.859845, 0.889921, 0.0996047>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.852055, 0.888921, 0.101089>  } }, 
+texture{ pigment{ rgb <0.553482, 0.838853, 0.27147>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.327163, 0.776062, 0.405712>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.395998, 0.798968, 0.367035>  } }, 
+texture{ pigment{ rgb <0.58827, 0.846075, 0.248911>  } }, 
+texture{ pigment{ rgb <0.733937, 0.872006, 0.154229>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.908796, 0.89588, 0.0990737>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.869347, 0.891122, 0.0982768>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.860058, 0.889948, 0.099569>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.714907, 0.868962, 0.165974>  } }, 
+texture{ pigment{ rgb <0.908876, 0.89589, 0.0990865>  } }, 
+texture{ pigment{ rgb <0.763497, 0.876553, 0.13709>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.914926, 0.896587, 0.100186>  } }, 
+texture{ pigment{ rgb <0.923369, 0.897546, 0.102178>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.123235, 0.612222, 0.537539>  } }, 
+texture{ pigment{ rgb <0.124448, 0.61859, 0.535107>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.127975, 0.63105, 0.529897>  } }, 
+texture{ pigment{ rgb <0.124448, 0.61859, 0.535107>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.124448, 0.61859, 0.535107>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.871482, 0.891389, 0.0980543>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.127975, 0.63105, 0.529897>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.379164, 0.793772, 0.376626>  } }, 
+texture{ pigment{ rgb <0.861362, 0.890114, 0.0993565>  } }, 
+texture{ pigment{ rgb <0.381495, 0.794506, 0.375304>  } }, 
+texture{ pigment{ rgb <0.805148, 0.8826, 0.116479>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.704529, 0.867262, 0.172547>  } }, 
+texture{ pigment{ rgb <0.63036, 0.854232, 0.22117>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604505, 0.540285>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.121784, 0.594529, 0.543517>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.249779, 0.743024, 0.448398>  } }, 
+texture{ pigment{ rgb <0.121841, 0.597503, 0.54259>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.47069, 0.819586, 0.323107>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.603064, 0.849011, 0.239201>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.121784, 0.594529, 0.543517>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.202357, 0.715775, 0.475438>  } }, 
+texture{ pigment{ rgb <0.53237, 0.834237, 0.28493>  } }, 
+texture{ pigment{ rgb <0.234245, 0.734919, 0.457092>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.964921, 0.902024, 0.119947>  } }, 
+texture{ pigment{ rgb <0.92568, 0.897806, 0.102818>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.959911, 0.901505, 0.117099>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.925606, 0.897797, 0.102797>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.960884, 0.901606, 0.117637>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.942932, 0.899704, 0.108885>  } }, 
+texture{ pigment{ rgb <0.951569, 0.900628, 0.112785>  } }, 
+texture{ pigment{ rgb <0.969001, 0.902442, 0.122409>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.158073, 0.47846, 0.55931>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.162588, 0.469381, 0.559246>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.16703, 0.460548, 0.559061>  } }, 
+texture{ pigment{ rgb <0.162588, 0.469381, 0.559246>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.132123, 0.641353, 0.525119>  } }, 
+texture{ pigment{ rgb <0.162588, 0.469381, 0.559246>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.16703, 0.460548, 0.559061>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.125187, 0.621719, 0.533855>  } }, 
+texture{ pigment{ rgb <0.434439, 0.810031, 0.344727>  } }, 
+texture{ pigment{ rgb <0.127459, 0.629528, 0.530566>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.271042, 0.0241913, 0.350276>  } }, 
+texture{ pigment{ rgb <0.283076, 0.138832, 0.456559>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.260074, 0.241239, 0.520728>  } }, 
+texture{ pigment{ rgb <0.283076, 0.138832, 0.456559>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.283076, 0.138832, 0.456559>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.260074, 0.241239, 0.520728>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.130003, 0.544863, 0.554722>  } }, 
+texture{ pigment{ rgb <0.529632, 0.833624, 0.286662>  } }, 
+texture{ pigment{ rgb <0.142153, 0.512549, 0.558203>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.636716, 0.855413, 0.21696>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.128458, 0.550049, 0.553905>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.126804, 0.556197, 0.552835>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.124878, 0.564618, 0.551188>  } }, 
+texture{ pigment{ rgb <0.126804, 0.556197, 0.552835>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.18234, 0.70125, 0.487578>  } }, 
+texture{ pigment{ rgb <0.126804, 0.556197, 0.552835>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.451486, 0.814622, 0.334634>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.124878, 0.564618, 0.551188>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.172754, 0.693259, 0.493683>  } }, 
+texture{ pigment{ rgb <0.486237, 0.823456, 0.313651>  } }, 
+texture{ pigment{ rgb <0.183618, 0.702257, 0.486781>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.894005, 0.894139, 0.0975175>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.95004, 0.900466, 0.112052>  } }, 
+texture{ pigment{ rgb <0.960863, 0.901604, 0.117626>  } }, 
+texture{ pigment{ rgb <0.992875, 0.904816, 0.139314>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.739352, 0.872856, 0.150975>  } }, 
+texture{ pigment{ rgb <0.682839, 0.863616, 0.186553>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.123236, 0.612224, 0.537538>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608111, 0.539029>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.122731, 0.608735, 0.538807>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608111, 0.539029>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.122653, 0.608111, 0.539029>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.525499, 0.832693, 0.289269>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.122731, 0.608735, 0.538807>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.229911, 0.732534, 0.459539>  } }, 
+texture{ pigment{ rgb <0.57255, 0.842869, 0.259158>  } }, 
+texture{ pigment{ rgb <0.259232, 0.747655, 0.443151>  } }, 
+texture{ pigment{ rgb <0.123236, 0.612224, 0.537538>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.348365, 0.783616, 0.393937>  } }, 
+texture{ pigment{ rgb <0.266354, 0.751012, 0.439213>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.630583, 0.854274, 0.221022>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.783225, 0.879469, 0.126698>  } }, 
+texture{ pigment{ rgb <0.729898, 0.871368, 0.156683>  } }, 
+texture{ pigment{ rgb <0.910772, 0.896109, 0.0994018>  } }, 
+texture{ pigment{ rgb <0.845347, 0.888049, 0.102638>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.621418, 0.852549, 0.227088>  } }, 
+texture{ pigment{ rgb <0.8839, 0.89292, 0.0973396>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.934699, 0.898807, 0.105704>  } }, 
+texture{ pigment{ rgb <0.755042, 0.875275, 0.141824>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.417888, 0.805396, 0.354405>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.590721, 0.846567, 0.247307>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.937687, 0.899134, 0.106798>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.482212, 0.822466, 0.31611>  } }, 
+texture{ pigment{ rgb <0.645287, 0.856986, 0.211283>  } }, 
+texture{ pigment{ rgb <0.763796, 0.876598, 0.136925>  } }, 
+texture{ pigment{ rgb <0.95597, 0.901093, 0.114994>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.738157, 0.872669, 0.15169>  } }, 
+texture{ pigment{ rgb <0.723795, 0.870396, 0.160433>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.271042, 0.0241913, 0.350276>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.262759, 0.00300969, 0.333391>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.284771, 0.0999133, 0.421649>  } }, 
+texture{ pigment{ rgb <0.262759, 0.00300969, 0.333391>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.166115, 0.462363, 0.559108>  } }, 
+texture{ pigment{ rgb <0.262759, 0.00300969, 0.333391>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.538711, 0.835643, 0.280908>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.491022, 0.824622, 0.310718>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.284771, 0.0999133, 0.421649>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.146599, 0.502525, 0.558773>  } }, 
+texture{ pigment{ rgb <0.500078, 0.826797, 0.305137>  } }, 
+texture{ pigment{ rgb <0.1546, 0.485556, 0.559264>  } }, 
+texture{ pigment{ rgb <0.979969, 0.903548, 0.12965>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.986816, 0.904226, 0.134625>  } }, 
+texture{ pigment{ rgb <0.980612, 0.903612, 0.130102>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.995688, 0.905088, 0.141581>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.984854, 0.904032, 0.133164>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.994779, 0.905, 0.140843>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.985953, 0.904141, 0.133979>  } }, 
+texture{ pigment{ rgb <0.986509, 0.904195, 0.134394>  } }, 
+texture{ pigment{ rgb <0.994337, 0.904957, 0.140485>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.993372, 0.904864, 0.139711>  } }, 
+texture{ pigment{ rgb <0.995313, 0.905052, 0.141276>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.994026, 0.904927, 0.140235>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.968829, 0.902425, 0.122302>  } }, 
+texture{ pigment{ rgb <0.991616, 0.904694, 0.138318>  } }, 
+texture{ pigment{ rgb <0.978028, 0.903355, 0.128303>  } }, 
+texture{ pigment{ rgb <0.123235, 0.612222, 0.537539>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.266337, 0.751004, 0.439223>  } }, 
+texture{ pigment{ rgb <0.348312, 0.783598, 0.393966>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.888343, 0.893459, 0.0973316>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.864257, 0.890481, 0.0989205>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.962674, 0.901792, 0.118646>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.910918, 0.896126, 0.0994273>  } }, 
+texture{ pigment{ rgb <0.729814, 0.871355, 0.156735>  } }, 
+texture{ pigment{ rgb <0.783389, 0.879493, 0.126616>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.682826, 0.863614, 0.186561>  } }, 
+texture{ pigment{ rgb <0.739281, 0.872844, 0.151017>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.12846, 0.550043, 0.553906>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576614, 0.548462>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.122732, 0.60874, 0.538805>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576614, 0.548462>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.122886, 0.576614, 0.548462>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.630539, 0.854266, 0.221051>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.122732, 0.60874, 0.538805>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.259223, 0.747651, 0.443156>  } }, 
+texture{ pigment{ rgb <0.572553, 0.842869, 0.259156>  } }, 
+texture{ pigment{ rgb <0.229933, 0.732546, 0.459527>  } }, 
+texture{ pigment{ rgb <0.84525, 0.888036, 0.102662>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.883546, 0.892877, 0.0973459>  } }, 
+texture{ pigment{ rgb <0.893983, 0.894136, 0.0975163>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <0.996713, 0.905186, 0.142422>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <0.996644, 0.90518, 0.142365>  } }, 
+texture{ pigment{ rgb <0.960509, 0.901567, 0.117429>  } }, 
+texture{ pigment{ rgb <0.952981, 0.900778, 0.113478>  } }, 
+texture{ pigment{ rgb <0.2111, 0.369818, 0.551956>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.189691, 0.415385, 0.556577>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.167015, 0.460579, 0.559062>  } }, 
+texture{ pigment{ rgb <0.189691, 0.415385, 0.556577>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.189691, 0.415385, 0.556577>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.15807, 0.478465, 0.55931>  } }, 
+texture{ pigment{ rgb <0.162579, 0.469398, 0.559246>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.167015, 0.460579, 0.559062>  } }, 
+texture{ pigment{ rgb <0.162579, 0.469398, 0.559246>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.162579, 0.469398, 0.559246>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.167015, 0.460579, 0.559062>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.434435, 0.81003, 0.344729>  } }, 
+texture{ pigment{ rgb <0.125192, 0.621739, 0.533847>  } }, 
+texture{ pigment{ rgb <0.127458, 0.629525, 0.530567>  } }, 
+texture{ pigment{ rgb <0.2111, 0.369818, 0.551956>  } }, 
+texture{ pigment{ rgb <0.236903, 0.30759, 0.541474>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.260029, 0.241381, 0.520787>  } }, 
+texture{ pigment{ rgb <0.236903, 0.30759, 0.541474>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.236903, 0.30759, 0.541474>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.271129, 0.024444, 0.350492>  } }, 
+texture{ pigment{ rgb <0.283056, 0.139015, 0.456712>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
+texture{ pigment{ rgb <0.260029, 0.241381, 0.520787>  } }, 
+texture{ pigment{ rgb <0.283056, 0.139015, 0.456712>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.283056, 0.139015, 0.456712>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.260029, 0.241381, 0.520787>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.52968, 0.833635, 0.286632>  } }, 
+texture{ pigment{ rgb <0.12999, 0.544905, 0.554716>  } }, 
+texture{ pigment{ rgb <0.142128, 0.512608, 0.558199>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.753494, 0.875039, 0.142707>  } }, 
+texture{ pigment{ rgb <0.932696, 0.898586, 0.105009>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.2111, 0.369818, 0.551956>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.123307, 0.573541, 0.549204>  } }, 
+texture{ pigment{ rgb <0.122478, 0.580184, 0.547562>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.936984, 0.899057, 0.106534>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.417921, 0.805405, 0.354386>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.590723, 0.846567, 0.247305>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.644989, 0.856932, 0.21148>  } }, 
+texture{ pigment{ rgb <0.763468, 0.876549, 0.137106>  } }, 
+texture{ pigment{ rgb <0.482269, 0.822481, 0.316075>  } }, 
+texture{ pigment{ rgb <0.12846, 0.550043, 0.553906>  } }, 
+texture{ pigment{ rgb <0.126806, 0.556191, 0.552836>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.124879, 0.564615, 0.551189>  } }, 
+texture{ pigment{ rgb <0.126806, 0.556191, 0.552836>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.126806, 0.556191, 0.552836>  } }, 
+texture{ pigment{ rgb <0.182349, 0.701257, 0.487572>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.15807, 0.478465, 0.55931>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.139311, 0.519298, 0.557691>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.124879, 0.564615, 0.551189>  } }, 
+texture{ pigment{ rgb <0.139311, 0.519298, 0.557691>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.13212, 0.641348, 0.525121>  } }, 
+texture{ pigment{ rgb <0.139311, 0.519298, 0.557691>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.525555, 0.832706, 0.289234>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.451443, 0.81461, 0.33466>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.124879, 0.564615, 0.551189>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.486235, 0.823456, 0.313652>  } }, 
+texture{ pigment{ rgb <0.183625, 0.702262, 0.486777>  } }, 
+texture{ pigment{ rgb <0.172748, 0.693254, 0.493687>  } }, 
+texture{ pigment{ rgb <0.952485, 0.900725, 0.113233>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.924838, 0.897711, 0.10258>  } }, 
+texture{ pigment{ rgb <0.976592, 0.903211, 0.127324>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <0.996351, 0.905151, 0.142124>  } }, 
+texture{ pigment{ rgb <0.950716, 0.900538, 0.112374>  } }, 
+texture{ pigment{ rgb <0.958698, 0.901379, 0.116439>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604499, 0.540287>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.250131, 0.7432, 0.448202>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.908529, 0.895849, 0.0990315>  } }, 
+texture{ pigment{ rgb <0.76378, 0.876596, 0.136934>  } }, 
+texture{ pigment{ rgb <0.715598, 0.869074, 0.165541>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.880074, 0.892452, 0.0974525>  } }, 
+texture{ pigment{ rgb <0.878378, 0.892243, 0.0975335>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.958849, 0.901394, 0.11652>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.998307, 0.905339, 0.143743>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.960069, 0.901521, 0.117186>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.995717, 0.90509, 0.141605>  } }, 
+texture{ pigment{ rgb <0.975142, 0.903065, 0.126352>  } }, 
+texture{ pigment{ rgb <0.966346, 0.90217, 0.120793>  } }, 
+texture{ pigment{ rgb <0.122267, 0.604499, 0.540287>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612831, 0.537313>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.126688, 0.627106, 0.531612>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612831, 0.537313>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.329687, 0.776988, 0.404315>  } }, 
+texture{ pigment{ rgb <0.123335, 0.612831, 0.537313>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.121933, 0.587426, 0.545607>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604716, 0.540213>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.126688, 0.627106, 0.531612>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604716, 0.540213>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.122287, 0.604716, 0.540213>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.86011, 0.889955, 0.0995604>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.126688, 0.627106, 0.531612>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.859874, 0.889925, 0.0995998>  } }, 
+texture{ pigment{ rgb <0.37283, 0.791756, 0.380209>  } }, 
+texture{ pigment{ rgb <0.368206, 0.79026, 0.382818>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.641898, 0.856367, 0.213528>  } }, 
+texture{ pigment{ rgb <0.714275, 0.86886, 0.166371>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.135685, 0.528463, 0.556821>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.12613, 0.558949, 0.552321>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.121783, 0.594517, 0.543521>  } }, 
+texture{ pigment{ rgb <0.12613, 0.558949, 0.552321>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.12613, 0.558949, 0.552321>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.604218, 0.849237, 0.238441>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.121783, 0.594517, 0.543521>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.234554, 0.735087, 0.456918>  } }, 
+texture{ pigment{ rgb <0.535198, 0.834866, 0.283138>  } }, 
+texture{ pigment{ rgb <0.203426, 0.716485, 0.474807>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.922683, 0.897469, 0.101996>  } }, 
+texture{ pigment{ rgb <0.91431, 0.896516, 0.100062>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.121933, 0.587426, 0.545607>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606454, 0.539612>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.127974, 0.631048, 0.529898>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606454, 0.539612>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.332616, 0.778053, 0.402692>  } }, 
+texture{ pigment{ rgb <0.122461, 0.606454, 0.539612>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.864346, 0.890492, 0.0989078>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.87145, 0.891385, 0.0980574>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.127974, 0.631048, 0.529898>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.381533, 0.794518, 0.375282>  } }, 
+texture{ pigment{ rgb <0.8614, 0.890119, 0.0993503>  } }, 
+texture{ pigment{ rgb <0.379159, 0.793771, 0.376629>  } }, 
+texture{ pigment{ rgb <0.181675, 0.43154, 0.557728>  } }, 
+texture{ pigment{ rgb <0.191973, 0.410716, 0.556196>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.202098, 0.389509, 0.554204>  } }, 
+texture{ pigment{ rgb <0.191973, 0.410716, 0.556196>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.191973, 0.410716, 0.556196>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.253223, 0.262322, 0.528769>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.228918, 0.327894, 0.545591>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.202098, 0.389509, 0.554204>  } }, 
+texture{ pigment{ rgb <0.228918, 0.327894, 0.545591>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.228918, 0.327894, 0.545591>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.202098, 0.389509, 0.554204>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.349891, 0.784141, 0.393086>  } }, 
+texture{ pigment{ rgb <0.12244, 0.580571, 0.547462>  } }, 
+texture{ pigment{ rgb <0.124769, 0.56516, 0.551075>  } }, 
+texture{ pigment{ rgb <0.135685, 0.528463, 0.556821>  } }, 
+texture{ pigment{ rgb <0.135539, 0.528849, 0.55678>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.13486, 0.530659, 0.556581>  } }, 
+texture{ pigment{ rgb <0.135539, 0.528849, 0.55678>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.135539, 0.528849, 0.55678>  } }, 
+texture{ pigment{ rgb <0.157812, 0.678793, 0.503801>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.181675, 0.43154, 0.557728>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.157563, 0.479495, 0.559309>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.13486, 0.530659, 0.556581>  } }, 
+texture{ pigment{ rgb <0.157563, 0.479495, 0.559309>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.121887, 0.598762, 0.542189>  } }, 
+texture{ pigment{ rgb <0.157563, 0.479495, 0.559309>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.474946, 0.820658, 0.32053>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.375216, 0.792519, 0.378861>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.13486, 0.530659, 0.556581>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.423339, 0.806943, 0.35123>  } }, 
+texture{ pigment{ rgb <0.153573, 0.674066, 0.506863>  } }, 
+texture{ pigment{ rgb <0.141238, 0.657783, 0.516565>  } }, 
+texture{ pigment{ rgb <0.823183, 0.885091, 0.109381>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.563577, 0.840997, 0.264969>  } }, 
+texture{ pigment{ rgb <0.862016, 0.890197, 0.0992536>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.253223, 0.262322, 0.528769>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.142519, 0.511701, 0.55826>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.9271, 0.897964, 0.103231>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.328377, 0.776508, 0.40504>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.734845, 0.872149, 0.15368>  } }, 
+texture{ pigment{ rgb <0.589932, 0.846409, 0.247823>  } }, 
+texture{ pigment{ rgb <0.397022, 0.799277, 0.366449>  } }, 
+texture{ pigment{ rgb <0.271129, 0.024444, 0.350492>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
 texture{ pigment{ rgb <0.262736, 0.0029581, 0.333353>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.284505, 0.0929513, 0.41502>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.284766, 0.0996831, 0.421431>  } }, 
 texture{ pigment{ rgb <0.262736, 0.0029581, 0.333353>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.16493, 0.464715, 0.559162>  } }, 
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.1661, 0.462392, 0.559109>  } }, 
 texture{ pigment{ rgb <0.262736, 0.0029581, 0.333353>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.537156, 0.8353, 0.281896>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.493491, 0.825219, 0.3092>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.284505, 0.0929513, 0.41502>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.147068, 0.501499, 0.558819>  } }, 
-texture{ pigment{ rgb <0.500443, 0.826884, 0.304911>  } }, 
-texture{ pigment{ rgb <0.154408, 0.485953, 0.559259>  } }, 
-texture{ pigment{ rgb <0.980216, 0.903573, 0.129823>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.98699, 0.904243, 0.134756>  } }, 
-texture{ pigment{ rgb <0.981069, 0.903658, 0.130425>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.995957, 0.905114, 0.141802>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.985201, 0.904067, 0.13342>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.994878, 0.90501, 0.140923>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.986133, 0.904158, 0.134113>  } }, 
-texture{ pigment{ rgb <0.986828, 0.904227, 0.134634>  } }, 
-texture{ pigment{ rgb <0.994453, 0.904969, 0.140579>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.993833, 0.904909, 0.14008>  } }, 
-texture{ pigment{ rgb <0.995616, 0.905081, 0.141523>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.994192, 0.904943, 0.140368>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.969364, 0.902479, 0.122634>  } }, 
-texture{ pigment{ rgb <0.991884, 0.90472, 0.138529>  } }, 
-texture{ pigment{ rgb <0.978549, 0.903407, 0.128661>  } }, 
-texture{ pigment{ rgb <0.123415, 0.613307, 0.537135>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.268077, 0.751808, 0.438262>  } }, 
-texture{ pigment{ rgb <0.350304, 0.784283, 0.392855>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.889348, 0.89358, 0.0973485>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.864796, 0.890549, 0.0988448>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.963066, 0.901832, 0.11887>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.911267, 0.896166, 0.0994886>  } }, 
-texture{ pigment{ rgb <0.731198, 0.871574, 0.155891>  } }, 
-texture{ pigment{ rgb <0.785006, 0.879727, 0.125811>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.685791, 0.86412, 0.184629>  } }, 
-texture{ pigment{ rgb <0.741228, 0.873148, 0.149859>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.127906, 0.55202, 0.553574>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578317, 0.548038>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.122927, 0.610186, 0.538285>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578317, 0.548038>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.122681, 0.578317, 0.548038>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.632734, 0.854675, 0.219597>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.122927, 0.610186, 0.538285>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.261521, 0.748746, 0.441884>  } }, 
-texture{ pigment{ rgb <0.575416, 0.84346, 0.257296>  } }, 
-texture{ pigment{ rgb <0.232251, 0.733828, 0.458217>  } }, 
-texture{ pigment{ rgb <0.847036, 0.888269, 0.102225>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.885225, 0.893081, 0.0973232>  } }, 
-texture{ pigment{ rgb <0.895407, 0.894306, 0.097598>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <0.99714, 0.905227, 0.142774>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <0.996934, 0.905207, 0.142604>  } }, 
-texture{ pigment{ rgb <0.961023, 0.901621, 0.117715>  } }, 
-texture{ pigment{ rgb <0.95335, 0.900817, 0.113661>  } }, 
-texture{ pigment{ rgb <0.207875, 0.376974, 0.55282>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.186754, 0.421345, 0.557032>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.164508, 0.465555, 0.55918>  } }, 
-texture{ pigment{ rgb <0.186754, 0.421345, 0.557032>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.186754, 0.421345, 0.557032>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.156345, 0.481975, 0.559298>  } }, 
-texture{ pigment{ rgb <0.160472, 0.473619, 0.559292>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.164508, 0.465555, 0.55918>  } }, 
-texture{ pigment{ rgb <0.160472, 0.473619, 0.559292>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.160472, 0.473619, 0.559292>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.164508, 0.465555, 0.55918>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.440551, 0.811698, 0.341123>  } }, 
-texture{ pigment{ rgb <0.126301, 0.625813, 0.53216>  } }, 
-texture{ pigment{ rgb <0.128694, 0.63306, 0.528999>  } }, 
-texture{ pigment{ rgb <0.207875, 0.376974, 0.55282>  } }, 
-texture{ pigment{ rgb <0.23356, 0.316219, 0.543323>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.25678, 0.251574, 0.524861>  } }, 
-texture{ pigment{ rgb <0.23356, 0.316219, 0.543323>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.23356, 0.316219, 0.543323>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.275519, 0.0384498, 0.362897>  } }, 
-texture{ pigment{ rgb <0.281625, 0.150541, 0.46609>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.25678, 0.251574, 0.524861>  } }, 
-texture{ pigment{ rgb <0.281625, 0.150541, 0.46609>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.281625, 0.150541, 0.46609>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.25678, 0.251574, 0.524861>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.533732, 0.83454, 0.284067>  } }, 
-texture{ pigment{ rgb <0.128723, 0.549126, 0.554056>  } }, 
-texture{ pigment{ rgb <0.140544, 0.516331, 0.557929>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.755608, 0.875361, 0.141502>  } }, 
-texture{ pigment{ rgb <0.93364, 0.89869, 0.105333>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.207875, 0.376974, 0.55282>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.122703, 0.578124, 0.548087>  } }, 
-texture{ pigment{ rgb <0.122088, 0.584774, 0.546343>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.937904, 0.899158, 0.10688>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.424639, 0.807309, 0.350472>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.595635, 0.847546, 0.244084>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.649184, 0.857693, 0.208703>  } }, 
-texture{ pigment{ rgb <0.766057, 0.876937, 0.135687>  } }, 
-texture{ pigment{ rgb <0.489019, 0.824135, 0.311947>  } }, 
-texture{ pigment{ rgb <0.127906, 0.55202, 0.553574>  } }, 
-texture{ pigment{ rgb <0.12624, 0.558487, 0.552409>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.124357, 0.567283, 0.550622>  } }, 
-texture{ pigment{ rgb <0.12624, 0.558487, 0.552409>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.12624, 0.558487, 0.552409>  } }, 
-texture{ pigment{ rgb <0.184578, 0.703005, 0.486185>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.156345, 0.481975, 0.559298>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.138068, 0.522359, 0.557423>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.124357, 0.567283, 0.550622>  } }, 
-texture{ pigment{ rgb <0.138068, 0.522359, 0.557423>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.13358, 0.64441, 0.523616>  } }, 
-texture{ pigment{ rgb <0.138068, 0.522359, 0.557423>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.529214, 0.83353, 0.286926>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.456854, 0.81603, 0.331429>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.124357, 0.567283, 0.550622>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.490699, 0.824544, 0.310916>  } }, 
-texture{ pigment{ rgb <0.186335, 0.704357, 0.485098>  } }, 
-texture{ pigment{ rgb <0.175646, 0.695757, 0.491816>  } }, 
-texture{ pigment{ rgb <0.95298, 0.900778, 0.113477>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.924798, 0.897707, 0.102569>  } }, 
-texture{ pigment{ rgb <0.976806, 0.903232, 0.127469>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <1.00238, 0.905727, 0.147202>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <0.996479, 0.905164, 0.142229>  } }, 
-texture{ pigment{ rgb <0.950793, 0.900546, 0.112411>  } }, 
-texture{ pigment{ rgb <0.95887, 0.901396, 0.116532>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.122272, 0.604557, 0.540267>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.249689, 0.742978, 0.448448>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.908607, 0.895858, 0.0990438>  } }, 
-texture{ pigment{ rgb <0.762869, 0.876459, 0.137436>  } }, 
-texture{ pigment{ rgb <0.715125, 0.868998, 0.165838>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.879582, 0.892391, 0.0974741>  } }, 
-texture{ pigment{ rgb <0.878091, 0.892208, 0.0975491>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.959161, 0.901427, 0.11669>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.998694, 0.905376, 0.144066>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.960192, 0.901534, 0.117254>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.996099, 0.905127, 0.141917>  } }, 
-texture{ pigment{ rgb <0.975213, 0.903072, 0.126399>  } }, 
-texture{ pigment{ rgb <0.966331, 0.902169, 0.120784>  } }, 
-texture{ pigment{ rgb <0.122272, 0.604557, 0.540267>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.123364, 0.613007, 0.537247>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.126771, 0.627377, 0.531496>  } }, 
-texture{ pigment{ rgb <0.123364, 0.613007, 0.537247>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.329198, 0.776809, 0.404585>  } }, 
-texture{ pigment{ rgb <0.123364, 0.613007, 0.537247>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.121904, 0.58805, 0.54543>  } }, 
-texture{ pigment{ rgb <0.122331, 0.605184, 0.540052>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.126771, 0.627377, 0.531496>  } }, 
-texture{ pigment{ rgb <0.122331, 0.605184, 0.540052>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.122331, 0.605184, 0.540052>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.860134, 0.889958, 0.0995563>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.126771, 0.627377, 0.531496>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.8601, 0.889954, 0.0995621>  } }, 
-texture{ pigment{ rgb <0.372951, 0.791794, 0.380141>  } }, 
-texture{ pigment{ rgb <0.368222, 0.790266, 0.382809>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.63959, 0.855943, 0.215056>  } }, 
-texture{ pigment{ rgb <0.712962, 0.868646, 0.167198>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.136016, 0.527594, 0.556912>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.126276, 0.558339, 0.552437>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.121781, 0.59412, 0.543642>  } }, 
-texture{ pigment{ rgb <0.126276, 0.558339, 0.552437>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.126276, 0.558339, 0.552437>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.602977, 0.848994, 0.239259>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.121781, 0.59412, 0.543642>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.233577, 0.734555, 0.457469>  } }, 
-texture{ pigment{ rgb <0.533222, 0.834427, 0.28439>  } }, 
-texture{ pigment{ rgb <0.20224, 0.715696, 0.475508>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.922929, 0.897496, 0.102061>  } }, 
-texture{ pigment{ rgb <0.914947, 0.896589, 0.10019>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.121904, 0.58805, 0.54543>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.12254, 0.607156, 0.539366>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.128253, 0.631842, 0.529545>  } }, 
-texture{ pigment{ rgb <0.12254, 0.607156, 0.539366>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.333365, 0.778324, 0.402277>  } }, 
-texture{ pigment{ rgb <0.12254, 0.607156, 0.539366>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.864849, 0.890556, 0.0988374>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.87176, 0.891423, 0.0980275>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.128253, 0.631842, 0.529545>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.382777, 0.794907, 0.374576>  } }, 
-texture{ pigment{ rgb <0.861791, 0.890169, 0.0992887>  } }, 
-texture{ pigment{ rgb <0.380622, 0.794232, 0.375799>  } }, 
-texture{ pigment{ rgb <0.182965, 0.428961, 0.557562>  } }, 
-texture{ pigment{ rgb <0.193631, 0.407301, 0.555904>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.204092, 0.38522, 0.553748>  } }, 
-texture{ pigment{ rgb <0.193631, 0.407301, 0.555904>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.193631, 0.407301, 0.555904>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.255451, 0.255635, 0.526383>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.231073, 0.322518, 0.544578>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.204092, 0.38522, 0.553748>  } }, 
-texture{ pigment{ rgb <0.231073, 0.322518, 0.544578>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.231073, 0.322518, 0.544578>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.204092, 0.38522, 0.553748>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.345237, 0.782533, 0.395681>  } }, 
-texture{ pigment{ rgb <0.122741, 0.577803, 0.548167>  } }, 
-texture{ pigment{ rgb <0.125443, 0.561953, 0.551733>  } }, 
-texture{ pigment{ rgb <0.136016, 0.527594, 0.556912>  } }, 
-texture{ pigment{ rgb <0.136028, 0.527563, 0.556916>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.135519, 0.5289, 0.556774>  } }, 
-texture{ pigment{ rgb <0.136028, 0.527563, 0.556916>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.136028, 0.527563, 0.556916>  } }, 
-texture{ pigment{ rgb <0.156731, 0.677619, 0.504572>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.182965, 0.428961, 0.557562>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.158608, 0.477376, 0.55931>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.135519, 0.5289, 0.556774>  } }, 
-texture{ pigment{ rgb <0.158608, 0.477376, 0.55931>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.12181, 0.596346, 0.542954>  } }, 
-texture{ pigment{ rgb <0.158608, 0.477376, 0.55931>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.472083, 0.819938, 0.322265>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.37095, 0.79115, 0.381271>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.135519, 0.5289, 0.556774>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.419765, 0.805931, 0.353314>  } }, 
-texture{ pigment{ rgb <0.152248, 0.672515, 0.507843>  } }, 
-texture{ pigment{ rgb <0.139922, 0.655729, 0.5177>  } }, 
-texture{ pigment{ rgb <0.822101, 0.884944, 0.109768>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.560428, 0.840332, 0.267001>  } }, 
-texture{ pigment{ rgb <0.860927, 0.890059, 0.0994262>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.255451, 0.255635, 0.526383>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.143974, 0.508376, 0.558467>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.92678, 0.897929, 0.103136>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.323661, 0.774764, 0.407648>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.733799, 0.871985, 0.154312>  } }, 
-texture{ pigment{ rgb <0.587166, 0.845853, 0.249633>  } }, 
-texture{ pigment{ rgb <0.392933, 0.798039, 0.368789>  } }, 
-texture{ pigment{ rgb <0.275519, 0.0384498, 0.362897>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.262758, 0.00300906, 0.33339>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.284491, 0.0926961, 0.414775>  } }, 
-texture{ pigment{ rgb <0.262758, 0.00300906, 0.33339>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.164892, 0.46479, 0.559164>  } }, 
-texture{ pigment{ rgb <0.262758, 0.00300906, 0.33339>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.255451, 0.255635, 0.526383>  } }, 
-texture{ pigment{ rgb <0.277807, 0.173089, 0.482902>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.284491, 0.0926961, 0.414775>  } }, 
-texture{ pigment{ rgb <0.277807, 0.173089, 0.482902>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.277807, 0.173089, 0.482902>  } }, 
-texture{ pigment{ rgb <0.137838, 0.522935, 0.557371>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.493589, 0.825243, 0.30914>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.537508, 0.835377, 0.281672>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.284491, 0.0926961, 0.414775>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.500675, 0.826939, 0.304768>  } }, 
-texture{ pigment{ rgb <0.154387, 0.485995, 0.559258>  } }, 
-texture{ pigment{ rgb <0.147043, 0.501553, 0.558816>  } }, 
-texture{ pigment{ rgb <0.997084, 0.905222, 0.142727>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.998225, 0.905331, 0.143675>  } }, 
-texture{ pigment{ rgb <0.99373, 0.904899, 0.139997>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.978784, 0.90343, 0.128824>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }, 
-texture{ pigment{ rgb <0.959405, 0.901452, 0.116822>  } }, 
-texture{ pigment{ rgb <0.988828, 0.904423, 0.136153>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }, 
-texture{ pigment{ rgb <0.996898, 0.905204, 0.142574>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.962672, 0.901792, 0.118645>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }, 
-texture{ pigment{ rgb <0.999416, 0.905445, 0.144673>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }, 
-texture{ pigment{ rgb <0.978229, 0.903375, 0.12844>  } }, 
-texture{ pigment{ rgb <0.994312, 0.904955, 0.140465>  } }, 
-texture{ pigment{ rgb <0.971558, 0.902702, 0.124016>  } }
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.253223, 0.262322, 0.528769>  } }, 
+texture{ pigment{ rgb <0.276275, 0.180567, 0.488006>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.284766, 0.0996831, 0.421431>  } }, 
+texture{ pigment{ rgb <0.276275, 0.180567, 0.488006>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.276275, 0.180567, 0.488006>  } }, 
+texture{ pigment{ rgb <0.136917, 0.525267, 0.557148>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.491068, 0.824633, 0.31069>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.539134, 0.835736, 0.280638>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.284766, 0.0996831, 0.421431>  } }, 
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.500343, 0.82686, 0.304974>  } }, 
+texture{ pigment{ rgb <0.154591, 0.485574, 0.559264>  } }, 
+texture{ pigment{ rgb <0.146575, 0.502578, 0.55877>  } }, 
+texture{ pigment{ rgb <0.996634, 0.905179, 0.142357>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.99788, 0.905298, 0.143388>  } }, 
+texture{ pigment{ rgb <0.993335, 0.904861, 0.139681>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.97848, 0.9034, 0.128614>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }, 
+texture{ pigment{ rgb <0.959051, 0.901415, 0.11663>  } }, 
+texture{ pigment{ rgb <0.988583, 0.904399, 0.135965>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }, 
+texture{ pigment{ rgb <0.99663, 0.905178, 0.142353>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.962244, 0.901747, 0.118402>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }, 
+texture{ pigment{ rgb <0.999166, 0.905421, 0.144462>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }, 
+texture{ pigment{ rgb <0.977761, 0.903328, 0.128119>  } }, 
+texture{ pigment{ rgb <0.994089, 0.904934, 0.140286>  } }, 
+texture{ pigment{ rgb <0.970961, 0.902642, 0.123636>  } }
 }
 face_indices { 576, 
 <0, 1, 2>,0,1,2, 
@@ -12821,696 +12821,696 @@ face_indices { 704,
 <2109, 2110, 2111>,2109,2110,2111, 
 }
 }
-cylinder { <1.23, -0.0544414, 0>, <1.2375, -0.0544414, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
+cylinder { <1.23, -0.0547303, 0>, <1.2375, -0.0547303, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
 text {  ttf "cyrvetic.ttf" "0.5" 0.1, 0 
   pigment { rgb <1, 1, 1>  }
   scale 0.08 
-  translate 1.245*x + -0.0752748*y + 0*z 
+  translate 1.245*x + -0.0755636*y + 0*z 
   matrix < 1,  0,  0, 
  0,  1,  0, 
  0,  0,  -1, 
  0,  0,  0> 
  }
 
-cylinder { <1.23, 0.0283033, 0>, <1.2375, 0.0283033, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
+cylinder { <1.23, 0.028137, 0>, <1.2375, 0.028137, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
 text {  ttf "cyrvetic.ttf" "1" 0.1, 0 
   pigment { rgb <1, 1, 1>  }
   scale 0.08 
-  translate 1.245*x + 0.00746993*y + 0*z 
+  translate 1.245*x + 0.0073037*y + 0*z 
   matrix < 1,  0,  0, 
  0,  1,  0, 
  0,  0,  -1, 
  0,  0,  0> 
  }
 
-cylinder { <1.23, 0.111048, 0>, <1.2375, 0.111048, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
+cylinder { <1.23, 0.111004, 0>, <1.2375, 0.111004, 0>, 0.000375 texture {  pigment { rgb <1, 1, 1> } } }
 text {  ttf "cyrvetic.ttf" "1.5" 0.1, 0 
   pigment { rgb <1, 1, 1>  }
   scale 0.08 
-  translate 1.245*x + 0.0902146*y + 0*z 
+  translate 1.245*x + 0.090171*y + 0*z 
   matrix < 1,  0,  0, 
  0,  1,  0, 
  0,  0,  -1, 
  0,  0,  0> 
  }
 
-cylinder { <-1.03768, -0.0328614, 0>, <-0.984926, 0.0131446, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.984926, 0.0131446, 0>, 0.03, <-0.962315, 0.0328614, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.908153, -0.334693, 0>, <-0.968218, -0.298746, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.968218, -0.298746, 0>, 0.03, <-0.993961, -0.283341, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.98993, 0.277571, 0>, <-0.935508, 0.321596, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.935508, 0.321596, 0>, 0.03, <-0.912184, 0.340463, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.765373, -0.612181, 0>, <-0.826475, -0.578027, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.826475, -0.578027, 0>, 0.03, <-0.852661, -0.563389, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.850499, 0.55987, 0>, <-0.792424, 0.598951, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.792424, 0.598951, 0>, 0.03, <-0.767535, 0.6157, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.540952, -0.82653, 0>, <-0.606518, -0.802012, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.606518, -0.802012, 0>, 0.03, <-0.634618, -0.791504, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.63335, 0.78843, 0>, <-0.569559, 0.817252, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.569559, 0.817252, 0>, 0.03, <-0.54222, 0.829604, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.450316, -0.505617, 0>, <-0.519873, -0.497753, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.519873, -0.497753, 0>, 0.03, <-0.549684, -0.494383, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.549796, -0.0045106, 0>, <-0.480082, 0.00180424, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480082, 0.00180424, 0>, 0.03, <-0.450204, 0.0045106, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.548443, 0.48762, 0>, <-0.480623, 0.504952, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480623, 0.504952, 0>, 0.03, <-0.451557, 0.51238, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.259761, -0.959652, 0>, <-0.328719, -0.947619, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.328719, -0.947619, 0>, 0.03, <-0.358273, -0.942462, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.357707, 0.939686, 0>, <-0.289541, 0.955606, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.289541, 0.955606, 0>, 0.03, <-0.260327, 0.962428, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499835, -1.00128, 0>, <0.0199934, -0.999487, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199934, -0.999487, 0>, 0.03, <0.0499835, -0.998717, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499037, -0.503101, 0>, <0.0199615, -0.498759, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199615, -0.498759, 0>, 0.03, <0.0499037, -0.496899, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498578, -0.0037686, 0>, <0.0199431, 0.00150744, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199431, 0.00150744, 0>, 0.03, <0.0498578, 0.0037686, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.049904, 0.496902, 0>, <0.0199616, 0.501239, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199616, 0.501239, 0>, 0.03, <0.049904, 0.503098, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499836, 0.998718, 0>, <0.0199934, 1.00051, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199934, 1.00051, 0>, 0.03, <0.0499836, 1.00128, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.260328, -0.96243, 0>, <0.328493, -0.946508, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.328493, -0.946508, 0>, 0.03, <0.357706, -0.939684, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.358274, 0.942468, 0>, <0.289314, 0.954493, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.289314, 0.954493, 0>, 0.03, <0.25976, 0.959646, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.451559, -0.512389, 0>, <0.519376, -0.495044, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519376, -0.495044, 0>, 0.03, <0.548441, -0.487611, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.450205, -0.00452331, 0>, <0.519918, 0.00180932, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519918, 0.00180932, 0>, 0.03, <0.549795, 0.00452331, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.54969, 0.494438, 0>, <0.480124, 0.502225, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.480124, 0.502225, 0>, 0.03, <0.45031, 0.505562, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.542222, -0.829608, 0>, <0.60601, -0.800781, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.60601, -0.800781, 0>, 0.03, <0.633348, -0.788426, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.63463, 0.791538, 0>, <0.569047, 0.816009, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.569047, 0.816009, 0>, 0.03, <0.54094, 0.826496, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.767539, -0.615705, 0>, <0.825608, -0.576617, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.825608, -0.576617, 0>, 0.03, <0.850495, -0.559865, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.85269, 0.56344, 0>, <0.791548, 0.597523, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.791548, 0.597523, 0>, 0.03, <0.765344, 0.61213, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.912192, -0.340473, 0>, <0.966603, -0.296434, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.966603, -0.296434, 0>, 0.03, <0.989922, -0.277561, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.993983, 0.283378, 0>, <0.933886, 0.319272, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.933886, 0.319272, 0>, 0.03, <0.908131, 0.334656, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.962333, -0.0328815, 0>, <1.01507, 0.0131526, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <1.01507, 0.0131526, 0>, 0.03, <1.03767, 0.0328815, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.676318, -0.413354, 0>, <-0.745213, -0.40097, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.745213, -0.40097, 0>, 0.03, <-0.77474, -0.395662, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.836286, -0.472605, 0>, <-0.897537, -0.438719, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.897537, -0.438719, 0>, 0.03, <-0.923788, -0.424197, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.605721, -0.554839, 0>, <-0.674023, -0.539515, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.674023, -0.539515, 0>, 0.03, <-0.703295, -0.532947, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.65258, -0.718413, 0>, <-0.716729, -0.690396, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.716729, -0.690396, 0>, 0.03, <-0.744222, -0.678389, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.494894, -0.664463, 0>, <-0.563493, -0.650526, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.563493, -0.650526, 0>, 0.03, <-0.592892, -0.644553, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.104631, -0.979028, 0>, <-0.174459, -0.97413, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.174459, -0.97413, 0>, 0.03, <-0.204385, -0.97203, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499413, -0.752422, 0>, <0.0199765, -0.749031, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199765, -0.749031, 0>, 0.03, <0.0499413, -0.747578, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.104517, -0.726498, 0>, <-0.174504, -0.725141, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.174504, -0.725141, 0>, 0.03, <-0.204499, -0.72456, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.450004, -0.250641, 0>, <-0.519998, -0.249744, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.519998, -0.249744, 0>, 0.03, <-0.549996, -0.249359, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.775529, -0.154627, 0>, <-0.705529, -0.15446, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.705529, -0.15446, 0>, 0.03, <-0.675529, -0.154389, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.200011, -0.501029, 0>, <-0.269996, -0.499589, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.269996, -0.499589, 0>, 0.03, <-0.299989, -0.498971, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.355017, -0.732646, 0>, <-0.424304, -0.722682, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.424304, -0.722682, 0>, 0.03, <-0.453999, -0.718412, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.104904, -0.981812, 0>, <0.174349, -0.973016, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.174349, -0.973016, 0>, 0.03, <0.204112, -0.969246, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.104867, -0.731514, 0>, <0.174364, -0.723135, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.174364, -0.723135, 0>, 0.03, <0.204149, -0.719544, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.400055, -0.89279, 0>, <-0.46774, -0.874936, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.46774, -0.874936, 0>, 0.03, <-0.496747, -0.867284, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299978, -0.251491, 0>, <-0.230009, -0.249404, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.230009, -0.249404, 0>, 0.03, <-0.200022, -0.248509, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.772546, 0.387496, 0>, <-0.706722, 0.411313, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.706722, 0.411313, 0>, 0.03, <-0.678512, 0.42152, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.701371, 0.526462, 0>, <-0.635763, 0.550865, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.635763, 0.550865, 0>, 0.03, <-0.607645, 0.561324, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.92074, 0.419361, 0>, <-0.863756, 0.460017, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.863756, 0.460017, 0>, 0.03, <-0.839334, 0.477441, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.774388, 0.143886, 0>, <-0.705986, 0.158757, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.705986, 0.158757, 0>, 0.03, <-0.67667, 0.16513, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-1.01546, 0.124412, 0>, <-0.959558, 0.166547, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.959558, 0.166547, 0>, 0.03, <-0.935601, 0.184604, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.799654, -0.00587178, 0>, <-0.730138, 0.00234871, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.730138, 0.00234871, 0>, 0.03, <-0.700346, 0.00587178, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.591455, 0.639086, 0>, <-0.524868, 0.660677, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.524868, 0.660677, 0>, 0.03, <-0.496331, 0.66993, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.742468, 0.674777, 0>, <-0.680774, 0.70785, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.680774, 0.70785, 0>, 0.03, <-0.654334, 0.722025, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.549182, 0.240995, 0>, <-0.480327, 0.253602, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480327, 0.253602, 0>, 0.03, <-0.450818, 0.259005, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299844, -0.00395207, 0>, <-0.230063, 0.00158083, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.230063, 0.00158083, 0>, 0.03, <-0.200156, 0.00395207, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299639, 0.244004, 0>, <-0.230144, 0.252398, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.230144, 0.252398, 0>, 0.03, <-0.200361, 0.255996, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.495834, 0.864223, 0>, <-0.429428, 0.886363, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.429428, 0.886363, 0>, 0.03, <-0.400968, 0.895851, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.453013, 0.713395, 0>, <-0.385106, 0.730383, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.385106, 0.730383, 0>, 0.03, <-0.356003, 0.737663, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299451, 0.492609, 0>, <-0.23022, 0.502956, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.23022, 0.502956, 0>, 0.03, <-0.200549, 0.507391, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.204149, 0.719547, 0>, <-0.134652, 0.727922, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.134652, 0.727922, 0>, 0.03, <-0.104867, 0.731511, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.928186, -0.17059, 0>, <-0.994466, -0.148075, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.994466, -0.148075, 0>, 0.03, <-1.02287, -0.138426, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498703, -0.253598, 0>, <0.0199481, -0.248561, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199481, -0.248561, 0>, 0.03, <0.0498703, -0.246402, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.20055, -0.507396, 0>, <0.26978, -0.497042, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.26978, -0.497042, 0>, 0.03, <0.29945, -0.492604, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200362, -0.256002, 0>, <0.269855, -0.247599, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.269855, -0.247599, 0>, 0.03, <0.299638, -0.243998, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.356004, -0.737667, 0>, <0.42391, -0.720674, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.42391, -0.720674, 0>, 0.03, <0.453012, -0.713391, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.400968, -0.895853, 0>, <0.467374, -0.873711, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.467374, -0.873711, 0>, 0.03, <0.495834, -0.864221, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.496333, -0.669936, 0>, <0.562917, -0.648337, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.562917, -0.648337, 0>, 0.03, <0.591453, -0.63908, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.45082, -0.259018, 0>, <0.519672, -0.246393, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519672, -0.246393, 0>, 0.03, <0.54918, -0.240982, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200155, -0.00393962, 0>, <0.269938, 0.00157585, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.269938, 0.00157585, 0>, 0.03, <0.299845, 0.00393962, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.678517, -0.421534, 0>, <0.744334, -0.397698, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.744334, -0.397698, 0>, 0.03, <0.772541, -0.387482, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.607648, -0.561333, 0>, <0.673252, -0.536917, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.673252, -0.536917, 0>, 0.03, <0.701368, -0.526453, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.83934, -0.477448, 0>, <0.896316, -0.436782, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.896316, -0.436782, 0>, 0.03, <0.920734, -0.419354, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.676675, -0.16515, 0>, <0.745071, -0.150251, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.745071, -0.150251, 0>, 0.03, <0.774383, -0.143866, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.935613, -0.18462, 0>, <0.991495, -0.142463, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.991495, -0.142463, 0>, 0.03, <1.01544, -0.124396, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.700349, -0.00589597, 0>, <0.76986, 0.00235839, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.76986, 0.00235839, 0>, 0.03, <0.799651, 0.00589597, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.654336, -0.72203, 0>, <0.716027, -0.68895, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.716027, -0.68895, 0>, 0.03, <0.742466, -0.674772, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.549996, 0.249377, 0>, <0.480002, 0.250249, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.480002, 0.250249, 0>, 0.03, <0.450004, 0.250623, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200021, 0.248542, 0>, <0.269991, 0.250583, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.269991, 0.250583, 0>, 0.03, <0.299979, 0.251458, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.29999, 0.498977, 0>, <0.230004, 0.500409, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.230004, 0.500409, 0>, 0.03, <0.20001, 0.501023, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.454002, 0.718433, 0>, <0.38471, 0.728367, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.38471, 0.728367, 0>, 0.03, <0.355014, 0.732625, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.204499, 0.724563, 0>, <0.134512, 0.725915, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.134512, 0.725915, 0>, 0.03, <0.104517, 0.726495, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498716, 0.24642, 0>, <0.0199487, 0.251432, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199487, 0.251432, 0>, 0.03, <0.0498716, 0.25358, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.204385, 0.972031, 0>, <0.134557, 0.976928, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.134557, 0.976928, 0>, 0.03, <0.104631, 0.979027, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499413, 0.747579, 0>, <0.0199765, 0.750969, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199765, 0.750969, 0>, 0.03, <0.0499413, 0.752421, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.592902, 0.644602, 0>, <0.524289, 0.65847, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.524289, 0.65847, 0>, 0.03, <0.494884, 0.664414, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.496751, 0.867298, 0>, <0.429061, 0.885133, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.429061, 0.885133, 0>, 0.03, <0.400051, 0.892776, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.204112, 0.969246, 0>, <-0.134667, 0.978042, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.134667, 0.978042, 0>, 0.03, <-0.104904, 0.981812, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.703308, 0.533007, 0>, <0.634988, 0.548248, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.634988, 0.548248, 0>, 0.03, <0.605708, 0.554779, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.774748, 0.395705, 0>, <0.705841, 0.408029, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.705841, 0.408029, 0>, 0.03, <0.67631, 0.413311, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.923809, 0.424235, 0>, <0.862528, 0.458067, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.862528, 0.458067, 0>, 0.03, <0.836265, 0.472567, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.744242, 0.678436, 0>, <0.680065, 0.706387, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.680065, 0.706387, 0>, 0.03, <0.65256, 0.718366, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.675529, 0.154363, 0>, <0.745529, 0.154566, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.745529, 0.154566, 0>, 0.03, <0.775529, 0.154653, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <1.0229, 0.138503, 0>, <0.956581, 0.16091, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.956581, 0.16091, 0>, 0.03, <0.92816, 0.170513, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.789971, -0.369608, 0>, <-0.857622, -0.351624, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.857622, -0.351624, 0>, 0.03, <-0.886615, -0.343917, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.872129, -0.403506, 0>, <-0.932914, -0.36879, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.932914, -0.36879, 0>, 0.03, <-0.958965, -0.353912, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.684243, -0.581392, 0>, <-0.75077, -0.559618, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.75077, -0.559618, 0>, 0.03, <-0.779282, -0.550286, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.708798, -0.665069, 0>, <-0.771674, -0.634302, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.771674, -0.634302, 0>, 0.03, <-0.79862, -0.621117, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.517512, -0.744588, 0>, <-0.58517, -0.726632, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.58517, -0.726632, 0>, 0.03, <-0.614166, -0.718937, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.182124, -0.969296, 0>, <-0.251618, -0.960892, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.251618, -0.960892, 0>, 0.03, <-0.281401, -0.95729, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499597, -0.877007, 0>, <0.0199839, -0.874197, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199839, -0.874197, 0>, 0.03, <0.0499597, -0.872993, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.181908, -0.842104, 0>, <-0.251704, -0.836768, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.251704, -0.836768, 0>, 0.03, <-0.281617, -0.834482, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.450095, -0.378074, 0>, <-0.519962, -0.373771, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.519962, -0.373771, 0>, 0.03, <-0.549905, -0.371926, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.788563, -0.236953, 0>, <-0.858185, -0.229686, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.858185, -0.229686, 0>, 0.03, <-0.888023, -0.226572, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.325106, -0.503257, 0>, <-0.394958, -0.498697, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.394958, -0.498697, 0>, 0.03, <-0.424894, -0.496743, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.402657, -0.619101, 0>, <-0.472093, -0.61023, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.472093, -0.61023, 0>, 0.03, <-0.501851, -0.606428, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0274053, -0.991651, 0>, <0.0971935, -0.98621, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0971935, -0.98621, 0>, 0.03, <0.127103, -0.983878, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0274583, -0.617279, 0>, <0.0971723, -0.610959, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0971723, -0.610959, 0>, 0.03, <0.12705, -0.60825, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.470394, -0.859522, 0>, <-0.537172, -0.838529, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.537172, -0.838529, 0>, 0.03, <-0.565792, -0.829532, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.42491, -0.127995, 0>, <-0.355036, -0.123802, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355036, -0.123802, 0>, 0.03, <-0.32509, -0.122005, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.883436, 0.335267, 0>, <-0.820236, 0.365361, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.820236, 0.365361, 0>, 0.03, <-0.79315, 0.378258, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.77702, 0.544585, 0>, <-0.713659, 0.574341, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.713659, 0.574341, 0>, 0.03, <-0.686505, 0.587093, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.955457, 0.34859, 0>, <-0.899583, 0.390757, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.899583, 0.390757, 0>, 0.03, <-0.875637, 0.408828, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.885441, 0.215117, 0>, <-0.819434, 0.238421, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.819434, 0.238421, 0>, 0.03, <-0.791145, 0.248408, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-1.02719, 0.0465014, 0>, <-0.971995, 0.0895551, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.971995, 0.0895551, 0>, 0.03, <-0.94834, 0.108007, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.924396, -0.00774663, 0>, <-0.855241, 0.00309865, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.855241, 0.00309865, 0>, 0.03, <-0.825604, 0.00774663, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.612709, 0.714349, 0>, <-0.547091, 0.738728, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.547091, 0.738728, 0>, 0.03, <-0.518969, 0.749176, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.796654, 0.617486, 0>, <-0.736531, 0.653336, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.736531, 0.653336, 0>, 0.03, <-0.710764, 0.6687, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.549541, 0.118242, 0>, <-0.480184, 0.127703, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480184, 0.127703, 0>, 0.03, <-0.450459, 0.131758, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424821, -0.00422966, 0>, <-0.355072, 0.00169187, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355072, 0.00169187, 0>, 0.03, <-0.325179, 0.00422966, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424161, 0.365879, 0>, <-0.355336, 0.378648, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355336, 0.378648, 0>, 0.03, <-0.325839, 0.384121, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.564705, 0.826434, 0>, <-0.499448, 0.851764, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.499448, 0.851764, 0>, 0.03, <-0.471481, 0.86262, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.500727, 0.600502, 0>, <-0.432865, 0.61767, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.432865, 0.61767, 0>, 0.03, <-0.403781, 0.625027, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424021, 0.490155, 0>, <-0.355391, 0.503938, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355391, 0.503938, 0>, 0.03, <-0.325979, 0.509845, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.281116, 0.830279, 0>, <-0.212021, 0.841499, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.212021, 0.841499, 0>, 0.03, <-0.182409, 0.846307, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-1.03776, -0.0782099, 0>, <-0.967768, -0.0768717, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.967768, -0.0768717, 0>, 0.03, <-0.937774, -0.0762981, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498876, -0.37835, 0>, <0.019955, -0.37366, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.019955, -0.37366, 0>, 0.03, <0.0498876, -0.37165, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0752761, -0.505247, 0>, <0.14489, -0.497901, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.14489, -0.497901, 0>, 0.03, <0.174724, -0.494753, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0752393, -0.129886, 0>, <0.144904, -0.123045, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144904, -0.123045, 0>, 0.03, <0.174761, -0.120114, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.308183, -0.850127, 0>, <0.376194, -0.83356, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.376194, -0.83356, 0>, 0.03, <0.405342, -0.826459, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.330595, -0.92915, 0>, <0.397955, -0.910106, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.397955, -0.910106, 0>, 0.03, <0.426823, -0.901944, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.473893, -0.591068, 0>, <0.541168, -0.571728, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.541168, -0.571728, 0>, 0.03, <0.57, -0.56344, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.451154, -0.385681, 0>, <0.519538, -0.370728, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519538, -0.370728, 0>, 0.03, <0.548846, -0.364319, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0751488, -0.00385419, 0>, <0.14494, 0.00154167, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.14494, 0.00154167, 0>, 0.03, <0.174851, 0.00385419, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.564917, -0.466768, 0>, <0.631903, -0.446448, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.631903, -0.446448, 0>, 0.03, <0.660612, -0.43774, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.529471, -0.536672, 0>, <0.596367, -0.516056, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.596367, -0.516056, 0>, 0.03, <0.625037, -0.507221, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.803428, -0.546569, 0>, <0.860967, -0.506703, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.860967, -0.506703, 0>, 0.03, <0.885626, -0.489617, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.563312, -0.0846306, 0>, <0.632546, -0.0743034, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.632546, -0.0743034, 0>, 0.03, <0.662217, -0.0698774, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.924, -0.262683, 0>, <0.97901, -0.219394, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.97901, -0.219394, 0>, 0.03, <1.00259, -0.200842, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.575265, -0.00514561, 0>, <0.644894, 0.00205824, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.644894, 0.00205824, 0>, 0.03, <0.674735, 0.00514561, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.598265, -0.775854, 0>, <0.661024, -0.744851, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.661024, -0.744851, 0>, 0.03, <0.687921, -0.731564, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.450039, 0.123035, 0>, <0.519985, 0.125786, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519985, 0.125786, 0>, 0.03, <0.549961, 0.126965, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0750684, 0.122386, 0>, <0.144973, 0.126046, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144973, 0.126046, 0>, 0.03, <0.174932, 0.127614, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0750109, 0.498955, 0>, <0.144996, 0.500418, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144996, 0.500418, 0>, 0.03, <0.174989, 0.501045, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.406168, 0.830603, 0>, <0.337, 0.841369, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.337, 0.841369, 0>, 0.03, <0.307357, 0.845983, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0272663, 0.611654, 0>, <0.0972491, 0.613209, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0972491, 0.613209, 0>, 0.03, <0.127242, 0.613875, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498648, 0.121326, 0>, <0.0199459, 0.12647, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199459, 0.12647, 0>, 0.03, <0.0498648, 0.128674, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.12724, 0.98657, 0>, <0.0572597, 0.988242, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0572597, 0.988242, 0>, 0.03, <0.0272683, 0.988959, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499234, 0.622234, 0>, <0.0199694, 0.626106, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199694, 0.626106, 0>, 0.03, <0.0499234, 0.627766, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.571369, 0.569675, 0>, <0.502178, 0.580286, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.502178, 0.580286, 0>, 0.03, <0.472524, 0.584833, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.427561, 0.904893, 0>, <0.359168, 0.919809, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.359168, 0.919809, 0>, 0.03, <0.329857, 0.926201, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.280982, 0.954496, 0>, <-0.212075, 0.966812, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.212075, 0.966812, 0>, 0.03, <-0.182543, 0.97209, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.626615, 0.513977, 0>, <0.55751, 0.525134, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.55751, 0.525134, 0>, 0.03, <0.527893, 0.529916, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.662272, 0.445251, 0>, <0.592962, 0.455055, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.592962, 0.455055, 0>, 0.03, <0.563257, 0.459257, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.888247, 0.493833, 0>, <0.827039, 0.527797, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.827039, 0.527797, 0>, 0.03, <0.800807, 0.542353, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.689452, 0.734979, 0>, <0.624549, 0.761201, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.624549, 0.761201, 0>, 0.03, <0.596734, 0.772439, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.562828, 0.0747327, 0>, <0.632739, 0.0782625, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.632739, 0.0782625, 0>, 0.03, <0.662701, 0.0797753, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <1.00782, 0.209027, 0>, <0.94548, 0.240857, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.94548, 0.240857, 0>, 0.03, <0.918761, 0.254498, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.563265, -0.459312, 0>, <-0.632564, -0.449431, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.632564, -0.449431, 0>, 0.03, <-0.662264, -0.445196, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.800832, -0.542399, 0>, <-0.862005, -0.508371, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.862005, -0.508371, 0>, 0.03, <-0.888222, -0.493787, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.527904, -0.529981, 0>, <-0.596994, -0.518733, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.596994, -0.518733, 0>, 0.03, <-0.626604, -0.513912, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.59675, -0.77248, 0>, <-0.66163, -0.746201, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.66163, -0.746201, 0>, 0.03, <-0.689436, -0.734938, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.472533, -0.584891, 0>, <-0.541712, -0.574199, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.541712, -0.574199, 0>, 0.03, <-0.57136, -0.569617, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0272683, -0.988959, 0>, <-0.0972483, -0.987287, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0972483, -0.987287, 0>, 0.03, <-0.12724, -0.98657, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499233, -0.627768, 0>, <0.0199693, -0.623893, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199693, -0.623893, 0>, 0.03, <0.0499233, -0.622232, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127242, -0.613876, 0>, <-0.0572589, -0.61232, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0572589, -0.61232, 0>, 0.03, <-0.0272664, -0.611653, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.549962, -0.126951, 0>, <-0.480015, -0.124219, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480015, -0.124219, 0>, 0.03, <-0.450038, -0.123049, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.662702, -0.0797579, 0>, <-0.59279, -0.0762525, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.59279, -0.0762525, 0>, 0.03, <-0.562827, -0.0747501, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174989, -0.501044, 0>, <-0.105004, -0.499583, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105004, -0.499583, 0>, 0.03, <-0.0750109, -0.498956, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.30736, -0.845998, 0>, <-0.376524, -0.835211, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.376524, -0.835211, 0>, 0.03, <-0.406165, -0.830588, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.182543, -0.972091, 0>, <0.25145, -0.959774, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.25145, -0.959774, 0>, 0.03, <0.280982, -0.954495, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.182409, -0.846309, 0>, <0.251504, -0.835086, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.251504, -0.835086, 0>, 0.03, <0.281116, -0.830277, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.329859, -0.92621, 0>, <-0.398249, -0.911282, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.398249, -0.911282, 0>, 0.03, <-0.427559, -0.904884, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174947, -0.377296, 0>, <-0.105021, -0.374082, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105021, -0.374082, 0>, 0.03, <-0.0750527, -0.372704, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.660615, 0.437752, 0>, <-0.593624, 0.458055, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.593624, 0.458055, 0>, 0.03, <-0.564914, 0.466756, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.625039, 0.50723, 0>, <-0.55814, 0.527833, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.55814, 0.527833, 0>, 0.03, <-0.529469, 0.536663, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.885631, 0.489624, 0>, <-0.828086, 0.529481, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.828086, 0.529481, 0>, 0.03, <-0.803423, 0.546562, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.66222, 0.0698955, 0>, <-0.592982, 0.0801974, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.592982, 0.0801974, 0>, 0.03, <-0.563309, 0.0846125, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-1.0026, 0.200855, 0>, <-0.947572, 0.244126, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.947572, 0.244126, 0>, 0.03, <-0.92399, 0.26267, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.674736, -0.00512727, 0>, <-0.605105, 0.00205091, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.605105, 0.00205091, 0>, 0.03, <-0.575264, 0.00512727, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.570002, 0.563447, 0>, <-0.502724, 0.582777, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.502724, 0.582777, 0>, 0.03, <-0.473891, 0.591061, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.687923, 0.731568, 0>, <-0.625161, 0.762565, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.625161, 0.762565, 0>, 0.03, <-0.598263, 0.77585, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.548848, 0.36433, 0>, <-0.480461, 0.379268, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.480461, 0.379268, 0>, 0.03, <-0.451152, 0.38567, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174851, -0.00386031, 0>, <-0.10506, 0.00154412, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.10506, 0.00154412, 0>, 0.03, <-0.0751492, 0.00386031, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174761, 0.120116, 0>, <-0.105096, 0.126953, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105096, 0.126953, 0>, 0.03, <-0.0752391, 0.129884, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.426824, 0.901946, 0>, <-0.359463, 0.920987, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.359463, 0.920987, 0>, 0.03, <-0.330594, 0.929148, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.405343, 0.826462, 0>, <-0.33733, 0.843025, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.33733, 0.843025, 0>, 0.03, <-0.308182, 0.850124, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174724, 0.494757, 0>, <-0.10511, 0.502097, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.10511, 0.502097, 0>, 0.03, <-0.0752757, 0.505243, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.12705, 0.608252, 0>, <-0.0573356, 0.614569, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0573356, 0.614569, 0>, 0.03, <-0.027458, 0.617277, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.918786, -0.254547, 0>, <-0.981096, -0.222649, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.981096, -0.222649, 0>, 0.03, <-1.0078, -0.208978, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498641, -0.128684, 0>, <0.0199457, -0.123527, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199457, -0.123527, 0>, 0.03, <0.0498641, -0.121316, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.32598, -0.509851, 0>, <0.394608, -0.49606, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394608, -0.49606, 0>, 0.03, <0.42402, -0.490149, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.32584, -0.384128, 0>, <0.394664, -0.371349, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394664, -0.371349, 0>, 0.03, <0.42416, -0.365872, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.403783, -0.625034, 0>, <0.471643, -0.607857, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.471643, -0.607857, 0>, 0.03, <0.500725, -0.600495, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.471482, -0.862623, 0>, <0.536737, -0.837289, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.536737, -0.837289, 0>, 0.03, <0.564704, -0.826431, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.518971, -0.749181, 0>, <0.584586, -0.724795, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.584586, -0.724795, 0>, 0.03, <0.612707, -0.714344, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.450461, -0.131772, 0>, <0.519816, -0.122291, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.519816, -0.122291, 0>, 0.03, <0.549539, -0.118228, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.325179, -0.00422922, 0>, <0.394928, 0.00169169, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394928, 0.00169169, 0>, 0.03, <0.424821, 0.00422922, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.793157, -0.378273, 0>, <0.856348, -0.348158, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.856348, -0.348158, 0>, 0.03, <0.883429, -0.335252, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.686508, -0.587101, 0>, <0.749864, -0.557334, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.749864, -0.557334, 0>, 0.03, <0.777017, -0.544577, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.875644, -0.408837, 0>, <0.931508, -0.366658, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.931508, -0.366658, 0>, 0.03, <0.95545, -0.348581, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.791152, -0.248428, 0>, <0.857149, -0.225096, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.857149, -0.225096, 0>, 0.03, <0.885434, -0.215097, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.948354, -0.108025, 0>, <1.00353, -0.0649456, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <1.00353, -0.0649456, 0>, 0.03, <1.02717, -0.0464831, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.825609, -0.00777801, 0>, <0.894757, 0.0031112, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.894757, 0.0031112, 0>, 0.03, <0.924391, 0.00777801, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.710767, -0.668705, 0>, <0.770886, -0.632848, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.770886, -0.632848, 0>, 0.03, <0.796651, -0.617481, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.549907, 0.371954, 0>, <0.480037, 0.376218, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.480037, 0.376218, 0>, 0.03, <0.450093, 0.378046, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.424962, 0.373057, 0>, <0.355015, 0.375777, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.355015, 0.375777, 0>, 0.03, <0.325038, 0.376943, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.424895, 0.496764, 0>, <0.355042, 0.501295, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.355042, 0.501295, 0>, 0.03, <0.325105, 0.503236, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.501856, 0.60647, 0>, <0.432413, 0.615282, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.432413, 0.615282, 0>, 0.03, <0.402652, 0.619059, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.281617, 0.834486, 0>, <0.211821, 0.839816, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.211821, 0.839816, 0>, 0.03, <0.181908, 0.8421, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0498883, 0.37166, 0>, <0.0199553, 0.376336, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199553, 0.376336, 0>, 0.03, <0.0498883, 0.37834, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.281401, 0.957293, 0>, <0.211907, 0.965693, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.211907, 0.965693, 0>, 0.03, <0.182124, 0.969293, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.0499597, 0.872993, 0>, <0.0199839, 0.875803, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0199839, 0.875803, 0>, 0.03, <0.0499597, 0.877007, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.614178, 0.718982, 0>, <0.546503, 0.736875, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.546503, 0.736875, 0>, 0.03, <0.5175, 0.744543, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.565799, 0.829555, 0>, <0.499011, 0.850516, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.499011, 0.850516, 0>, 0.03, <0.470387, 0.859499, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127103, 0.983879, 0>, <-0.0573145, 0.989319, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0573145, 0.989319, 0>, 0.03, <-0.0274052, 0.99165, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.779303, 0.55035, 0>, <0.712746, 0.572035, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.712746, 0.572035, 0>, 0.03, <0.684222, 0.581328, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.886628, 0.343966, 0>, <0.818959, 0.361881, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.818959, 0.361881, 0>, 0.03, <0.789958, 0.369559, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.958987, 0.35395, 0>, <0.898171, 0.388612, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.898171, 0.388612, 0>, 0.03, <0.872107, 0.403468, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.798644, 0.621166, 0>, <0.735735, 0.651864, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.735735, 0.651864, 0>, 0.03, <0.708774, 0.66502, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.888026, 0.226607, 0>, <0.8184, 0.233825, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.8184, 0.233825, 0>, 0.03, <0.78856, 0.236918, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.937777, 0.0761194, 0>, <1.00776, 0.0777078, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <1.00776, 0.0777078, 0>, 0.03, <1.03775, 0.0783886, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.75472, -0.440235, 0>, <-0.822008, -0.420942, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.822008, -0.420942, 0>, 0.03, <-0.850846, -0.412674, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.641011, -0.484112, 0>, <-0.709622, -0.470236, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.709622, -0.470236, 0>, 0.03, <-0.739026, -0.464289, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.71962, -0.511287, 0>, <-0.786334, -0.490091, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.786334, -0.490091, 0>, 0.03, <-0.814925, -0.481007, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.628609, -0.635668, 0>, <-0.695593, -0.615339, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.695593, -0.615339, 0>, 0.03, <-0.7243, -0.606626, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.550302, -0.609639, 0>, <-0.61876, -0.595025, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.61876, -0.595025, 0>, 0.03, <-0.648099, -0.588762, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.573089, -0.690253, 0>, <-0.64037, -0.670935, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.64037, -0.670935, 0>, 0.03, <-0.669205, -0.662656, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.104545, -0.852464, 0>, <-0.174493, -0.849755, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.174493, -0.849755, 0>, 0.03, <-0.204471, -0.848594, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127254, -0.862936, 0>, <-0.0572541, -0.862696, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0572541, -0.862696, 0>, 0.03, <-0.0272543, -0.862593, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127249, -0.738495, 0>, <-0.0572561, -0.737472, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0572561, -0.737472, 0>, 0.03, <-0.0272593, -0.737034, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.6757, -0.283644, 0>, <-0.74546, -0.277854, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.74546, -0.277854, 0>, 0.03, <-0.775358, -0.275372, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.562942, -0.331462, 0>, <-0.632694, -0.325571, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.632694, -0.325571, 0>, 0.03, <-0.662587, -0.323046, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.562765, -0.202545, 0>, <-0.632764, -0.202137, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.632764, -0.202137, 0>, 0.03, <-0.662764, -0.201963, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.229659, -0.729415, 0>, <-0.299448, -0.723975, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.299448, -0.723975, 0>, 0.03, <-0.329357, -0.721643, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.152264, -0.613764, 0>, <-0.22225, -0.612365, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.22225, -0.612365, 0>, 0.03, <-0.252244, -0.611765, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.277403, -0.616625, 0>, <-0.347194, -0.61122, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.347194, -0.61122, 0>, 0.03, <-0.377105, -0.608904, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0274064, -0.866665, 0>, <0.0971931, -0.861204, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0971931, -0.861204, 0>, 0.03, <0.127102, -0.858864, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.027431, -0.741968, 0>, <0.0971832, -0.736083, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0971832, -0.736083, 0>, 0.03, <0.127077, -0.733561, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.104881, -0.856628, 0>, <0.174359, -0.848089, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.174359, -0.848089, 0>, 0.03, <0.204135, -0.84443, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.447394, -0.77837, 0>, <-0.515648, -0.762833, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.515648, -0.762833, 0>, 0.03, <-0.5449, -0.756175, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424928, -0.698516, 0>, <-0.49391, -0.68662, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.49391, -0.68662, 0>, 0.03, <-0.523473, -0.681521, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.377335, -0.812126, 0>, <-0.446102, -0.799046, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.446102, -0.799046, 0>, 0.03, <-0.475574, -0.79344, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.325007, -0.375836, 0>, <-0.394997, -0.374666, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.394997, -0.374666, 0>, 0.03, <-0.424993, -0.374164, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424998, -0.250436, 0>, <-0.355001, -0.249826, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355001, -0.249826, 0>, 0.03, <-0.325002, -0.249564, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299999, -0.375236, 0>, <-0.23, -0.374906, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.23, -0.374906, 0>, 0.03, <-0.200001, -0.374764, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.847995, 0.405104, 0>, <-0.784698, 0.434995, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.784698, 0.434995, 0>, 0.03, <-0.757571, 0.447805, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.736959, 0.456977, 0>, <-0.671242, 0.48109, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.671242, 0.48109, 0>, 0.03, <-0.643078, 0.491424, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.812378, 0.474573, 0>, <-0.74923, 0.504777, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.74923, 0.504777, 0>, 0.03, <-0.722167, 0.517721, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.898309, 0.139775, 0>, <-0.831417, 0.160401, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.831417, 0.160401, 0>, 0.03, <-0.802749, 0.169241, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.787069, 0.068944, 0>, <-0.718043, 0.080578, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.718043, 0.080578, 0>, 0.03, <-0.68846, 0.085564, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.911535, 0.0662344, 0>, <-0.843256, 0.0816618, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.843256, 0.0816618, 0>, 0.03, <-0.813994, 0.0882736, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.722313, 0.601222, 0>, <-0.658111, 0.629117, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.658111, 0.629117, 0>, 0.03, <-0.630596, 0.641072, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.64643, 0.582787, 0>, <-0.580309, 0.605766, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.580309, 0.605766, 0>, 0.03, <-0.551971, 0.615614, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.667531, 0.657785, 0>, <-0.602593, 0.683922, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.602593, 0.683922, 0>, 0.03, <-0.574763, 0.695124, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.42458, 0.118537, 0>, <-0.355168, 0.127585, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355168, 0.127585, 0>, 0.03, <-0.32542, 0.131463, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.424436, 0.24251, 0>, <-0.355226, 0.252996, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.355226, 0.252996, 0>, 0.03, <-0.325564, 0.25749, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299752, 0.120025, 0>, <-0.230099, 0.12699, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.230099, 0.12699, 0>, 0.03, <-0.200248, 0.129975, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.543657, 0.751691, 0>, <-0.477143, 0.773505, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.477143, 0.773505, 0>, 0.03, <-0.448637, 0.782854, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.522273, 0.676269, 0>, <-0.454972, 0.695518, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.454972, 0.695518, 0>, 0.03, <-0.426128, 0.703768, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.474569, 0.78918, 0>, <-0.407209, 0.808224, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.407209, 0.808224, 0>, 0.03, <-0.37834, 0.816386, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.37632, 0.603147, 0>, <-0.307627, 0.616612, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.307627, 0.616612, 0>, 0.03, <-0.278188, 0.622382, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.328704, 0.716601, 0>, <-0.259829, 0.7291, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.259829, 0.7291, 0>, 0.03, <-0.230312, 0.734457, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.251803, 0.606065, 0>, <-0.182434, 0.615444, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.182434, 0.615444, 0>, 0.03, <-0.152705, 0.619464, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.773609, 0.265785, 0>, <-0.706297, 0.284997, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.706297, 0.284997, 0>, 0.03, <-0.677449, 0.293231, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.661146, 0.314637, 0>, <-0.593412, 0.332301, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.593412, 0.332301, 0>, 0.03, <-0.564383, 0.339871, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.661803, 0.192495, 0>, <-0.593149, 0.206158, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.593149, 0.206158, 0>, 0.03, <-0.563726, 0.212013, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.800556, -0.156152, 0>, <-0.870518, -0.15385, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.870518, -0.15385, 0>, 0.03, <-0.900502, -0.152864, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.787676, -0.080226, 0>, <-0.7178, -0.0760652, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.7178, -0.0760652, 0>, 0.03, <-0.687853, -0.074282, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.912637, -0.0808194, 0>, <-0.842815, -0.0758278, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.842815, -0.0758278, 0>, 0.03, <-0.812892, -0.0736886, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.299926, -0.127724, 0>, <-0.23003, -0.12391, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.23003, -0.12391, 0>, 0.03, <-0.200074, -0.122276, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174935, -0.252547, 0>, <-0.105026, -0.248981, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105026, -0.248981, 0>, 0.03, <-0.0750649, -0.247453, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174857, -0.128775, 0>, <-0.105057, -0.12349, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105057, -0.12349, 0>, 0.03, <-0.0751427, -0.121225, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0753025, -0.380492, 0>, <0.144879, -0.372803, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144879, -0.372803, 0>, 0.03, <0.174698, -0.369508, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0752311, -0.254802, 0>, <0.144908, -0.248079, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144908, -0.248079, 0>, 0.03, <0.174769, -0.245198, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.20045, -0.381696, 0>, <0.26982, -0.372322, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.26982, -0.372322, 0>, 0.03, <0.29955, -0.368304, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.152705, -0.619468, 0>, <0.222073, -0.610083, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.222073, -0.610083, 0>, 0.03, <0.251803, -0.606061, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.230312, -0.73446, 0>, <0.299186, -0.721956, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.299186, -0.721956, 0>, 0.03, <0.328704, -0.716598, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.278189, -0.622386, 0>, <0.34688, -0.608916, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.34688, -0.608916, 0>, 0.03, <0.376319, -0.603143, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.378341, -0.816389, 0>, <0.4457, -0.797341, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.4457, -0.797341, 0>, 0.03, <0.474568, -0.789177, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.42613, -0.703773, 0>, <0.493429, -0.684517, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.493429, -0.684517, 0>, 0.03, <0.522271, -0.676264, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.448638, -0.782859, 0>, <0.51515, -0.761038, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.51515, -0.761038, 0>, 0.03, <0.543656, -0.751686, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200248, -0.129971, 0>, <0.269901, -0.123012, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.269901, -0.123012, 0>, 0.03, <0.299752, -0.120029, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.325566, -0.257499, 0>, <0.394774, -0.247, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394774, -0.247, 0>, 0.03, <0.424434, -0.242501, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.325419, -0.131461, 0>, <0.394832, -0.122416, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394832, -0.122416, 0>, 0.03, <0.424581, -0.118539, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.643083, -0.491435, 0>, <0.708793, -0.467307, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.708793, -0.467307, 0>, 0.03, <0.736954, -0.456966, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.757577, -0.447818, 0>, <0.820866, -0.417909, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.820866, -0.417909, 0>, 0.03, <0.847989, -0.405091, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.722171, -0.517731, 0>, <0.785313, -0.487514, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.785313, -0.487514, 0>, 0.03, <0.812374, -0.474563, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.688464, -0.0855861, 0>, <0.757485, -0.0739211, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.757485, -0.0739211, 0>, 0.03, <0.787065, -0.0689219, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.802756, -0.169265, 0>, <0.869638, -0.148605, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.869638, -0.148605, 0>, 0.03, <0.898302, -0.139751, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.814, -0.0883017, 0>, <0.88227, -0.0728349, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.88227, -0.0728349, 0>, 0.03, <0.911529, -0.0662063, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.564386, -0.339885, 0>, <0.632116, -0.322202, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.632116, -0.322202, 0>, 0.03, <0.661143, -0.314623, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.563729, -0.21203, 0>, <0.632379, -0.198344, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.632379, -0.198344, 0>, 0.03, <0.6618, -0.192478, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.677454, -0.293248, 0>, <0.744759, -0.274012, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.744759, -0.274012, 0>, 0.03, <0.773604, -0.265768, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.551974, -0.615621, 0>, <0.618091, -0.592632, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.618091, -0.592632, 0>, 0.03, <0.646427, -0.58278, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.574765, -0.695129, 0>, <0.6397, -0.668985, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.6397, -0.668985, 0>, 0.03, <0.667529, -0.65778, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.630599, -0.641079, 0>, <0.694797, -0.613174, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.694797, -0.613174, 0>, 0.03, <0.72231, -0.601215, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200073, 0.122299, 0>, <0.269971, 0.12608, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.269971, 0.12608, 0>, 0.03, <0.299927, 0.127701, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.325029, 0.123311, 0>, <0.394989, 0.125675, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394989, 0.125675, 0>, 0.03, <0.424971, 0.126689, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.325002, 0.24957, 0>, <0.394999, 0.250172, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.394999, 0.250172, 0>, 0.03, <0.424998, 0.25043, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.252244, 0.61177, 0>, <0.182258, 0.613162, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.182258, 0.613162, 0>, 0.03, <0.152264, 0.613759, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.377106, 0.608916, 0>, <0.307313, 0.614304, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.307313, 0.614304, 0>, 0.03, <0.277402, 0.616613, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.329358, 0.721654, 0>, <0.259568, 0.727079, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.259568, 0.727079, 0>, 0.03, <0.229658, 0.729404, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0750635, 0.24748, 0>, <0.144975, 0.251008, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144975, 0.251008, 0>, 0.03, <0.174936, 0.25252, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.200001, 0.374774, 0>, <0.27, 0.37509, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.27, 0.37509, 0>, 0.03, <0.299999, 0.375226, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0750168, 0.373705, 0>, <0.144993, 0.375518, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.144993, 0.375518, 0>, 0.03, <0.174983, 0.376295, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0272594, 0.737032, 0>, <0.0972519, 0.738057, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0972519, 0.738057, 0>, 0.03, <0.127249, 0.738497, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.204471, 0.848596, 0>, <0.134523, 0.851302, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.134523, 0.851302, 0>, 0.03, <0.104545, 0.852462, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.0272543, 0.862593, 0>, <0.0972539, 0.862833, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.0972539, 0.862833, 0>, 0.03, <0.127254, 0.862936, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.475577, 0.793458, 0>, <0.406805, 0.806513, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.406805, 0.806513, 0>, 0.03, <0.377332, 0.812108, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.523479, 0.681555, 0>, <0.454489, 0.693404, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.454489, 0.693404, 0>, 0.03, <0.424922, 0.698482, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.544908, 0.75621, 0>, <0.476643, 0.771697, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.476643, 0.771697, 0>, 0.03, <0.447386, 0.778335, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.204135, 0.844431, 0>, <-0.134657, 0.852968, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.134657, 0.852968, 0>, 0.03, <-0.104881, 0.856627, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127077, 0.733562, 0>, <-0.0573248, 0.739445, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0573248, 0.739445, 0>, 0.03, <-0.0274309, 0.741967, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.127102, 0.858864, 0>, <-0.0573149, 0.864325, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.0573149, 0.864325, 0>, 0.03, <-0.0274063, 0.866665, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.739036, 0.464339, 0>, <0.670411, 0.478145, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.670411, 0.478145, 0>, 0.03, <0.641001, 0.484062, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.814945, 0.481069, 0>, <0.748204, 0.502178, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.748204, 0.502178, 0>, 0.03, <0.7196, 0.511225, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.85086, 0.412721, 0>, <0.783552, 0.431948, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.783552, 0.431948, 0>, 0.03, <0.754706, 0.440188, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.64811, 0.588816, 0>, <0.579637, 0.603354, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.579637, 0.603354, 0>, 0.03, <0.550291, 0.609585, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.66922, 0.662708, 0>, <0.601918, 0.681953, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.601918, 0.681953, 0>, 0.03, <0.573074, 0.690201, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.724317, 0.606685, 0>, <0.657309, 0.626932, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.657309, 0.626932, 0>, 0.03, <0.628592, 0.635609, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.662764, 0.201984, 0>, <0.592765, 0.202362, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.592765, 0.202362, 0>, 0.03, <0.562765, 0.202524, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.66259, 0.323074, 0>, <0.592834, 0.328926, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.592834, 0.328926, 0>, 0.03, <0.562939, 0.331434, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.77536, 0.275405, 0>, <0.705596, 0.281149, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.705596, 0.281149, 0>, 0.03, <0.675698, 0.283611, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.687854, 0.0742569, 0>, <0.757729, 0.0784528, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.757729, 0.0784528, 0>, 0.03, <0.787675, 0.0802511, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.812894, 0.0736558, 0>, <0.882713, 0.0786933, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.882713, 0.0786933, 0>, 0.03, <0.912635, 0.0808522, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <0.900503, 0.152899, 0>, <0.830539, 0.155152, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <0.830539, 0.155152, 0>, 0.03, <0.800555, 0.156117, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.29955, 0.36831, 0>, <-0.23018, 0.377676, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.23018, 0.377676, 0>, 0.03, <-0.20045, 0.38169, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.17477, 0.245211, 0>, <-0.105092, 0.251916, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.105092, 0.251916, 0>, 0.03, <-0.0752299, 0.254789, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cylinder { <-0.174699, 0.369522, 0>, <-0.10512, 0.377191, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
-cone { <-0.10512, 0.377191, 0>, 0.03, <-0.075301, 0.380478, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-1.03838, -0.0320408, 0>, <-0.984646, 0.0128163, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.984646, 0.0128163, 0>, 0.03, <-0.961615, 0.0320408, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.908404, -0.335107, 0>, <-0.968118, -0.298581, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.968118, -0.298581, 0>, 0.03, <-0.99371, -0.282927, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.990155, 0.277851, 0>, <-0.935418, 0.321484, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.935418, 0.321484, 0>, 0.03, <-0.911959, 0.340183, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.765501, -0.612409, 0>, <-0.826423, -0.577935, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.826423, -0.577935, 0>, 0.03, <-0.852533, -0.563161, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.850626, 0.560059, 0>, <-0.792374, 0.598875, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.792374, 0.598875, 0>, 0.03, <-0.767408, 0.615511, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.541026, -0.826726, 0>, <-0.606489, -0.801933, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.606489, -0.801933, 0>, 0.03, <-0.634544, -0.791308, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.633426, 0.788599, 0>, <-0.569529, 0.817184, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.569529, 0.817184, 0>, 0.03, <-0.542144, 0.829435, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.450366, -0.506042, 0>, <-0.519853, -0.497583, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.519853, -0.497583, 0>, 0.03, <-0.549634, -0.493958, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.549841, -0.00398641, 0>, <-0.480064, 0.00159456, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480064, 0.00159456, 0>, 0.03, <-0.450159, 0.00398641, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.548537, 0.487993, 0>, <-0.480585, 0.504803, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480585, 0.504803, 0>, 0.03, <-0.451463, 0.512007, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.259792, -0.959824, 0>, <-0.328707, -0.94755, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.328707, -0.94755, 0>, 0.03, <-0.358242, -0.94229, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.357743, 0.939842, 0>, <-0.289527, 0.955543, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.289527, 0.955543, 0>, 0.03, <-0.260291, 0.962272, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499873, -1.00113, 0>, <0.0199949, -0.999549, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199949, -0.999549, 0>, 0.03, <0.0499873, -0.998872, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499253, -0.502733, 0>, <0.0199701, -0.498907, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199701, -0.498907, 0>, 0.03, <0.0499253, -0.497267, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0498891, -0.00332828, 0>, <0.0199556, 0.00133131, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199556, 0.00133131, 0>, 0.03, <0.0498891, 0.00332828, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.049925, 0.497263, 0>, <0.01997, 0.501095, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.01997, 0.501095, 0>, 0.03, <0.049925, 0.502737, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499872, 0.998868, 0>, <0.0199949, 1.00045, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199949, 1.00045, 0>, 0.03, <0.0499872, 1.00113, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.26029, -0.96227, 0>, <0.328508, -0.946572, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.328508, -0.946572, 0>, 0.03, <0.357744, -0.939844, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.358244, 0.942302, 0>, <0.289326, 0.954559, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.289326, 0.954559, 0>, 0.03, <0.25979, 0.959812, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.451464, -0.512009, 0>, <0.519415, -0.495196, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519415, -0.495196, 0>, 0.03, <0.548536, -0.487991, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.45016, -0.00399858, 0>, <0.519936, 0.00159943, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519936, 0.00159943, 0>, 0.03, <0.54984, 0.00399858, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.549641, 0.494022, 0>, <0.480143, 0.502391, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.480143, 0.502391, 0>, 0.03, <0.450359, 0.505978, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.542144, -0.829434, 0>, <0.606042, -0.80085, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.606042, -0.80085, 0>, 0.03, <0.633426, -0.7886, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.634558, 0.791345, 0>, <0.569076, 0.816086, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.569076, 0.816086, 0>, 0.03, <0.541012, 0.826689, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.76741, -0.615513, 0>, <0.82566, -0.576694, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.82566, -0.576694, 0>, 0.03, <0.850624, -0.560057, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.852564, 0.563215, 0>, <0.791598, 0.597613, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.791598, 0.597613, 0>, 0.03, <0.76547, 0.612355, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.911964, -0.34019, 0>, <0.966694, -0.296548, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.966694, -0.296548, 0>, 0.03, <0.99015, -0.277844, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.993732, 0.282962, 0>, <0.933987, 0.319439, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.933987, 0.319439, 0>, 0.03, <0.908382, 0.335072, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.961635, -0.0320649, 0>, <1.01535, 0.012826, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <1.01535, 0.012826, 0>, 0.03, <1.03836, 0.0320649, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.676416, -0.413884, 0>, <-0.745174, -0.400758, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.745174, -0.400758, 0>, 0.03, <-0.774642, -0.395132, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.836468, -0.472931, 0>, <-0.897465, -0.438589, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.897465, -0.438589, 0>, 0.03, <-0.923606, -0.423871, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.605817, -0.555261, 0>, <-0.673984, -0.539346, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.673984, -0.539346, 0>, 0.03, <-0.703199, -0.532525, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.652683, -0.718647, 0>, <-0.716688, -0.690303, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.716688, -0.690303, 0>, 0.03, <-0.744119, -0.678155, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.494966, -0.664813, 0>, <-0.563464, -0.650386, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.563464, -0.650386, 0>, 0.03, <-0.59282, -0.644203, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.104643, -0.979199, 0>, <-0.174454, -0.974061, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.174454, -0.974061, 0>, 0.03, <-0.204373, -0.971859, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499545, -0.752132, 0>, <0.0199818, -0.749147, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199818, -0.749147, 0>, 0.03, <0.0499545, -0.747868, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.104524, -0.726804, 0>, <-0.174501, -0.725019, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.174501, -0.725019, 0>, 0.03, <-0.204492, -0.724254, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.450013, -0.251149, 0>, <-0.519995, -0.24954, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.519995, -0.24954, 0>, 0.03, <-0.549987, -0.248851, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.675532, -0.155042, 0>, <-0.745528, -0.154294, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.745528, -0.154294, 0>, 0.03, <-0.775526, -0.153974, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.20002, -0.501417, 0>, <-0.269992, -0.499433, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.269992, -0.499433, 0>, 0.03, <-0.29998, -0.498583, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.355064, -0.732963, 0>, <-0.424286, -0.722556, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.424286, -0.722556, 0>, 0.03, <-0.453952, -0.718095, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.104884, -0.981649, 0>, <0.174358, -0.973081, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.174358, -0.973081, 0>, 0.03, <0.204132, -0.969409, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.104833, -0.73122, 0>, <0.174378, -0.723253, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.174378, -0.723253, 0>, 0.03, <0.204183, -0.719838, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.400106, -0.892983, 0>, <-0.467719, -0.874859, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.467719, -0.874859, 0>, 0.03, <-0.496696, -0.867091, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299989, -0.251045, 0>, <-0.230004, -0.249582, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230004, -0.249582, 0>, 0.03, <-0.200011, -0.248955, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.772699, 0.387926, 0>, <-0.706661, 0.411141, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.706661, 0.411141, 0>, 0.03, <-0.678359, 0.42109, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.701499, 0.526808, 0>, <-0.635712, 0.550727, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.635712, 0.550727, 0>, 0.03, <-0.607517, 0.560978, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.920916, 0.419611, 0>, <-0.863685, 0.459917, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.863685, 0.459917, 0>, 0.03, <-0.839158, 0.477191, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.774512, 0.144474, 0>, <-0.705936, 0.158522, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.705936, 0.158522, 0>, 0.03, <-0.676546, 0.164542, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-1.01581, 0.124881, 0>, <-0.959418, 0.166359, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.959418, 0.166359, 0>, 0.03, <-0.935252, 0.184135, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.799729, -0.00519734, 0>, <-0.730108, 0.00207893, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.730108, 0.00207893, 0>, 0.03, <-0.700271, 0.00519734, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.591551, 0.639383, 0>, <-0.52483, 0.660558, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.52483, 0.660558, 0>, 0.03, <-0.496235, 0.669633, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.742572, 0.674973, 0>, <-0.680732, 0.707772, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.680732, 0.707772, 0>, 0.03, <-0.65423, 0.721829, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.549266, 0.241464, 0>, <-0.480294, 0.253414, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480294, 0.253414, 0>, 0.03, <-0.450734, 0.258536, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299878, -0.00349174, 0>, <-0.230049, 0.00139669, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230049, 0.00139669, 0>, 0.03, <-0.200122, 0.00349174, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299689, 0.244431, 0>, <-0.230124, 0.252228, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230124, 0.252228, 0>, 0.03, <-0.200311, 0.255569, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.495891, 0.864393, 0>, <-0.429405, 0.886295, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.429405, 0.886295, 0>, 0.03, <-0.400911, 0.895681, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.453082, 0.713673, 0>, <-0.385078, 0.730271, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.385078, 0.730271, 0>, 0.03, <-0.355934, 0.737385, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299503, 0.49297, 0>, <-0.230199, 0.502812, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230199, 0.502812, 0>, 0.03, <-0.200497, 0.50703, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.204183, 0.719833, 0>, <-0.134638, 0.727807, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.134638, 0.727807, 0>, 0.03, <-0.104833, 0.731225, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.928709, -0.172055, 0>, <-0.994257, -0.147489, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.994257, -0.147489, 0>, 0.03, <-1.02235, -0.136961, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0498991, -0.253175, 0>, <0.0199596, -0.24873, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199596, -0.24873, 0>, 0.03, <0.0498991, -0.246825, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200496, -0.507028, 0>, <0.269801, -0.497189, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269801, -0.497189, 0>, 0.03, <0.299504, -0.492972, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200311, -0.255571, 0>, <0.269875, -0.247772, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269875, -0.247772, 0>, 0.03, <0.299689, -0.244429, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.355934, -0.737383, 0>, <0.423938, -0.720787, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.423938, -0.720787, 0>, 0.03, <0.453082, -0.713675, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.400911, -0.895679, 0>, <0.467397, -0.87378, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.467397, -0.87378, 0>, 0.03, <0.495891, -0.864395, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.496235, -0.669632, 0>, <0.562956, -0.648458, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.562956, -0.648458, 0>, 0.03, <0.591551, -0.639384, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.450735, -0.258544, 0>, <0.519706, -0.246582, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519706, -0.246582, 0>, 0.03, <0.549265, -0.241456, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200121, -0.00348031, 0>, <0.269951, 0.00139212, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269951, 0.00139212, 0>, 0.03, <0.299879, 0.00348031, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.678361, -0.421097, 0>, <0.744396, -0.397872, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.744396, -0.397872, 0>, 0.03, <0.772697, -0.387919, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.607519, -0.560981, 0>, <0.673304, -0.537058, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.673304, -0.537058, 0>, 0.03, <0.701497, -0.526805, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.839162, -0.477197, 0>, <0.896387, -0.436883, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.896387, -0.436883, 0>, 0.03, <0.920912, -0.419605, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.676549, -0.164556, 0>, <0.745121, -0.150489, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.745121, -0.150489, 0>, 0.03, <0.774509, -0.14446, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.93526, -0.184147, 0>, <0.991636, -0.142653, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.991636, -0.142653, 0>, 0.03, <1.0158, -0.124869, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.700273, -0.00521604, 0>, <0.769891, 0.00208642, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.769891, 0.00208642, 0>, 0.03, <0.799727, 0.00521604, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.65423, -0.72183, 0>, <0.716069, -0.689029, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.716069, -0.689029, 0>, 0.03, <0.742572, -0.674972, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.549987, 0.248875, 0>, <0.480005, 0.25045, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.480005, 0.25045, 0>, 0.03, <0.450013, 0.251125, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.20001, 0.24898, 0>, <0.269996, 0.250408, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269996, 0.250408, 0>, 0.03, <0.29999, 0.25102, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.29998, 0.498599, 0>, <0.230008, 0.500561, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.230008, 0.500561, 0>, 0.03, <0.20002, 0.501401, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.453957, 0.718126, 0>, <0.384728, 0.72849, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.384728, 0.72849, 0>, 0.03, <0.355059, 0.732932, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.204492, 0.724267, 0>, <0.134514, 0.726034, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.134514, 0.726034, 0>, 0.03, <0.104524, 0.726791, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0498998, 0.246836, 0>, <0.0199599, 0.251266, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199599, 0.251266, 0>, 0.03, <0.0498998, 0.253164, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.204374, 0.971867, 0>, <0.134562, 0.976994, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.134562, 0.976994, 0>, 0.03, <0.104642, 0.979191, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499542, 0.74786, 0>, <0.0199817, 0.750856, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199817, 0.750856, 0>, 0.03, <0.0499542, 0.75214, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.592831, 0.64426, 0>, <0.524318, 0.658607, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.524318, 0.658607, 0>, 0.03, <0.494955, 0.664756, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.496701, 0.867111, 0>, <0.429081, 0.885208, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.429081, 0.885208, 0>, 0.03, <0.400101, 0.892963, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.204132, 0.969405, 0>, <-0.134659, 0.977979, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.134659, 0.977979, 0>, 0.03, <-0.104884, 0.981653, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.703214, 0.532593, 0>, <0.635025, 0.548413, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.635025, 0.548413, 0>, 0.03, <0.605802, 0.555193, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.774651, 0.395181, 0>, <0.70588, 0.408239, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.70588, 0.408239, 0>, 0.03, <0.676407, 0.413835, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.923629, 0.423912, 0>, <0.8626, 0.458197, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.8626, 0.458197, 0>, 0.03, <0.836445, 0.47289, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.744141, 0.678206, 0>, <0.680105, 0.706479, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.680105, 0.706479, 0>, 0.03, <0.652661, 0.718596, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.775526, 0.154, 0>, <0.70553, 0.154711, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.70553, 0.154711, 0>, 0.03, <0.675532, 0.155016, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <1.02237, 0.137016, 0>, <0.956793, 0.161505, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.956793, 0.161505, 0>, 0.03, <0.928688, 0.172, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.790132, -0.370197, 0>, <-0.857558, -0.351389, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.857558, -0.351389, 0>, 0.03, <-0.886454, -0.343328, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.872341, -0.403873, 0>, <-0.932829, -0.368643, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.932829, -0.368643, 0>, 0.03, <-0.958753, -0.353545, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.684368, -0.58177, 0>, <-0.75072, -0.559467, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.75072, -0.559467, 0>, 0.03, <-0.779157, -0.549908, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.708914, -0.665306, 0>, <-0.771627, -0.634208, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.771627, -0.634208, 0>, 0.03, <-0.798504, -0.62088, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.517591, -0.744883, 0>, <-0.585138, -0.726514, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.585138, -0.726514, 0>, 0.03, <-0.614087, -0.718642, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.182145, -0.969468, 0>, <-0.251609, -0.960823, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.251609, -0.960823, 0>, 0.03, <-0.28138, -0.957118, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499688, -0.876767, 0>, <0.0199875, -0.874293, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199875, -0.874293, 0>, 0.03, <0.0499688, -0.873233, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.181928, -0.842363, 0>, <-0.251696, -0.836665, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.251696, -0.836665, 0>, 0.03, <-0.281597, -0.834223, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.450126, -0.378543, 0>, <-0.51995, -0.373583, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.51995, -0.373583, 0>, 0.03, <-0.549874, -0.371457, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.788647, -0.237703, 0>, <-0.858151, -0.229386, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.858151, -0.229386, 0>, 0.03, <-0.887939, -0.225822, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.325135, -0.503665, 0>, <-0.394946, -0.498534, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.394946, -0.498534, 0>, 0.03, <-0.424865, -0.496335, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.402706, -0.619474, 0>, <-0.472073, -0.610081, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.472073, -0.610081, 0>, 0.03, <-0.501802, -0.606055, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0273931, -0.991491, 0>, <0.0971984, -0.986274, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0971984, -0.986274, 0>, 0.03, <0.127115, -0.984038, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0274293, -0.616947, 0>, <0.0971839, -0.611091, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0971839, -0.611091, 0>, 0.03, <0.127079, -0.608582, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.470457, -0.859718, 0>, <-0.537148, -0.83845, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.537148, -0.83845, 0>, 0.03, <-0.565729, -0.829336, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424937, -0.12751, 0>, <-0.355025, -0.123996, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355025, -0.123996, 0>, 0.03, <-0.325063, -0.12249, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.88364, 0.335699, 0>, <-0.820154, 0.365188, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.820154, 0.365188, 0>, 0.03, <-0.792946, 0.377826, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.77716, 0.544885, 0>, <-0.713604, 0.574221, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.713604, 0.574221, 0>, 0.03, <-0.686365, 0.586793, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.955658, 0.348857, 0>, <-0.899503, 0.39065, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.899503, 0.39065, 0>, 0.03, <-0.875436, 0.408561, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.885642, 0.215699, 0>, <-0.819353, 0.238188, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.819353, 0.238188, 0>, 0.03, <-0.790944, 0.247826, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-1.02764, 0.0470911, 0>, <-0.971814, 0.0893192, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.971814, 0.0893192, 0>, 0.03, <-0.947887, 0.107417, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.924526, -0.00686906, 0>, <-0.85519, 0.00274762, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.85519, 0.00274762, 0>, 0.03, <-0.825474, 0.00686906, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.612801, 0.714598, 0>, <-0.547054, 0.738628, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.547054, 0.738628, 0>, 0.03, <-0.518877, 0.748927, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.79677, 0.617681, 0>, <-0.736485, 0.653258, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.736485, 0.653258, 0>, 0.03, <-0.710648, 0.668505, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.549607, 0.118739, 0>, <-0.480157, 0.127504, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480157, 0.127504, 0>, 0.03, <-0.450393, 0.131261, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.42486, -0.00373757, 0>, <-0.355056, 0.00149503, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355056, 0.00149503, 0>, 0.03, <-0.32514, 0.00373757, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424234, 0.366281, 0>, <-0.355306, 0.378488, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355306, 0.378488, 0>, 0.03, <-0.325766, 0.383719, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.564771, 0.826605, 0>, <-0.499422, 0.851696, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.499422, 0.851696, 0>, 0.03, <-0.471415, 0.862449, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.500809, 0.600829, 0>, <-0.432832, 0.617539, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.432832, 0.617539, 0>, 0.03, <-0.403699, 0.6247, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424094, 0.490523, 0>, <-0.355363, 0.503791, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355363, 0.503791, 0>, 0.03, <-0.325906, 0.509477, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.281154, 0.830517, 0>, <-0.212006, 0.841403, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.212006, 0.841403, 0>, 0.03, <-0.182371, 0.846069, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.937886, -0.0807355, 0>, <-1.00772, -0.0758614, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-1.00772, -0.0758614, 0>, 0.03, <-1.03764, -0.0737725, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499126, -0.377954, 0>, <0.0199651, -0.373818, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199651, -0.373818, 0>, 0.03, <0.0499126, -0.372046, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0752386, -0.504879, 0>, <0.144905, -0.498049, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144905, -0.498049, 0>, 0.03, <0.174761, -0.495121, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0751985, -0.129451, 0>, <0.144921, -0.12322, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144921, -0.12322, 0>, 0.03, <0.174802, -0.120549, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.308127, -0.849892, 0>, <0.376217, -0.833653, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.376217, -0.833653, 0>, 0.03, <0.405398, -0.826694, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.330548, -0.928982, 0>, <0.397973, -0.910173, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.397973, -0.910173, 0>, 0.03, <0.42687, -0.902112, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.473795, -0.590724, 0>, <0.541207, -0.571866, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.541207, -0.571866, 0>, 0.03, <0.570098, -0.563784, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.451063, -0.385253, 0>, <0.519575, -0.370899, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519575, -0.370899, 0>, 0.03, <0.548937, -0.364747, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.075116, -0.00340436, 0>, <0.144954, 0.00136175, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144954, 0.00136175, 0>, 0.03, <0.174884, 0.00340436, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.564795, -0.466359, 0>, <0.631952, -0.446612, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.631952, -0.446612, 0>, 0.03, <0.660734, -0.438149, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.529359, -0.536302, 0>, <0.596412, -0.516204, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.596412, -0.516204, 0>, 0.03, <0.625149, -0.507591, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.803275, -0.546346, 0>, <0.861028, -0.506792, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.861028, -0.506792, 0>, 0.03, <0.885779, -0.48984, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.563231, -0.0840694, 0>, <0.632578, -0.0745278, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.632578, -0.0745278, 0>, 0.03, <0.662298, -0.0704386, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.923725, -0.262329, 0>, <0.97912, -0.219536, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.97912, -0.219536, 0>, 0.03, <1.00286, -0.201196, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.575207, -0.00455023, 0>, <0.644917, 0.00182009, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.644917, 0.00182009, 0>, 0.03, <0.674793, 0.00455023, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.598172, -0.775666, 0>, <0.661061, -0.744926, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.661061, -0.744926, 0>, 0.03, <0.688014, -0.731752, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.450021, 0.12355, 0>, <0.519992, 0.12558, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519992, 0.12558, 0>, 0.03, <0.549979, 0.12645, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0750473, 0.122826, 0>, <0.144981, 0.12587, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144981, 0.12587, 0>, 0.03, <0.174953, 0.127174, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0750046, 0.499325, 0>, <0.144998, 0.50027, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144998, 0.50027, 0>, 0.03, <0.174995, 0.500675, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.406128, 0.830352, 0>, <0.337016, 0.841469, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.337016, 0.841469, 0>, 0.03, <0.307397, 0.846234, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0272601, 0.611983, 0>, <0.0972516, 0.613077, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0972516, 0.613077, 0>, 0.03, <0.127248, 0.613546, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0498945, 0.121754, 0>, <0.0199578, 0.126298, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199578, 0.126298, 0>, 0.03, <0.0498945, 0.128246, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.127236, 0.986412, 0>, <0.0572613, 0.988305, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0572613, 0.988305, 0>, 0.03, <0.0272723, 0.989117, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499402, 0.622556, 0>, <0.0199761, 0.625978, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199761, 0.625978, 0>, 0.03, <0.0499402, 0.627444, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.571308, 0.569291, 0>, <0.502202, 0.580439, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.502202, 0.580439, 0>, 0.03, <0.472585, 0.585217, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.427522, 0.904715, 0>, <0.359184, 0.91988, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.359184, 0.91988, 0>, 0.03, <0.329896, 0.926379, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.281011, 0.954654, 0>, <-0.212063, 0.966748, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.212063, 0.966748, 0>, 0.03, <-0.182514, 0.971932, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.626545, 0.513558, 0>, <0.557537, 0.525302, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.557537, 0.525302, 0>, 0.03, <0.527963, 0.530335, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.662203, 0.444784, 0>, <0.592989, 0.455242, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.592989, 0.455242, 0>, 0.03, <0.563326, 0.459724, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.888095, 0.493561, 0>, <0.8271, 0.527906, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.8271, 0.527906, 0>, 0.03, <0.800959, 0.542625, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.689366, 0.734766, 0>, <0.624584, 0.761286, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.624584, 0.761286, 0>, 0.03, <0.59682, 0.772652, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.562802, 0.075318, 0>, <0.63275, 0.0780284, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.63275, 0.0780284, 0>, 0.03, <0.662727, 0.07919, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <1.00747, 0.208351, 0>, <0.945621, 0.241127, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.945621, 0.241127, 0>, 0.03, <0.919113, 0.255174, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.563335, -0.459787, 0>, <-0.632536, -0.449241, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.632536, -0.449241, 0>, 0.03, <-0.662194, -0.444721, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.800986, -0.542673, 0>, <-0.861943, -0.508261, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.861943, -0.508261, 0>, 0.03, <-0.888068, -0.493513, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.527975, -0.530408, 0>, <-0.596966, -0.518562, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.596966, -0.518562, 0>, 0.03, <-0.626533, -0.513485, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.596839, -0.772696, 0>, <-0.661595, -0.746114, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.661595, -0.746114, 0>, 0.03, <-0.689347, -0.734722, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.472595, -0.585283, 0>, <-0.541687, -0.574042, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.541687, -0.574042, 0>, 0.03, <-0.571298, -0.569225, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0272725, -0.989123, 0>, <-0.0972466, -0.987221, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0972466, -0.987221, 0>, 0.03, <-0.127236, -0.986406, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499405, -0.627438, 0>, <0.0199762, -0.624025, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199762, -0.624025, 0>, 0.03, <0.0499405, -0.622562, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.127248, -0.613537, 0>, <-0.0572564, -0.612455, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0572564, -0.612455, 0>, 0.03, <-0.02726, -0.611992, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.549979, -0.126434, 0>, <-0.480008, -0.124426, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480008, -0.124426, 0>, 0.03, <-0.450021, -0.123566, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.662728, -0.0791732, 0>, <-0.592779, -0.0764863, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.592779, -0.0764863, 0>, 0.03, <-0.562801, -0.0753348, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174996, -0.500665, 0>, <-0.105002, -0.499734, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105002, -0.499734, 0>, 0.03, <-0.0750044, -0.499335, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.307401, -0.846257, 0>, <-0.376507, -0.835107, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.376507, -0.835107, 0>, 0.03, <-0.406124, -0.830329, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.182514, -0.971929, 0>, <0.251462, -0.959839, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.251462, -0.959839, 0>, 0.03, <0.281011, -0.954657, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.18237, -0.846065, 0>, <0.251519, -0.835184, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.251519, -0.835184, 0>, 0.03, <0.281155, -0.830521, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.3299, -0.926394, 0>, <-0.398233, -0.911208, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.398233, -0.911208, 0>, 0.03, <-0.427518, -0.9047, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174964, -0.376888, 0>, <-0.105014, -0.374245, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105014, -0.374245, 0>, 0.03, <-0.0750357, -0.373112, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.660735, 0.438154, 0>, <-0.593576, 0.457894, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.593576, 0.457894, 0>, 0.03, <-0.564794, 0.466354, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.62515, 0.507593, 0>, <-0.558096, 0.527688, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.558096, 0.527688, 0>, 0.03, <-0.529358, 0.5363, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.885782, 0.489844, 0>, <-0.828025, 0.529393, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.828025, 0.529393, 0>, 0.03, <-0.803272, 0.546342, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.6623, 0.0704531, 0>, <-0.59295, 0.0799744, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.59295, 0.0799744, 0>, 0.03, <-0.563229, 0.0840549, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-1.00287, 0.201204, 0>, <-0.947463, 0.243986, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.947463, 0.243986, 0>, 0.03, <-0.923718, 0.262321, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.674794, -0.00453473, 0>, <-0.605082, 0.00181389, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.605082, 0.00181389, 0>, 0.03, <-0.575206, 0.00453473, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.570098, 0.563785, 0>, <-0.502686, 0.582642, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.502686, 0.582642, 0>, 0.03, <-0.473795, 0.590723, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.688014, 0.731752, 0>, <-0.625125, 0.762492, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.625125, 0.762492, 0>, 0.03, <-0.598172, 0.775666, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.548939, 0.364752, 0>, <-0.480425, 0.379099, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.480425, 0.379099, 0>, 0.03, <-0.451061, 0.385248, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174884, -0.00340999, 0>, <-0.105047, 0.00136399, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105047, 0.00136399, 0>, 0.03, <-0.0751164, 0.00340999, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174802, 0.12055, 0>, <-0.105079, 0.12678, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105079, 0.12678, 0>, 0.03, <-0.0751984, 0.12945, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.42687, 0.90211, 0>, <-0.359445, 0.920922, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.359445, 0.920922, 0>, 0.03, <-0.330548, 0.928984, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.405398, 0.826692, 0>, <-0.337308, 0.842933, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.337308, 0.842933, 0>, 0.03, <-0.308127, 0.849894, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174761, 0.495118, 0>, <-0.105096, 0.501953, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105096, 0.501953, 0>, 0.03, <-0.075239, 0.504882, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.127078, 0.608576, 0>, <-0.0573243, 0.61444, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0573243, 0.61444, 0>, 0.03, <-0.0274297, 0.616953, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.919134, -0.255215, 0>, <-0.980956, -0.222382, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.980956, -0.222382, 0>, 0.03, <-1.00745, -0.20831, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0498941, -0.128252, 0>, <0.0199577, -0.123699, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199577, -0.123699, 0>, 0.03, <0.0498941, -0.121748, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.325906, -0.509476, 0>, <0.394638, -0.496209, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.394638, -0.496209, 0>, 0.03, <0.424094, -0.490524, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.325766, -0.383721, 0>, <0.394693, -0.371512, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.394693, -0.371512, 0>, 0.03, <0.424234, -0.366279, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.403699, -0.6247, 0>, <0.471676, -0.60799, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.471676, -0.60799, 0>, 0.03, <0.500809, -0.600829, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.471415, -0.862447, 0>, <0.536764, -0.837359, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.536764, -0.837359, 0>, 0.03, <0.564771, -0.826607, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.518877, -0.748926, 0>, <0.584624, -0.724897, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.584624, -0.724897, 0>, 0.03, <0.612801, -0.714599, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.450395, -0.131272, 0>, <0.519842, -0.122491, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.519842, -0.122491, 0>, 0.03, <0.549605, -0.118728, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.32514, -0.00373742, 0>, <0.394944, 0.00149497, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.394944, 0.00149497, 0>, 0.03, <0.42486, 0.00373742, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.79295, -0.377834, 0>, <0.85643, -0.348334, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.85643, -0.348334, 0>, 0.03, <0.883636, -0.335691, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.686367, -0.586797, 0>, <0.749921, -0.557456, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.749921, -0.557456, 0>, 0.03, <0.777158, -0.544881, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.875441, -0.408567, 0>, <0.931589, -0.366766, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.931589, -0.366766, 0>, 0.03, <0.955653, -0.348851, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.790948, -0.247839, 0>, <0.857231, -0.225332, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.857231, -0.225332, 0>, 0.03, <0.885638, -0.215686, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.947899, -0.107432, 0>, <1.00371, -0.0651827, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <1.00371, -0.0651827, 0>, 0.03, <1.02763, -0.0470758, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.825477, -0.00689226, 0>, <0.894809, 0.0027569, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.894809, 0.0027569, 0>, 0.03, <0.924523, 0.00689226, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.710649, -0.668506, 0>, <0.770933, -0.632928, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.770933, -0.632928, 0>, 0.03, <0.796769, -0.61768, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.549877, 0.371493, 0>, <0.480049, 0.376403, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.480049, 0.376403, 0>, 0.03, <0.450123, 0.378507, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.424944, 0.372627, 0>, <0.355023, 0.375949, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.355023, 0.375949, 0>, 0.03, <0.325056, 0.377373, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.424868, 0.496366, 0>, <0.355053, 0.501454, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.355053, 0.501454, 0>, 0.03, <0.325132, 0.503634, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.501809, 0.606106, 0>, <0.432432, 0.615428, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.432432, 0.615428, 0>, 0.03, <0.402699, 0.619423, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.281598, 0.834235, 0>, <0.211828, 0.839916, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.211828, 0.839916, 0>, 0.03, <0.181927, 0.842351, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499128, 0.372048, 0>, <0.0199651, 0.376181, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199651, 0.376181, 0>, 0.03, <0.0499128, 0.377952, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.281381, 0.957127, 0>, <0.211915, 0.965759, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.211915, 0.965759, 0>, 0.03, <0.182144, 0.969459, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0499685, 0.873227, 0>, <0.0199874, 0.875709, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0199874, 0.875709, 0>, 0.03, <0.0499685, 0.876773, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.614101, 0.718693, 0>, <0.546534, 0.73699, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.546534, 0.73699, 0>, 0.03, <0.517577, 0.744832, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.565738, 0.829363, 0>, <0.499035, 0.850593, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.499035, 0.850593, 0>, 0.03, <0.470448, 0.859691, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.127115, 0.984034, 0>, <-0.0573097, 0.989257, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0573097, 0.989257, 0>, 0.03, <-0.0273933, 0.991495, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.77918, 0.549978, 0>, <0.712795, 0.572183, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.712795, 0.572183, 0>, 0.03, <0.684345, 0.5817, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.886469, 0.34338, 0>, <0.819023, 0.362115, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.819023, 0.362115, 0>, 0.03, <0.790117, 0.370145, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.958776, 0.353584, 0>, <0.898256, 0.388759, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.898256, 0.388759, 0>, 0.03, <0.872318, 0.403834, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.79853, 0.620933, 0>, <0.735781, 0.651957, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.735781, 0.651957, 0>, 0.03, <0.708888, 0.665253, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.887943, 0.225856, 0>, <0.818433, 0.234125, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.818433, 0.234125, 0>, 0.03, <0.788643, 0.237669, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <1.03765, 0.0738947, 0>, <0.96781, 0.0785977, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.96781, 0.0785977, 0>, 0.03, <0.937877, 0.0806133, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.754868, -0.440744, 0>, <-0.821949, -0.420739, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.821949, -0.420739, 0>, 0.03, <-0.850698, -0.412165, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.641109, -0.484587, 0>, <-0.709582, -0.470046, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.709582, -0.470046, 0>, 0.03, <-0.738928, -0.463814, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.719758, -0.511717, 0>, <-0.786278, -0.489919, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.786278, -0.489919, 0>, 0.03, <-0.814787, -0.480577, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.628718, -0.636022, 0>, <-0.695549, -0.615197, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.695549, -0.615197, 0>, 0.03, <-0.724191, -0.606272, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.550386, -0.610024, 0>, <-0.618726, -0.594871, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.618726, -0.594871, 0>, 0.03, <-0.648015, -0.588377, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.57318, -0.690568, 0>, <-0.640334, -0.670809, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.640334, -0.670809, 0>, 0.03, <-0.669114, -0.662341, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.104556, -0.852719, 0>, <-0.174489, -0.849653, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.174489, -0.849653, 0>, 0.03, <-0.20446, -0.848339, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.0272541, -0.862839, 0>, <-0.097254, -0.862735, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.097254, -0.862735, 0>, 0.03, <-0.127254, -0.86269, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.127252, -0.738197, 0>, <-0.0572547, -0.737591, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0572547, -0.737591, 0>, 0.03, <-0.0272559, -0.737332, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.675754, -0.284246, 0>, <-0.745439, -0.277613, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.745439, -0.277613, 0>, 0.03, <-0.775304, -0.27477, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.562989, -0.331988, 0>, <-0.632675, -0.32536, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.632675, -0.32536, 0>, 0.03, <-0.66254, -0.32252, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.562772, -0.20312, 0>, <-0.632762, -0.201908, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.632762, -0.201908, 0>, 0.03, <-0.662757, -0.201388, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.229685, -0.729728, 0>, <-0.299437, -0.723849, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.299437, -0.723849, 0>, 0.03, <-0.329331, -0.72133, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.152272, -0.614112, 0>, <-0.222247, -0.612225, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.222247, -0.612225, 0>, 0.03, <-0.252236, -0.611417, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.277432, -0.616982, 0>, <-0.347183, -0.611077, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.347183, -0.611077, 0>, 0.03, <-0.377076, -0.608547, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0273881, -0.866423, 0>, <0.0972004, -0.861301, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0972004, -0.861301, 0>, 0.03, <0.12712, -0.859106, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0274072, -0.741676, 0>, <0.0971927, -0.7362, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0971927, -0.7362, 0>, 0.03, <0.127101, -0.733853, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.104852, -0.856384, 0>, <0.17437, -0.848187, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.17437, -0.848187, 0>, 0.03, <0.204164, -0.844674, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.44746, -0.778656, 0>, <-0.515622, -0.762719, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.515622, -0.762719, 0>, 0.03, <-0.544834, -0.755889, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424987, -0.698849, 0>, <-0.493886, -0.686486, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.493886, -0.686486, 0>, 0.03, <-0.523414, -0.681188, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.377387, -0.812396, 0>, <-0.446081, -0.798938, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.446081, -0.798938, 0>, 0.03, <-0.475522, -0.79317, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.325016, -0.376284, 0>, <-0.394993, -0.374486, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.394993, -0.374486, 0>, 0.03, <-0.424984, -0.373716, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.325, -0.250041, 0>, <-0.395, -0.249984, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.395, -0.249984, 0>, 0.03, <-0.425, -0.249959, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.2, -0.375181, 0>, <-0.27, -0.374927, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.27, -0.374927, 0>, 0.03, <-0.3, -0.374819, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.848176, 0.40549, 0>, <-0.784626, 0.43484, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.784626, 0.43484, 0>, 0.03, <-0.75739, 0.447419, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.737099, 0.457365, 0>, <-0.671186, 0.480935, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.671186, 0.480935, 0>, 0.03, <-0.642938, 0.491036, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.812537, 0.474907, 0>, <-0.749167, 0.504643, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.749167, 0.504643, 0>, 0.03, <-0.722008, 0.517387, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.898511, 0.140447, 0>, <-0.831336, 0.160132, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.831336, 0.160132, 0>, 0.03, <-0.802547, 0.168569, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.787171, 0.0695759, 0>, <-0.718002, 0.0803252, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.718002, 0.0803252, 0>, 0.03, <-0.688358, 0.0849321, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.911705, 0.0670148, 0>, <-0.843188, 0.0813497, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.843188, 0.0813497, 0>, 0.03, <-0.813824, 0.0874932, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.722437, 0.60151, 0>, <-0.658061, 0.629002, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.658061, 0.629002, 0>, 0.03, <-0.630472, 0.640784, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.64654, 0.583109, 0>, <-0.580265, 0.605637, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.580265, 0.605637, 0>, 0.03, <-0.551861, 0.615292, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.667636, 0.658048, 0>, <-0.602552, 0.683817, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.602552, 0.683817, 0>, 0.03, <-0.574658, 0.694861, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424639, 0.119002, 0>, <-0.355144, 0.127399, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355144, 0.127399, 0>, 0.03, <-0.325361, 0.130998, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.424502, 0.242959, 0>, <-0.355199, 0.252817, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.355199, 0.252817, 0>, 0.03, <-0.325498, 0.257041, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299794, 0.120468, 0>, <-0.230082, 0.126813, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230082, 0.126813, 0>, 0.03, <-0.200206, 0.129532, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.543737, 0.751936, 0>, <-0.477111, 0.773407, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.477111, 0.773407, 0>, 0.03, <-0.448557, 0.782609, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.522354, 0.676557, 0>, <-0.454939, 0.695403, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.454939, 0.695403, 0>, 0.03, <-0.426047, 0.70348, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.474635, 0.789416, 0>, <-0.407182, 0.80813, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.407182, 0.80813, 0>, 0.03, <-0.378274, 0.81615, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.376382, 0.60347, 0>, <-0.307603, 0.616482, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.307603, 0.616482, 0>, 0.03, <-0.278126, 0.622059, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.328755, 0.716884, 0>, <-0.259809, 0.728987, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.259809, 0.728987, 0>, 0.03, <-0.230261, 0.734174, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.251846, 0.606389, 0>, <-0.182417, 0.615315, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.182417, 0.615315, 0>, 0.03, <-0.152662, 0.61914, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.773753, 0.266299, 0>, <-0.70624, 0.284792, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.70624, 0.284792, 0>, 0.03, <-0.677305, 0.292717, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.661264, 0.315095, 0>, <-0.593365, 0.332118, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.593365, 0.332118, 0>, 0.03, <-0.564265, 0.339413, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.661905, 0.19302, 0>, <-0.593108, 0.205947, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.593108, 0.205947, 0>, 0.03, <-0.563624, 0.211488, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.80059, -0.156987, 0>, <-0.870504, -0.153516, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.870504, -0.153516, 0>, 0.03, <-0.900468, -0.152029, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.787711, -0.0795588, 0>, <-0.717786, -0.0763321, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.717786, -0.0763321, 0>, 0.03, <-0.687818, -0.0749492, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.912692, -0.0799382, 0>, <-0.842793, -0.0761803, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.842793, -0.0761803, 0>, 0.03, <-0.812837, -0.0745698, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299948, -0.127271, 0>, <-0.230021, -0.124092, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230021, -0.124092, 0>, 0.03, <-0.200052, -0.122729, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174955, -0.252112, 0>, <-0.105018, -0.249155, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105018, -0.249155, 0>, 0.03, <-0.0750446, -0.247888, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174889, -0.128334, 0>, <-0.105045, -0.123667, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105045, -0.123667, 0>, 0.03, <-0.0751113, -0.121666, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0752603, -0.380096, 0>, <0.144896, -0.372962, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144896, -0.372962, 0>, 0.03, <0.17474, -0.369904, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0751917, -0.254375, 0>, <0.144923, -0.24825, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144923, -0.24825, 0>, 0.03, <0.174808, -0.245625, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200398, -0.381296, 0>, <0.269841, -0.372482, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269841, -0.372482, 0>, 0.03, <0.299602, -0.368704, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.152662, -0.619136, 0>, <0.222091, -0.610216, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.222091, -0.610216, 0>, 0.03, <0.251846, -0.606393, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.23026, -0.73417, 0>, <0.299207, -0.722073, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.299207, -0.722073, 0>, 0.03, <0.328756, -0.716888, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.278125, -0.622057, 0>, <0.346906, -0.609047, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.346906, -0.609047, 0>, 0.03, <0.376383, -0.603472, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.378274, -0.816148, 0>, <0.445727, -0.797437, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.445727, -0.797437, 0>, 0.03, <0.474635, -0.789418, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.426046, -0.703479, 0>, <0.493462, -0.684634, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.493462, -0.684634, 0>, 0.03, <0.522355, -0.676558, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.448557, -0.782608, 0>, <0.515183, -0.761138, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.515183, -0.761138, 0>, 0.03, <0.543737, -0.751937, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200205, -0.129526, 0>, <0.269918, -0.12319, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.269918, -0.12319, 0>, 0.03, <0.299795, -0.120474, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.325499, -0.257046, 0>, <0.3948, -0.247182, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.3948, -0.247182, 0>, 0.03, <0.424501, -0.242954, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.32536, -0.130993, 0>, <0.394856, -0.122603, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.394856, -0.122603, 0>, 0.03, <0.42464, -0.119007, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.64294, -0.491041, 0>, <0.70885, -0.467464, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.70885, -0.467464, 0>, 0.03, <0.737097, -0.45736, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.757393, -0.447425, 0>, <0.820939, -0.418066, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.820939, -0.418066, 0>, 0.03, <0.848173, -0.405484, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.72201, -0.517391, 0>, <0.785377, -0.487649, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.785377, -0.487649, 0>, 0.03, <0.812535, -0.474903, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.68836, -0.084948, 0>, <0.757526, -0.0741764, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.757526, -0.0741764, 0>, 0.03, <0.787169, -0.06956, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.802551, -0.168584, 0>, <0.86972, -0.148878, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.86972, -0.148878, 0>, 0.03, <0.898507, -0.140432, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.813828, -0.0875131, 0>, <0.882339, -0.0731503, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.882339, -0.0731503, 0>, 0.03, <0.911701, -0.0669949, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.564267, -0.339421, 0>, <0.632163, -0.322387, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.632163, -0.322387, 0>, 0.03, <0.661262, -0.315087, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.563627, -0.211498, 0>, <0.63242, -0.198556, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.63242, -0.198556, 0>, 0.03, <0.661902, -0.19301, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.677308, -0.292727, 0>, <0.744817, -0.27422, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.744817, -0.27422, 0>, 0.03, <0.77375, -0.266289, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.551861, -0.615293, 0>, <0.618136, -0.592763, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.618136, -0.592763, 0>, 0.03, <0.64654, -0.583108, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.574658, -0.694861, 0>, <0.639742, -0.669092, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.639742, -0.669092, 0>, 0.03, <0.667636, -0.658048, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.630473, -0.640786, 0>, <0.694847, -0.613291, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.694847, -0.613291, 0>, 0.03, <0.722436, -0.601508, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.200051, 0.122749, 0>, <0.26998, 0.125901, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.26998, 0.125901, 0>, 0.03, <0.299949, 0.127251, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.325015, 0.123792, 0>, <0.394994, 0.125483, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.394994, 0.125483, 0>, 0.03, <0.424985, 0.126208, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.425, 0.24996, 0>, <0.355, 0.250016, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.355, 0.250016, 0>, 0.03, <0.325, 0.25004, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.252236, 0.611431, 0>, <0.182261, 0.613298, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.182261, 0.613298, 0>, 0.03, <0.152272, 0.614098, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.377078, 0.608569, 0>, <0.307325, 0.614443, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.307325, 0.614443, 0>, 0.03, <0.27743, 0.61696, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.329333, 0.721351, 0>, <0.259578, 0.7272, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.259578, 0.7272, 0>, 0.03, <0.229683, 0.729707, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.0750438, 0.247907, 0>, <0.144982, 0.250837, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144982, 0.250837, 0>, 0.03, <0.174956, 0.252093, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.3, 0.374816, 0>, <0.23, 0.375073, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.23, 0.375073, 0>, 0.03, <0.2, 0.375184, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.075008, 0.374103, 0>, <0.144997, 0.375359, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.144997, 0.375359, 0>, 0.03, <0.174992, 0.375897, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.027256, 0.737322, 0>, <0.0972532, 0.737942, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.0972532, 0.737942, 0>, 0.03, <0.127252, 0.738207, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.204461, 0.84835, 0>, <0.134527, 0.851401, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.134527, 0.851401, 0>, 0.03, <0.104555, 0.852708, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.127254, 0.862698, 0>, <0.057254, 0.862791, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.057254, 0.862791, 0>, 0.03, <0.027254, 0.862831, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.475527, 0.793197, 0>, <0.406826, 0.806617, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.406826, 0.806617, 0>, 0.03, <0.377382, 0.812369, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.523422, 0.68123, 0>, <0.454512, 0.693534, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.454512, 0.693534, 0>, 0.03, <0.424979, 0.698807, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.544844, 0.755931, 0>, <0.476668, 0.771809, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.476668, 0.771809, 0>, 0.03, <0.44745, 0.778614, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.204163, 0.844669, 0>, <-0.134646, 0.852873, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.134646, 0.852873, 0>, 0.03, <-0.104853, 0.856389, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.1271, 0.733847, 0>, <-0.0573155, 0.739332, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0573155, 0.739332, 0>, 0.03, <-0.0274077, 0.741682, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.127119, 0.8591, 0>, <-0.0573078, 0.86423, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.0573078, 0.86423, 0>, 0.03, <-0.0273885, 0.866429, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.73894, 0.463872, 0>, <0.67045, 0.478332, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.67045, 0.478332, 0>, 0.03, <0.641097, 0.484529, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.814809, 0.480645, 0>, <0.748258, 0.502348, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.748258, 0.502348, 0>, 0.03, <0.719736, 0.511649, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.850713, 0.412217, 0>, <0.783611, 0.43215, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.783611, 0.43215, 0>, 0.03, <0.754853, 0.440692, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.648029, 0.588439, 0>, <0.579669, 0.603505, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.579669, 0.603505, 0>, 0.03, <0.550372, 0.609962, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.669131, 0.662398, 0>, <0.601954, 0.682077, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.601954, 0.682077, 0>, 0.03, <0.573163, 0.690511, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.724211, 0.606337, 0>, <0.657352, 0.627071, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.657352, 0.627071, 0>, 0.03, <0.628698, 0.635957, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.662757, 0.201413, 0>, <0.592767, 0.20259, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.592767, 0.20259, 0>, 0.03, <0.562772, 0.203095, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.662543, 0.322554, 0>, <0.592853, 0.329134, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.592853, 0.329134, 0>, 0.03, <0.562986, 0.331954, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.775307, 0.274806, 0>, <0.705618, 0.281389, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.705618, 0.281389, 0>, 0.03, <0.675751, 0.28421, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.687819, 0.0749272, 0>, <0.757743, 0.0781847, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.757743, 0.0781847, 0>, 0.03, <0.78771, 0.0795808, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.812838, 0.0745442, 0>, <0.882735, 0.0783379, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.882735, 0.0783379, 0>, 0.03, <0.912691, 0.0799638, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <0.900469, 0.152061, 0>, <0.830553, 0.155487, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <0.830553, 0.155487, 0>, 0.03, <0.800589, 0.156955, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.299602, 0.368704, 0>, <-0.230159, 0.377518, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.230159, 0.377518, 0>, 0.03, <-0.200398, 0.381296, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.174809, 0.245633, 0>, <-0.105076, 0.251747, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105076, 0.251747, 0>, 0.03, <-0.0751911, 0.254367, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cylinder { <-0.17474, 0.369911, 0>, <-0.105104, 0.377036, 0>, 0.015 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
+cone { <-0.105104, 0.377036, 0>, 0.03, <-0.0752597, 0.380089, 0>, 0 texture {  pigment { rgb <0.5, 0.5, 0.5>  } } }
 light_source {<3, 4, 5> color White}
 light_source {<-3, -4, 5> color White}
