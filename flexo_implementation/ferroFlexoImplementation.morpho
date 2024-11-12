@@ -39,6 +39,18 @@ fn landau(x, q) {
   return T1*q2 + T2*q2*q2
 }
 
+// Flexo Functional
+fn flexo(x, q) {
+    var qn = q.norm()
+    var q2 = qn * qn
+    var div = grad(q)
+    // var div2 = div.inner(div)
+    // var div2 = div.norm()
+    // print div.respondsto()
+    // var fl = q2*div
+    return div
+}
+
 // Anchoring Functional
 fn tangentialAnchoring(x, q) {
   var t = tangent()
@@ -56,20 +68,10 @@ fn polarAnchoring(x, q) {
   return q[0] - 1
 }
 
-// Flexo Functional
-fn flexo(x, n) {
-    var nnorm = n.norm()
-    var n2 = nnorm*nnorm
-    var div = grad(n).trace()
-    var fl = GAMMA*div*n2
-    return fl
-}
-
-fn fElastic(x,n) {
-  var div = grad(n).trace()
-  var div2 = div.norm()
-  return K*div2
-}
+// fn fTest(x,n) {
+//   var grad = fieldgradient(m,n)
+//   return grad
+// }
 
 // ns-Tensor to Scalar S
 fn nsToNorm(n) {
@@ -112,23 +114,17 @@ var optProblem = OptimizationProblem(m)
 var lEnergy = AreaIntegral(landau, ns)
 optProblem.addenergy(lEnergy)
 
-// var eEnergy = AreaIntegral(fElastic, ns)
-// optProblem.addenergy(eEnergy)
+var flexoEnergy = AreaIntegral(flexo, ns)
+optProblem.addenergy(flexoEnergy)
 
 var tangentialEnergy = LineIntegral(tangentialAnchoring, ns)
 optProblem.addenergy(tangentialEnergy, selection=bnd, prefactor = TA)
 
-// var apolarEnergy = LineIntegral(apolarAnchoring, ns)
-// optProblem.addenergy(apolarEnergy, selection=bnd, prefactor = AA)
-
-// var polarEnergy = LineIntegral(polarAnchoring, ns)
-// optProblem.addenergy(polarEnergy, selection=bnd, prefactor = -PA)
-
 var eEnergy = GradSq(ns)
 optProblem.addenergy(eEnergy, prefactor = H)
 
-var flexoEnergy = AreaIntegral(flexo, ns)
-optProblem.addenergy(flexoEnergy)
+// var lgrad = AreaIntegral(fn (x, n) grad(n).norm(), ns)
+// optProblem.addenergy(lgrad)
 
 var opt = FieldOptimizer(optProblem, ns)
 opt.conjugategradient(ITERS)
@@ -148,5 +144,6 @@ var sb  = ScaleBar(posn = [1.2,0,0], length = 0.25, textcolor=White)
 var g   = plotfield(s, style="interpolate", scalebar = sb, colormap = ViridisMap())
 var gnn = visualize(m, nsNew, 0.05)
 var fig = g + gnn
-var fname = "Test_Figure_G${GAMMA}_TA${TA}.pov"
-export_figure(fig, fname)
+// var fname = "Test_Figure_G${GAMMA}_TA${TA}.pov"
+// export_figure(fig, fname)
+Show(fig)

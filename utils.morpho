@@ -1,0 +1,46 @@
+
+fn expVTK(mesh, field, case, L1_int, L1_ext, run) {
+  var S = Field(mesh, 0) // Initialize to a scalar
+  for (i in 0...mesh.count()) S[i]=qtoorder(field[i])
+  var nn = Field(mesh, Matrix([1,0,0])) // Initialize to some vector
+  for (i in 0...mesh.count()) nn[i]=qtodirector(field[i])
+  var vtkFinSol = VTKExporter(nn,fieldname = "directorField")
+  vtkFinSol.addfield(S, fieldname = "ScalarOrder")
+  vtkFinSol.export("PGD1G_p${mesh.count(0)}_Li_${L1_int}_Le_${L1_ext}_nn_S_${case}_${run}.vtk")
+  return true
+}
+
+
+fn save_shape(mesh, q, TA, scalebarposn=nil) {
+    var m = ChangeMeshDimension(mesh, 3)
+    var p = m.count()
+    // Convert the q-tensor to the director and order
+    var nn = Field(m, Matrix([1,0,0])) // Initialize to some vector
+    for (i in 0...m.count()) nn[i]=qtodirector(q[i])
+    var S = Field(m, 0) // Initialize to a scalar
+    for (i in 0...m.count()) S[i]=qtoorder(q[i])
+    // Plot the scalar order field
+    var sbp = scalebarposn
+    if (isnil(sbp)) sbp = [-2.75,0,0]
+    var sbar = ScaleBar(posn=sbp, fontsize = 20, textcolor = Black, colormap = ViridisMap(), length = 1.0, nticks = 10)
+    // Visualize the scalar order parameter
+    var splot = plotfield(S, style="interpolate", scalebar=sbar, cmin = 0, cmax = 1, colormap = ViridisMap())
+
+    // Find the mean edge length to
+    var dl = 0.1*Length.total(m)/m.count()
+    var mplot = plotmesh(m, grade=1, color = Black)
+    var bndplot = plotmesh(m, selection = bnd, grade = 1, color = Red)
+    var gplot = splot + mplot + bndplot
+    gplot.background = White
+
+    // Generate a POVRaytracer object using the Graphics() object
+    var pov = POVRaytracer(gplot)
+    // Set the viewing angle in degrees. The larger the angle, the larger the field of view.
+    pov.viewangle = 35
+    pov.viewpoint = Matrix([0,0,10])
+    pov.light=[Matrix([0,0,8]),Matrix([0,0,8])]//Matrix([10,10,10]), Matrix([-10,-10,10])]
+    // Render to a .pov file. This also generates a .png image with the same name.
+    pov.render("Ferro_TA${TA}.pov", display = false, quiet = true)
+
+    return true
+}

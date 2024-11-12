@@ -1,0 +1,57 @@
+import plot
+
+var m = Mesh("dense_disk.mesh")
+var sel = Selection(m, fn (x,y,z) (x^2+y^2-1))
+sel.addgrade(2)
+
+fn bndBox(mesh) {
+print "Starting Original BbndBox() Function"
+  var l = []
+  var x = mesh.vertexmatrix()
+  var xT = mesh.vertexmatrix().transpose()
+  var dim = mesh.vertexmatrix().transpose().dimensions()
+  var dim =x.dimensions()[1]
+  for (i in 0...dim) {
+    l.append(bounds(x.column(i)))
+      }
+  return l
+}
+
+fn bndBox2(m, sel) {
+print "Starting bndBox2() Function"
+  var ids = sel.idlistforgrade(0) // get 0-elements
+  var xT = []                     // ~ of x = mh.vertexmatrix().transpose()
+  for (i in ids) {
+    xT.append(m.vertexposition(i))
+  }
+  var X = Matrix(xT.count(), (xT[0].dimensions())[0])
+  for (i in 0...xT.count()) {
+    for (j in 0...(xT[0].dimensions())[0]) {
+      X[i,j] = xT[i][j]
+    }
+  }
+  var dim = X.dimensions()[1]
+  var l = []
+  for (i in 0...dim) {
+    l.append(bounds(X.column(i)))
+  }
+  return l
+}
+
+fn aspectRatio(boundbox) { // Calculate aspect ratio from bounding box
+     var bnds = boundbox
+     var bnds2D = [0,0]
+     for (k in 0..1) {
+       bnds2D[k] = bnds[k][1]-bnds[k][0]
+     }
+     return max(bnds2D)/min(bnds2D) // scalar
+}
+
+var box = bndBox(m)
+var box2 = bndBox2(m, sel)
+print "Bounding Box 1"
+var arReal = aspectRatio(box)
+print arReal
+print "Bounding Box 2"
+var ar = aspectRatio(box2)
+print ar
